@@ -30,3 +30,4 @@ You can contact me by email or use a GitHub Pull Request to send me the translat
 - *\_\_\_andrew.\_\_\_* for vietnamese translations
 - *Real_Foxes* for russian translations
 - *Chipset* for polish translations
+- *Aina* and *Rusca* for catalan translations

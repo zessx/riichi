@@ -8,7 +8,7 @@ function getDownloads() {
   const data = {}
   files.forEach((file) => {
     if (file.match(/\.(pdf|jpg)$/)) {
-      const metadata = /^(?<type>.+?)-v(?<version>[\d\.]+?)-(?<language>\w\w)\.(?<format>.+)$/.exec(file).groups;
+      const metadata = /^(?<type>.+?)-v(?<version>[\d\.]+?)-(?<language>\w{2,3})\.(?<format>.+)$/.exec(file).groups;
       if (!(metadata.type in data)) {
         data[metadata.type] = {}
       }
