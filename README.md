@@ -31,3 +31,4 @@ You can contact me by email or use a GitHub Pull Request to send me the translat
 - *Real_Foxes* for russian translations
 - *Chipset* for polish translations
 - *Aina* and *Rusca* for catalan translations
+- *deceze* for deutsch translations
