@@ -30,14 +30,14 @@
     <% for (type in downloads) { %>
     <section id="<%= type %>" class="sheet-type">
       <header>
-        <img src="images/<%= type %>.png" alt="<%= type %>" class="illustration">
+        <img src="@images/<%= type %>.png" alt="<%= type %>" class="illustration">
         <h2><%= type %></h2>
       </header>
 
       <ul>
         <% for (language in downloads[type]) { %>
         <li>
-          <img src="images/flag-<%= language %>.png" alt="<%= language %> flag" class="icon-flag">
+          <img src="@images/flags/<%= language %>.svg" alt="<%= language %> flag" class="icon-flag">
           <p class="hidden"><%= language %> language</p>
           <div class="buttons">
             <% for (format in downloads[type][language]) { %>
