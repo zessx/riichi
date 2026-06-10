@@ -1,0 +1,11 @@
+section.riichi .riichi-concealed p,
+section.riichi .riichi-tilt p,
+section.riichi .riichi-han p {
+  font-size: 6.5px;
+  line-height: 1.5em;
+}
+
+section.furiten h3,
+section.furiten .impossible-ron p {
+  font-size: 6.5px;
+}

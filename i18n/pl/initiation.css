@@ -1,0 +1,16 @@
+section.tiles .winds .tile-group,
+section.tiles .dragons .tile-group {
+  gap: 4px;
+}
+
+section.how-to-win .winning-hand .yaku-tiles .condition-yaku-yaku {
+  text-indent: -10px;
+}
+
+section.furiten p {
+  font-size: 6.5px;
+}
+
+.yaku-pinfu .yaku-description {
+  letter-spacing: -0.3px;
+}

@@ -1,0 +1,99 @@
+#
+# Riichi Ruler Sheet
+#
+
+# ——— HOW TO USE THIS FILE ———
+# To create a new translation:
+#   1. Copy this template to i18n/<lang>/ruler.po  (e.g. i18n/fr/ruler.po)
+#   2. Please note that the file extension must be changed from POT, to PO
+#   3. Fill in each "msgstr"
+#      - Texts are in the same order you’ll find them on the sheet, this will help you to get context
+#      - Do not change "msgid" values under any circumstance
+#      - Pay close attention to respect HTML tags, punctuation, case and spaces (while adapting them for your language)
+#      - Try to get translations with a length close from the original text
+#      - Feel free to use inclusive/neutral language if you want, this is a small effort and will be warmly welcomed
+#      - If they exist, please rely as much as possible on "official translations" provided by recognized organization
+#
+
+# ——— DO NOT TOUCH THE FOLLOWING LINES ———
+msgid ""
+msgstr ""
+"Project-Id-Version: ruler 2.0\n"
+"Last-Translator: zessx\n"
+"Language: en\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# ——— YOU CAN START EDITING HERE ———
+# ——— TOP PART ———
+
+msgid "Bamboos"
+msgstr "Bamboos"
+
+msgid "Circles"
+msgstr "Circles"
+
+msgid "Characters"
+msgstr "Characters"
+
+msgid "Winds"
+msgstr "Winds"
+
+msgid "East"
+msgstr "East"
+
+msgid "South"
+msgstr "South"
+
+msgid "West"
+msgstr "West"
+
+msgid "North"
+msgstr "North"
+
+msgid "Dragons"
+msgstr "Dragons"
+
+msgid "White"
+msgstr "White"
+
+msgid "Green"
+msgstr "Green"
+
+msgid "Red"
+msgstr "Red"
+
+# ——— Bottom part ———
+msgid "Chi"
+msgstr "Chi"
+
+msgid "On the player to my left"
+msgstr "On the player to my left"
+
+msgid "Pon"
+msgstr "Pon"
+
+msgid "Kan"
+msgstr "Kan"
+
+msgid "Ron"
+msgstr "Ron"
+
+msgid "On any player"
+msgstr "On any player"
+
+msgid "Tsumo"
+msgstr "Tsumo"
+
+msgid "By myself"
+msgstr "By myself"
+
+msgid "Order for players"
+msgstr "Order for players"
+
+msgid "Direction of the draw"
+msgstr "Direction of the draw"
+
+# ——— CREDITS ———
+msgid "Creation / Translation:"
+msgstr "Creation / Translation:"

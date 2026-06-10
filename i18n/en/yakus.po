@@ -1,0 +1,244 @@
+#
+# Riichi Yaku Sheet
+#
+
+# ——— HOW TO USE THIS FILE ———
+# To create a new translation:
+#   1. Copy this template to i18n/<lang>/yakus.po  (e.g. i18n/fr/yakus.po)
+#   2. Please note that the file extension must be changed from POT, to PO
+#   3. Fill in each "msgstr"
+#      - Texts are in the same order you’ll find them on the sheet, this will help you to get context
+#      - Do not change "msgid" values under any circumstance
+#      - Pay close attention to respect HTML tags, punctuation, case and spaces (while adapting them for your language)
+#      - Try to get translations with a length close from the original text
+#      - Feel free to use inclusive/neutral language if you want, this is a small effort and will be warmly welcomed
+#      - If they exist, please rely as much as possible on "official translations" provided by recognized organization
+#
+
+# ——— DO NOT TOUCH THE FOLLOWING LINES ———
+msgid ""
+msgstr ""
+"Project-Id-Version: yakus 2.0\n"
+"Last-Translator: zessx\n"
+"Language: en\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# ——— YOU CAN START EDITING HERE ———
+# ——— YAKUS BASED ON SEQUENCES ———
+
+msgid "Yakus based on sequences"
+msgstr "Yakus based on sequences"
+
+msgid "Common"
+msgstr "Common"
+
+msgid "Pure Double Sequence"
+msgstr "Pure Double Sequence"
+
+msgid "Two Pure Double Sequences"
+msgstr "Two Pure Double Sequences"
+
+msgid "Pinfu"
+msgstr "Pinfu"
+
+msgid "Hand without any fu : 4 Sequences and 1 valueless Pair, with a double wait."
+msgstr "Hand without any fu : 4 Sequences and 1 valueless Pair, with a double wait."
+
+msgid "Three Colored Sequences"
+msgstr "Three Colored Sequences"
+
+msgid "Pure Straight"
+msgstr "Pure Straight"
+
+# ——— OTHER YAKUS ———
+
+msgid "Other yakus"
+msgstr "Other yakus"
+
+msgid "Riichi"
+msgstr "Riichi"
+
+msgid "Double Riichi"
+msgstr "Double Riichi"
+
+msgid "Riichi announced during the very first uninterrupted round."
+msgstr "Riichi announced during the very first uninterrupted round."
+
+msgid "Ippatsu"
+msgstr "Ippatsu"
+
+msgid "Win during the first uninterrupted round following the Riichi announcement."
+msgstr "Win during the first uninterrupted round following the Riichi announcement."
+
+msgid "All Concealed Self Draw"
+msgstr "All Concealed Self Draw"
+
+msgid "Under the Sea"
+msgstr "Under the Sea"
+
+msgid "Win by last draw."
+msgstr "Win by last draw."
+
+msgid "Under the River"
+msgstr "Under the River"
+
+msgid "Win by last discard."
+msgstr "Win by last discard."
+
+msgid "Dead Wall Draw"
+msgstr "Dead Wall Draw"
+
+msgid "Win on a Quad replacement tile."
+msgstr "Win on a Quad replacement tile."
+
+msgid "Robbing a Quad"
+msgstr "Robbing a Quad"
+
+msgid "A concealed Quad can only be robbed to win Thirteen Orphans."
+msgstr "A concealed Quad can only be robbed to win Thirteen Orphans."
+
+msgid "Heavenly Hand"
+msgstr "Heavenly Hand"
+
+msgid "East player wins on his initial hand."
+msgstr "East player wins on his initial hand."
+
+msgid "Earthly Hand"
+msgstr "Earthly Hand"
+
+msgid "Win on draw during the very first uninterrupted turn."
+msgstr "Win on draw during the very first uninterrupted turn."
+
+msgid "Hand of Man"
+msgstr "Hand of Man"
+
+msgid "Win on discard during the very first uninterrupted turn, and before the player has had his first turn. No other yaku/dora can be added."
+msgstr "Win on discard during the very first uninterrupted turn, and before the player has had his first turn. No other yaku/dora can be added."
+
+# ——— DORA ———
+
+msgid "Dora"
+msgstr "Dora"
+
+msgid "Uradora"
+msgstr "Uradora"
+
+msgid "Doras are not yakus."
+msgstr "Doras are not yakus."
+
+# ——— YAKUS BASED ON TERMINALS / HONORS ———
+
+msgid "Yakus based on terminals / honors"
+msgstr "Yakus based on terminals / honors"
+
+msgid "All Simples"
+msgstr "All Simples"
+
+msgid "Hand without Terminals or Honors."
+msgstr "Hand without Terminals or Honors."
+
+msgid "Value Triplet"
+msgstr "Value Triplet"
+
+msgid "Dragon, Player's Seat Wind or Round Wind Triplet."
+msgstr "Dragon, Player's Seat Wind or Round Wind Triplet."
+
+msgid "Small Three Dragons"
+msgstr "Small Three Dragons"
+
+msgid "Big Three Dragons"
+msgstr "Big Three Dragons"
+
+msgid "Little Four Winds"
+msgstr "Little Four Winds"
+
+msgid "Big Four Winds"
+msgstr "Big Four Winds"
+
+msgid "Terminals and Honors Everywhere"
+msgstr "Terminals and Honors Everywhere"
+
+msgid "Terminals Everywhere"
+msgstr "Terminals Everywhere"
+
+msgid "All Terminals and Honors"
+msgstr "All Terminals and Honors"
+
+msgid "All Terminals"
+msgstr "All Terminals"
+
+msgid "All Honors"
+msgstr "All Honors"
+
+msgid "Thirteen Orphans"
+msgstr "Thirteen Orphans"
+
+msgid "A copy of each Terminal and Honor tile,<br>plus one last of your choice among these 13 tiles."
+msgstr "A copy of each Terminal and Honor tile,<br>plus one last of your choice among these 13 tiles."
+
+# ——— YAKUS BASED ON PAIRS / TRIPLETS / QUADS ———
+
+msgid "Yakus based on pairs / triplets / quads"
+msgstr "Yakus based on pairs / triplets / quads"
+
+msgid "Seven Pairs"
+msgstr "Seven Pairs"
+
+msgid "Doubles pairs are not allowed."
+msgstr "Doubles pairs are not allowed."
+
+msgid "All Triplets"
+msgstr "All Triplets"
+
+msgid "Three Concealed Triplets"
+msgstr "Three Concealed Triplets"
+
+msgid "Four Concealed Triplets"
+msgstr "Four Concealed Triplets"
+
+msgid "Three Colored Triplets"
+msgstr "Three Colored Triplets"
+
+msgid "Three Quads"
+msgstr "Three Quads"
+
+msgid "Four Quads"
+msgstr "Four Quads"
+
+# ——— YAKUS BASED ON SUITS ———
+
+msgid "Yakus based on suits"
+msgstr "Yakus based on suits"
+
+msgid "Half Flush"
+msgstr "Half Flush"
+
+msgid "A single suit and Honors."
+msgstr "A single suit and Honors."
+
+msgid "Flush"
+msgstr "Flush"
+
+msgid "All Green"
+msgstr "All Green"
+
+msgid "Nine Gates"
+msgstr "Nine Gates"
+
+msgid "Tiles 1112345678999, plus one last of your choice, in a single suit."
+msgstr "Tiles 1112345678999, plus one last of your choice, in a single suit."
+
+# ——— CREDITS ———
+
+msgid "Credits"
+msgstr "Credits"
+
+msgid "Based on EMA RCR 2025 rules"
+msgstr "Based on EMA RCR 2025 rules"
+
+msgid "Creation:"
+msgstr "Creation:"
+
+msgid "Translation:"
+msgstr "Translation:"

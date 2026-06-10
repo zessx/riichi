@@ -1,0 +1,247 @@
+#
+# Riichi Yaku Sheet
+#
+
+# ——— HOW TO USE THIS FILE ———
+# To create a new translation:
+#   1. Copy this template to i18n/<lang>/yakus.po  (e.g. i18n/fr/yakus.po)
+#   2. Please note that the file extension must be changed from POT, to PO
+#   3. Fill in each "msgstr"
+#      - Texts are in the same order you’ll find them on the sheet, this will help you to get context
+#      - Do not change "msgid" values under any circumstance
+#      - Pay close attention to respect HTML tags, punctuation, case and spaces (while adapting them for your language)
+#      - Try to get translations with a length close from the original text
+#      - Feel free to use inclusive/neutral language if you want, this is a small effort and will be warmly welcomed
+#      - If they exist, please rely as much as possible on "official translations" provided by recognized organization
+#
+
+# ——— DO NOT TOUCH THE FOLLOWING LINES ———
+msgid ""
+msgstr ""
+"Project-Id-Version: yakus 2.0\n"
+"Last-Translator: Aina / Rusca\n"
+"Language: ca\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# ——— YOU CAN START EDITING HERE ———
+# ——— YAKUS BASED ON SEQUENCES ———
+
+msgid "Yakus based on sequences"
+msgstr "Yakus basats en escales"
+
+msgid "Common"
+msgstr "Comuns"
+
+msgid "Pure Double Sequence"
+msgstr "Escala Doble"
+
+msgid "Two Pure Double Sequences"
+msgstr "Dues Escales Dobles"
+
+msgid "Pinfu"
+msgstr "Pinfu"
+
+msgid "Hand without any fu : 4 Sequences and 1 valueless Pair, with a double wait."
+msgstr "Mà sense Fu: 4 Escales i 1 Parella sense valor, amb espera doble."
+
+msgid "Three Colored Sequences"
+msgstr "Escala en Tres Colors"
+
+msgid "Pure Straight"
+msgstr "Escala Sencera"
+
+# ——— OTHER YAKUS ———
+
+msgid "Other yakus"
+msgstr "Altres yakus"
+
+msgid "Riichi"
+msgstr "Riichi"
+
+msgid "Double Riichi"
+msgstr "Doble Riichi"
+
+msgid "Riichi announced during the very first uninterrupted round."
+msgstr "Riichi anunciat durant la primera volta ininterrompuda."
+
+msgid "Ippatsu"
+msgstr "Ippatsu"
+
+msgid "Win during the first uninterrupted round following the Riichi announcement."
+msgstr "Victòria durant la primera volta ininterrompuda després de declarar Riichi."
+
+msgid "All Concealed Self Draw"
+msgstr "Mà Tancada i Robant l'espera del mur"
+
+msgid "Under the Sea"
+msgstr "Sota el Mar"
+
+msgid "Win by last draw."
+msgstr "Victoria en robar l'última fitxa del mur."
+
+msgid "Under the River"
+msgstr "Sota el Riu"
+
+msgid "Win by last discard."
+msgstr "Victòria prenent l'últim descart."
+
+msgid "Dead Wall Draw"
+msgstr "Robant del Mur Mort"
+
+msgid "Win on a Quad replacement tile."
+msgstr "Victòria amb una fitxa de reemplaçament d'un Kan."
+
+msgid "Robbing a Quad"
+msgstr "Prenent d'un Quartet"
+
+msgid "A concealed Quad can only be robbed to win Thirteen Orphans."
+msgstr "Un Quartet tancat només es pot prendre per guanyar amb Tretze Orfes"
+
+msgid "Heavenly Hand"
+msgstr "Regal dels Déus"
+
+msgid "East player wins on his initial hand."
+msgstr "El jugador/a Est guanya amb la seva mà inicial."
+
+msgid "Earthly Hand"
+msgstr "Regal de la Terra"
+
+msgid "Win on draw during the very first uninterrupted turn."
+msgstr "Victòria robant durant la primera volta ininterrompuda."
+
+msgid "Hand of Man"
+msgstr "Regal de l'Home"
+
+msgid "Win on discard during the very first uninterrupted turn, and before the player has had his first turn. No other yaku/dora can be added."
+msgstr "Victòria prenent un descart durant la primera volta ininterrompuda, abans que el jugador/a hagi tingut el seu primer torn. No es pot afegir cap altre yaku ni dora."
+
+# ——— DORA ———
+
+msgid "Dora"
+msgstr "Dora"
+
+msgid "Uradora"
+msgstr "Uradora"
+
+msgid "Doras are not yakus."
+msgstr "Les dores no són yakus."
+
+# ——— YAKUS BASED ON TERMINALS / HONORS ———
+
+msgid "Yakus based on terminals / honors"
+msgstr "Yakus basats en terminals / honors"
+
+msgid "All Simples"
+msgstr "Tot Simples"
+
+msgid "Hand without Terminals or Honors."
+msgstr "Mà sense Terminals ni Honors."
+
+msgid "Value Triplet"
+msgstr "Trio de valor"
+
+msgid "Dragon, Player's Seat Wind or Round Wind Triplet."
+msgstr "Trio de Drac, del Vent Propi o del Vent Prevalent de Ronda."
+
+msgid "Small Three Dragons"
+msgstr "Tres Petits Dracs"
+
+msgid "Big Three Dragons"
+msgstr "Tres Grans Dracs"
+
+msgid "Little Four Winds"
+msgstr "Quatre Petits Vents"
+
+msgid "Big Four Winds"
+msgstr "Quatre Grans Vents"
+
+msgid "Terminals and Honors Everywhere"
+msgstr "Terminals i Honors a Tot Arreu"
+
+msgid "Terminals Everywhere"
+msgstr "Terminals a Tot Arreu"
+
+msgid "All Terminals and Honors"
+msgstr "Tot Terminals i Honors"
+
+msgid "All Terminals"
+msgstr "Tot Terminals"
+
+msgid "All Honors"
+msgstr "Tot Honors"
+
+msgid "Thirteen Orphans"
+msgstr "Tretze Orfes"
+
+msgid "A copy of each Terminal and Honor tile,<br>plus one last of your choice among these 13 tiles."
+msgstr "Una còpia de cada fitxa Terminal i Honor,<br>més una última a escollir entre aquestes 13 fitxes."
+
+# ——— YAKUS BASED ON PAIRS / TRIPLETS / QUADS ———
+
+msgid "Yakus based on pairs / triplets / quads"
+msgstr "Yakus basats en parelles / trios / quartets"
+
+msgid "Seven Pairs"
+msgstr "Set Parelles"
+
+msgid "Doubles pairs are not allowed."
+msgstr "No es permeten parelles duplicades."
+
+msgid "All Triplets"
+msgstr "Tot Trios"
+
+msgid "Three Concealed Triplets"
+msgstr "Tres Trios Tancats"
+
+msgid "Four Concealed Triplets"
+msgstr "Quatre Trios Tancats"
+
+msgid "Three Colored Triplets"
+msgstr "Trio en Tres Colors"
+
+msgid "Three Quads"
+msgstr "Tres Quartets"
+
+msgid "Four Quads"
+msgstr "Quatre Quartets"
+
+# ——— YAKUS BASED ON SUITS ———
+
+msgid "Yakus based on suits"
+msgstr "Yakus basats en colls"
+
+msgid "Half Flush"
+msgstr "Mig Color"
+
+msgid "A single suit and Honors."
+msgstr "Un sol coll, i Honors."
+
+msgid "Flush"
+msgstr "Color"
+
+msgid "All Green"
+msgstr "Tot Verd"
+
+msgid "Nine Gates"
+msgstr "Nou Portes"
+
+msgid "Tiles 1112345678999, plus one last of your choice, in a single suit."
+msgstr "Fitxes 1112345678999, més una última a escollir, totes del mateix coll."
+
+# ——— CREDITS ———
+
+msgid "Credits"
+msgstr "Crèdits"
+
+msgid "Based on EMA RCR 2025 rules"
+msgstr "Basat en les normes de l'EMA RCR 2025"
+
+msgid "Under CC BY-SA 4.0 license"
+msgstr "Sota llicència CC BY-SA 4.0"
+
+msgid "Creation:"
+msgstr "Creació:"
+
+msgid "Translation:"
+msgstr "Traducció:"

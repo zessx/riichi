@@ -4,28 +4,32 @@
 
 Currently published:
 - Initiation sheet (beginners)
-- Yaku Cheatsheet for (beginners, intermediate)
-- Scoring companion sheet (intermediate, advanced)
+- Ruler companion (beginners)
+- Yaku cheatsheet  (beginners, intermediate)
+- Scoring companion (intermediate, advanced)
+
+> [!WARNING]
+> These sheets are published under the [CC-BY-SA 4.0 license](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
+>
+> You are free to share and adapt this work under the following term:
+> - You must give appropriate **credit**, provide a **link to the license**, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+> - If you remix, transform, or build upon the material, **you must distribute your contributions under the same license as the original**.
+> - You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+>
+> Please read all license terms in the [LICENSE][./LICENSE] file.
 
 ## Translations
 
-If you want to translate one of these sheets, please download the related text file in the `i18n/` folder.
-Just fill the file, and I’ll take care of the sheet generation, hosting and updates.
-
-A few notes about translations:
-- Texts are in the same order you’ll find them on the sheet, this will help you to get context
-- Please only change the `transl` sections, without changing `origin`
-- Pay close attention to respect punctuation, case and spaces (while adapting them for your language)
-- Try to get translations with a length as close as possible from the original text
-- Feel free to use inclusive/neutral language if you want, this is a small effort and will be warmly welcomed
-- If they exist, please rely as much as possible on "official translations" provided by recognized organization
+If you want to translate one of these sheets, please use the related POT file in the `i18n/` folder.
+Just fill the file (only the `msgstr` values), and I’ll take care of the sheet generation, hosting and updates.
+You can find more information in the said POT files.
 
 You can contact me by email or use a GitHub Pull Request to send me the translation. Keep in mind we may have to discuss some translations to get them to fit in such a restricted space.
 
 ## Thanks
 
 - *FluffyStuff* for providing [high-quality SVG mahjong tiles](https://github.com/FluffyStuff/riichi-mahjong-tiles) in the public domain
-- *lipis* for providing [SVG flags](https://github.com/lipis/flag-icons/tree/main) (under MIT licence)
+- *lipis* for providing [SVG flags](https://github.com/lipis/flag-icons/tree/main) (under MIT license)
 - *S. Bautista* for Spanish translations
 - *mati* for Portuguese translations
 - *\_\_\_andrew.\_\_\_* for Vietnamese translations

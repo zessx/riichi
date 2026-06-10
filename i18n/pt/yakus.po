@@ -1,0 +1,244 @@
+#
+# Riichi Yaku Sheet
+#
+
+# ——— HOW TO USE THIS FILE ———
+# To create a new translation:
+#   1. Copy this template to i18n/<lang>/yakus.po  (e.g. i18n/fr/yakus.po)
+#   2. Please note that the file extension must be changed from POT, to PO
+#   3. Fill in each "msgstr"
+#      - Texts are in the same order you’ll find them on the sheet, this will help you to get context
+#      - Do not change "msgid" values under any circumstance
+#      - Pay close attention to respect HTML tags, punctuation, case and spaces (while adapting them for your language)
+#      - Try to get translations with a length close from the original text
+#      - Feel free to use inclusive/neutral language if you want, this is a small effort and will be warmly welcomed
+#      - If they exist, please rely as much as possible on "official translations" provided by recognized organization
+#
+
+# ——— DO NOT TOUCH THE FOLLOWING LINES ———
+msgid ""
+msgstr ""
+"Project-Id-Version: yakus 2.0\n"
+"Last-Translator: mati\n"
+"Language: pt\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# ——— YOU CAN START EDITING HERE ———
+# ——— YAKUS BASED ON SEQUENCES ———
+
+msgid "Yakus based on sequences"
+msgstr "Yakus baseado em sequências"
+
+msgid "Common"
+msgstr "Comum"
+
+msgid "Pure Double Sequence"
+msgstr "Sequências Idênticas"
+
+msgid "Two Pure Double Sequences"
+msgstr "Sequências Idênticas Duplo"
+
+msgid "Pinfu"
+msgstr "Pinfu"
+
+msgid "Hand without any fu : 4 Sequences and 1 valueless Pair, with a double wait."
+msgstr "Uma mão sem fu: 4 Sequências, mais 1 Par sem valor, com espera dupla."
+
+msgid "Three Colored Sequences"
+msgstr "Sequências Tricolores"
+
+msgid "Pure Straight"
+msgstr "Sequência em Escada"
+
+# ——— OTHER YAKUS ———
+
+msgid "Other yakus"
+msgstr "Outros yakus"
+
+msgid "Riichi"
+msgstr "Riichi"
+
+msgid "Double Riichi"
+msgstr "Riichi Duplo"
+
+msgid "Riichi announced during the very first uninterrupted round."
+msgstr "Um Riichi anunciado durante a primeira rodada, sem interrupções, do jogo."
+
+msgid "Ippatsu"
+msgstr "Ippatsu"
+
+msgid "Win during the first uninterrupted round following the Riichi announcement."
+msgstr "Ganhar durante a primeira rodada sem interrupções depois de ter anunciado Riichi."
+
+msgid "All Concealed Self Draw"
+msgstr "Tsumo Fechado"
+
+msgid "Under the Sea"
+msgstr "Do Fundo do Mar"
+
+msgid "Win by last draw."
+msgstr "Ganhar na última peça comprada."
+
+msgid "Under the River"
+msgstr "Do Fundo do Rio"
+
+msgid "Win by last discard."
+msgstr "Ganhar no último descarte."
+
+msgid "Dead Wall Draw"
+msgstr "Tsumo do Muro Morto"
+
+msgid "Win on a Quad replacement tile."
+msgstr "Ganhar com a peça de substituição de um Kan."
+
+msgid "Robbing a Quad"
+msgstr "Roubo de Kan"
+
+msgid "A concealed Quad can only be robbed to win Thirteen Orphans."
+msgstr "Um Kan fechado só pode ser roubado para ganhar com Treze Órfãos."
+
+msgid "Heavenly Hand"
+msgstr "Bênção dos Céus"
+
+msgid "East player wins on his initial hand."
+msgstr "E jogadore Leste ganha com a sua mão inicial."
+
+msgid "Earthly Hand"
+msgstr "Bênção da Terra"
+
+msgid "Win on draw during the very first uninterrupted turn."
+msgstr "Ganhar comprando uma peça na primeira rodada ininterrupta."
+
+msgid "Hand of Man"
+msgstr "Bênção do Homem"
+
+msgid "Win on discard during the very first uninterrupted turn, and before the player has had his first turn. No other yaku/dora can be added."
+msgstr "Ganhar de um descarte durante a primeira rodada sem interrupções, e antes de jogar sua primeira vez. Nenhum outro yaku/dora pode ser adicionado."
+
+# ——— DORA ———
+
+msgid "Dora"
+msgstr "Dora"
+
+msgid "Uradora"
+msgstr "Uradora"
+
+msgid "Doras are not yakus."
+msgstr "Dora não é yaku."
+
+# ——— YAKUS BASED ON TERMINALS / HONORS ———
+
+msgid "Yakus based on terminals / honors"
+msgstr "Yakus baseados em terminais / honras"
+
+msgid "All Simples"
+msgstr "Só Internos"
+
+msgid "Hand without Terminals or Honors."
+msgstr "Uma mão sem Terminais ou Honras."
+
+msgid "Value Triplet"
+msgstr " Trinca de Valor"
+
+msgid "Dragon, Player's Seat Wind or Round Wind Triplet."
+msgstr "Trinca de Dragões, do Vento de Jogadore, ou do Vento da Rodada."
+
+msgid "Small Three Dragons"
+msgstr "Três Dragões Menor"
+
+msgid "Big Three Dragons"
+msgstr "Três Dragões Maior"
+
+msgid "Little Four Winds"
+msgstr "Quatro Ventos Menor"
+
+msgid "Big Four Winds"
+msgstr "Quatro Ventos Maior"
+
+msgid "Terminals and Honors Everywhere"
+msgstr "Terminais ou Honras em Todos"
+
+msgid "Terminals Everywhere"
+msgstr "Terminais em Todos"
+
+msgid "All Terminals and Honors"
+msgstr "Só Terminais e Honras"
+
+msgid "All Terminals"
+msgstr "Só Terminais"
+
+msgid "All Honors"
+msgstr "Só Honras"
+
+msgid "Thirteen Orphans"
+msgstr "Treze Órfãos"
+
+msgid "A copy of each Terminal and Honor tile,<br>plus one last of your choice among these 13 tiles."
+msgstr "Uma cópia de cada Terminal e Honra,<br>mais uma última peça da sua escolha entre essas 13 peças."
+
+# ——— YAKUS BASED ON PAIRS / TRIPLETS / QUADS ———
+
+msgid "Yakus based on pairs / triplets / quads"
+msgstr "Yakus baseados em pares / trios / quadras"
+
+msgid "Seven Pairs"
+msgstr "Sete Pares"
+
+msgid "Doubles pairs are not allowed."
+msgstr "Pares dobrados não são permitidos."
+
+msgid "All Triplets"
+msgstr "Só Trincas"
+
+msgid "Three Concealed Triplets"
+msgstr "Três Trincas Fechadas"
+
+msgid "Four Concealed Triplets"
+msgstr "Quatro Trincas Fechadas"
+
+msgid "Three Colored Triplets"
+msgstr "Trincas Tricolores"
+
+msgid "Three Quads"
+msgstr "Três Quadras"
+
+msgid "Four Quads"
+msgstr "Quatro Quadras"
+
+# ——— YAKUS BASED ON SUITS ———
+
+msgid "Yakus based on suits"
+msgstr "Yakus baseados em naipes"
+
+msgid "Half Flush"
+msgstr "Flush Sujo"
+
+msgid "A single suit and Honors."
+msgstr "Um único naipe e Honras."
+
+msgid "Flush"
+msgstr "Flush Limpo"
+
+msgid "All Green"
+msgstr "Só Verde"
+
+msgid "Nine Gates"
+msgstr "Nove Lanternas"
+
+msgid "Tiles 1112345678999, plus one last of your choice, in a single suit."
+msgstr "Peças 1112345678999, mais uma última da sua escolha, de um único naipe."
+
+# ——— CREDITS ———
+
+msgid "Credits"
+msgstr "Créditos"
+
+msgid "Based on EMA RCR 2025 rules"
+msgstr "Baseado nas regras RCR da EMA de 2025"
+
+msgid "Creation:"
+msgstr "Criado por:"
+
+msgid "Translation:"
+msgstr "Tradução:"

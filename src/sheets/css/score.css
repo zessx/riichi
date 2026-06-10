@@ -1,0 +1,843 @@
+@page {
+  size: A4 landscape;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --vw: 842px; /* A4 width at 72 DPI */
+  --vh: 595px; /* A4 height at 72 DPI */
+
+  --white:    #FFFFFF;
+  --gray-0:   #F0F2F4;
+  --gray-1:   #E1E6EA;
+  --gray-2:   #D3D9DF;
+  --gray-3:   #C5CCD3;
+  --gray-5:   #A5ADB6;
+  --gray-7:   #495057;
+  --gray-9:   #212529;
+  --yellow-0: #F6F4E4;
+  --yellow-1: #F3EBCB;
+  --yellow-2: #F5E6A3;
+  --yellow-4: #F5CE45;
+  --yellow-6: #FAB005;
+  --orange-0: #F9F4EC;
+  --orange-1: #FAE8D1;
+  --orange-2: #F6D7B1;
+  --orange-9: #D2460F;
+  --red-8:    #E03131;
+  --pink-0:   #F6EFF2;
+  --pink-1:   #EDDEE4;
+  --pink-9:   #A61E4D;
+  --grape-0:  #F3F0F5;
+  --grape-1:  #E4DAE7;
+  --grape-2:  #DEC9E4;
+  --grape-9:  #862E9C;
+  --teal-0:   #EEF4F2;
+  --teal-1:   #D3EAE2;
+  --teal-2:   #AEDACD;
+  --teal-9:   #087F5B;
+  --cyan-0:   #EFF5F5;
+  --cyan-1:   #D6E8E9;
+  --cyan-2:   #AFD7DC;
+  --cyan-3:   #89BEC5;
+  --cyan-4:   #5CA9B2;
+  --cyan-5:   #4498A2;
+  --cyan-9:   #0B7285;
+  --indigo-1: #E2E8F8;
+  --indigo-2: #C8D0F1;
+  --blue-0:   #F0F3F6;
+  --blue-1:   #D4E2ED;
+  --blue-2:   #C0D4E4;
+  --blue-3:   #90BDE0;
+  --blue-9:   #1864AB;
+
+  --tile-bg: #F5F0EB;
+}
+
+body {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gray-9);
+  font-size: 7px;
+}
+
+main {
+  width: var(--vw);
+  height: var(--vh);
+  display: flex;
+  gap: 8px;
+  background: var(--white);
+}
+
+.recto,
+.verso {
+  display: flex;
+  justify-content: space-between;
+  width: calc((var(--vw) - 8px) / 2);
+}
+
+.recto {
+  flex-direction: column;
+}
+
+.verso .column:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  margin-right: 4px;
+}
+
+section {
+  background-color: var(--bg-weak);
+}
+
+section header {
+  display: flex;
+  align-items: center;
+  padding: 1px 5px 1px 4px;
+  height: 12px;
+  background-color: var(--bg-strongest);
+}
+
+section header h2,
+section header h3 {
+  font-size: 7px;
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+section header h2[data-section-num] {
+  position: relative;
+  padding-left: 16px;
+}
+
+section header h2[data-section-num] img {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 13px;
+  height: 14px;
+  z-index: 1;
+}
+
+section header h2[data-section-num]:before {
+  content: attr(data-section-num);
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 2;
+  width: 13px;
+  line-height: 12px;
+  text-align: center;
+  font-size: 8px;
+  color: var(--gray-9);
+}
+
+section header .yaku-score-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8px;
+  background-color: var(--gray-3);
+}
+
+.yakus {
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+  gap: 4px;
+}
+
+.yaku {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.yaku-info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+  width: 100%;
+  padding: 1px;
+  padding-left: 2px;
+  background-color: var(--bg-base);
+}
+
+.yaku-common {
+  display: inline-block;
+  background-color: var(--yellow-6);
+  color: var(--gray-9);
+  border: 1px solid;
+  padding: 0px 1px;
+  font-size: 5px;
+  height: 9px;
+  text-transform: lowercase;
+  border-radius: 2px;
+  margin-right: 2px;
+  box-shadow: 1px 1px 0px var(--gray-9);
+}
+
+.yaku h4 {
+  display: block;
+  font-weight: bold;
+  font-size: 7px;
+}
+
+.yaku-name-translated {
+  width: 100%;
+  line-height: 1em;
+  font-style: italic;
+}
+
+.yaku-score {
+  display: inline-flex;
+  margin-left: auto;
+  gap: 1px;
+  overflow: hidden;
+  border-radius: 2px;
+  border: 1px solid;
+  background: var(--gray-9);
+  box-shadow: 1px 1px 0px var(--gray-9);
+}
+
+.yaku-info .yaku-score {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  align-self: flex-end;
+}
+
+.yaku-score-box {
+  width: 24px;
+  height: 9px;
+  line-height: 9px;
+  text-align: center;
+  background: var(--white);
+}
+
+.yaku-score-box:empty {
+  background: repeating-linear-gradient(-42deg,
+      var(--gray-3),
+      var(--gray-3) 3px,
+      var(--gray-5) 3px,
+      var(--gray-5) 5px)
+}
+
+.yaku-score .mangan,
+.yaku-score .yakuman {
+  font-size: 5px;
+  letter-spacing: -0.1px;
+  background-color: var(--fg-strong);
+  color: var(--white);
+}
+
+.tile-group {
+  display: flex;
+  gap: 1px;
+}
+
+.tile-group .tile {
+  height: 18px;
+  width: 13px;
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--gray-9);
+  border-radius: 2px;
+  background-color: var(--tile-bg);
+}
+
+.tile-group .tile.tilted {
+  transform: rotate(12deg) translate(0px, -4px);
+  box-shadow: 1px 1px 0;
+}
+
+.tile-group .tile-unknown {
+  background-color: var(--gray-5);
+}
+
+.tile-group .tile img {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+section.han {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  margin-bottom: 4px;
+  gap: 4px;
+  background-color: transparent;
+}
+
+section.han header h2[data-section-num]::after {
+  background-color: var(--white);
+}
+
+section.han > header,
+section.fu > header,
+section.points > header {
+  border-top: 3px solid var(--white);
+  height: 15px;
+}
+
+section.han  header {
+  width: 100%;
+}
+
+section.han .column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: calc(50% - 2px);
+  flex-shrink: 1;
+}
+
+section.dora header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.dora .line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px;
+}
+
+section.dora .tile-group {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+}
+
+section.dora .yaku-score {
+  margin-left: 0;
+}
+
+section.dora img {
+  width: 4px;
+}
+
+section.credits {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section.credits header {
+  width: 100%;
+}
+
+section.credits .credits-left {
+  margin-right: auto;
+  padding: 4px;
+  color: var(--fg-strong);
+}
+
+section.credits .credits-right {
+  text-align: right;
+  padding: 4px;
+  color: var(--fg-strong);
+}
+
+section.credits .credits-right em {
+  font-size: 4px;
+  font-style: normal;
+}
+
+section.credits img {
+  transform: rotate(90deg);
+  transform-origin: right;
+  margin-left: 12px;
+  margin-right: 24px;
+  margin-bottom: -8px;
+}
+
+section.credits a {
+  color: var(--fg-strong);
+  text-decoration: none;
+}
+
+section.fu,
+section.honba,
+section.tenpai {
+  width: 96px;
+}
+
+section.honba header,
+section.tenpai header {
+  position: relative;
+}
+
+section.honba header h2,
+section.tenpai header h2 {
+  padding-left: 16px;
+}
+
+section.honba header h2 img {
+  position: absolute;
+  bottom: 0px;
+  left: 4px;
+  width: 14px;
+  height: 19px;
+  z-index: 1;
+}
+
+section.tenpai header h2 img {
+  position: absolute;
+  bottom: 0px;
+  left: 4px;
+  width: 14px;
+  height: 16px;
+  z-index: 1;
+}
+
+section.fu .wrapper,
+section.honba .wrapper,
+section.tenpai .wrapper {
+  padding: 4px;
+}
+
+section.fu .wrapper > p,
+section.honba .wrapper > p,
+section.tenpai .wrapper > p{
+  font-size: 6px;
+  padding: 2px;
+}
+
+section.honba img,
+section.tenpai img {
+  height: 7px;
+}
+
+section.fu .box,
+section.honba .box,
+section.tenpai .box {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  font-size: 6px;
+  padding: 2px 0;
+  background-color: var(--bg-strong);
+}
+
+section.fu .box + .box {
+  margin-top: 2px;
+}
+
+section.honba .box + .box,
+section.tenpai .box + .box {
+  margin-top: 3px;
+}
+
+section.honba .box.points-exchange .yaku-score,
+section.tenpai .box.points-exchange .yaku-score {
+  margin: 0 3px 0 2px;
+}
+
+section.honba .box.points-exchange p,
+section.tenpai .box.points-exchange p {
+  width: 12px;
+  text-align: center;
+  padding: 0 2px;
+}
+
+section.honba .box.points-exchange img,
+section.tenpai .box.points-exchange img {
+  display: inline-block;
+}
+
+section.fu .box .box,
+section.honba .box .box,
+section.tenpai .box .box {
+  margin-top: 2px;
+  margin-bottom: -2px;
+  background-color: var(--bg-base);
+}
+
+section.fu .box p,
+section.honba .box p,
+section.tenpai .box p {
+  font-weight: bold;
+  padding-left: 2px;
+}
+
+section.fu .box .box p,
+section.honba .box .box p,
+section.tenpai .box .box p,
+section.fu .box p span,
+section.honba .box p span,
+section.tenpai .box p span,
+section.fu .box p .kanji,
+section.fu .box p .roumaji {
+  font-weight: normal;
+}
+
+section.fu .separator,
+section.honba .separator,
+section.tenpai .separator {
+  font-size: 7px;
+  font-weight: bold;
+  text-align: center;
+  padding: 2px;
+  text-transform: lowercase;
+}
+
+section.fu .yaku-score,
+section.honba .yaku-score,
+section.tenpai .yaku-score {
+  align-self: center;
+  margin-right: 2px;
+  margin-left: auto;
+}
+
+section.fu .yaku-score-box,
+section.honba .yaku-score-box,
+section.tenpai .yaku-score-box {
+  width: 17px;
+  height: 8px;
+  line-height: 8px;
+}
+
+section.fu .yaku-score-box.header,
+section.honba .yaku-score-box.small,
+section.tenpai .yaku-score-box.small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--gray-3);
+}
+
+section.fu img.lock {
+  margin-left: auto;
+}
+
+section.honba .box.ron p,
+section.honba .box.tsumo p {
+  text-transform: uppercase;
+}
+
+section.honba .yaku-score-box.small,
+section.tenpai .yaku-score-box.small {
+  width: 11px;
+}
+
+section.honba .yaku-score-box.small img,
+section.tenpai .yaku-score-box.small img {
+  height: 5px;
+}
+
+section.honba .yaku-score-box.large,
+section.tenpai .yaku-score-box.large {
+  width: 30px;
+}
+
+section.honba .yaku-score-box.largest,
+section.tenpai .yaku-score-box.largest {
+  width: 42px;
+}
+
+section.points table {
+  font-size: 8px;
+  font-weight: bold;
+  text-align: center;
+}
+
+section.points th {
+  font-size: 7px;
+  line-height: 14px;
+  border-radius: 2px;
+  color: var(--white);
+  background-color: var(--bg-header);
+}
+
+section.points thead:before,
+section.points thead:after {
+  content: '';
+  display: block;
+  height: 2px;
+}
+
+section.points th .kanji + .translation:before {
+  content: ' - ';
+}
+
+section.points td {
+  padding: 2px 0;
+}
+
+section.points tr.separator td {
+  padding: 1px 0;
+}
+
+section.points td em {
+  font-size: 6px;
+  font-style: normal;
+}
+
+section.points th.ron,
+section.points th.tsumo {
+  position: relative;
+}
+
+section.points th.ron img,
+section.points th.tsumo img {
+  position: absolute;
+  top: -3px;
+  left: 0px;
+  width: 15px;
+  height: 19px;
+}
+
+section.points tr:nth-child(odd) td {
+  background-color: var(--bg-row-odd);
+}
+
+section.points tr:nth-child(even) td {
+  background-color: var(--bg-row-even);
+}
+
+section.points th.other {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  box-shadow: 1px 0 var(--bg-header);
+}
+
+section.points tr:nth-child(odd) td.other {
+  box-shadow: 1px 0 var(--bg-row-odd);
+}
+
+section.points tr:nth-child(even) td.other {
+  box-shadow: 1px 0 var(--bg-row-even);
+}
+
+section.points th.east {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  box-shadow: -1px 0 var(--bg-header);
+}
+
+section.points tr:nth-child(odd) td.east {
+  box-shadow: -1px 0 var(--bg-row-odd);
+}
+
+section.points tr:nth-child(even) td.east {
+  box-shadow: -1px 0 var(--bg-row-even);
+}
+
+section.points tr td.han {
+  font-size: 10px;
+  background-color: var(--cyan-1);
+}
+
+section.points td.han[data-han] {
+  position: relative;
+  text-align: right;
+  font-size: 7px;
+  padding: 2px 4px;
+  min-width: 9.5em;
+}
+
+section.points td.han[data-han]:before {
+  content: attr(data-han);
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  font-size: 10px;
+  transform: translateY(-50%);
+}
+
+section.points td.han.mangan {
+  background-color: var(--cyan-1);
+}
+
+section.points td.han.haneman {
+  background-color: var(--cyan-2);
+}
+
+section.points td.han.baiman {
+  background-color: var(--cyan-3);
+}
+
+section.points td.han.sanbaiman {
+  background-color: var(--cyan-4);
+}
+
+section.points td.han.yakuman {
+  position: relative;
+  text-align: right;
+  font-size: 7px;
+  padding: 2px 4px;
+  background-color: var(--cyan-5);
+}
+
+section.points td.han.yakuman img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+section.points tr td.ron,
+section.points tr td.tsumo {
+  writing-mode: sideways-lr;
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 7px;
+  line-height: 7px;
+  padding: 0 0 0 2px;
+  color: var(--white);
+  border-radius: 2px 0 0 2px;
+  background-color: var(--gray-9);
+  box-shadow: 2px 0 var(--gray-9);
+}
+
+section.points tr.row-block-start td.other,
+section.points tr.row-block-start td.east {
+  border-top: 1px solid var(--gray-9);
+}
+
+section.points tr.row-block-end td.other,
+section.points tr.row-block-end td.east {
+  border-bottom: 1px solid var(--gray-9);
+}
+
+section.points td.other,
+section.points td.east {
+  position: relative;
+  width: 7em;
+}
+
+section.points td.east {
+  border-right: 1px solid var(--gray-9);
+}
+
+section.points td.other:empty:before,
+section.points td.east:empty:before {
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: calc(100% + 1px);
+  height: 100%;
+  background: repeating-linear-gradient(-42deg,
+      var(--bg-row-odd),
+      var(--bg-row-odd) 3px,
+      var(--bg-row-even) 3px,
+      var(--bg-row-even) 5px)
+}
+
+section.points td.east:empty:before {
+  left: -1px;
+}
+
+section.points tr:not(.row-block-end) td.east:after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: -1px;
+  top: 0;
+  width: 1px;
+  height: calc(100% + 2px);
+  background: var(--gray-9);
+}
+
+section.points tr.row-block-start td.other:after,
+section.points tr.row-block-end td.other:after {
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: -1px;
+  left: 0px;
+  height: 1px;
+  width: calc(100% + 2px);
+  background: var(--gray-9);
+}
+
+section.points tr.row-block-end td.other:after {
+  top: auto;
+  bottom: -1px;
+}
+
+section.points tr.row-block-start td.east {
+  border-top-right-radius: 2px;
+}
+
+section.points tr.row-block-end td.east {
+  border-bottom-right-radius: 2px;
+}
+
+/* Section Colors */
+section.han {
+  --bg-strongest: var(--cyan-9);
+  --bg-strong:    var(--cyan-2);
+  --bg-base:      var(--cyan-1);
+  --bg-weak:      var(--cyan-0);
+  --fg-strong:    var(--cyan-9);
+}
+section.fu {
+  --bg-strongest: var(--grape-9);
+  --bg-strong:    var(--grape-2);
+  --bg-base:      var(--grape-1);
+  --bg-weak:      var(--grape-0);
+  --fg-strong:    var(--grape-9);
+}
+section.honba,
+section.tenpai,
+section.points {
+  --bg-strongest: var(--gray-9);
+  --bg-strong:    var(--gray-2);
+  --bg-base:      var(--gray-1);
+  --bg-weak:      var(--gray-0);
+  --fg-strong:    var(--gray-9);
+}
+section.credits {
+  --bg-strongest: var(--gray-7);
+  --bg-strong:    var(--gray-3);
+  --bg-base:      var(--gray-1);
+  --bg-weak:      var(--gray-0);
+  --fg-strong:    var(--gray-7);
+}
+
+/* Table Colors */
+section.points .han {
+  --bg-header:   var(--cyan-9);
+  --bg-row-odd:  var(--cyan-1);
+  --bg-row-even: var(--cyan-2);
+}
+section.points .fu {
+  --bg-header:   var(--grape-9);
+  --bg-row-odd:  var(--grape-1);
+  --bg-row-even: var(--grape-2);
+}
+section.points .other {
+  --bg-header:   var(--blue-9);
+  --bg-row-odd:  var(--blue-1);
+  --bg-row-even: var(--blue-2);
+}
+section.points .east {
+  --bg-header:   var(--orange-9);
+  --bg-row-odd:  var(--orange-1);
+  --bg-row-even: var(--orange-2);
+}

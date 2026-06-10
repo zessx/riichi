@@ -1,0 +1,372 @@
+#
+# Riichi Initiation Sheet
+#
+
+# ——— HOW TO USE THIS FILE ———
+# To create a new translation:
+#   1. Copy this template to i18n/<lang>/initiation.po  (e.g. i18n/fr/initiation.po)
+#   2. Please note that the file extension must be changed from POT, to PO
+#   3. Fill in each "msgstr"
+#      - Texts are in the same order you’ll find them on the sheet, this will help you to get context
+#      - Do not change "msgid" values under any circumstance
+#      - Pay close attention to respect HTML tags, punctuation, case and spaces (while adapting them for your language)
+#      - Try to get translations with a length close from the original text
+#      - Feel free to use inclusive/neutral language if you want, this is a small effort and will be warmly welcomed
+#      - If they exist, please rely as much as possible on "official translations" provided by recognized organization
+#
+
+# ——— DO NOT TOUCH THE FOLLOWING LINES ———
+msgid ""
+msgstr ""
+"Project-Id-Version: initiation 2.0\n"
+"Last-Translator: Aina / Rusca\n"
+"Language: ca\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# ——— YOU CAN START EDITING HERE ———
+# ——— TILES ———
+
+msgid "Tiles"
+msgstr "Fitxes"
+
+msgid "Suits"
+msgstr "Colls"
+
+msgid "Characters"
+msgstr "Caràcters"
+
+msgid "Circles"
+msgstr "Cercles"
+
+msgid "Bamboos"
+msgstr "Bambús"
+
+msgid "terminal"
+msgstr "terminal"
+
+msgid "simples"
+msgstr "simples"
+
+msgid "Honors"
+msgstr "Honors"
+
+msgid "Winds"
+msgstr "Vents"
+
+msgid "East"
+msgstr "Est"
+
+msgid "South"
+msgstr "Sud"
+
+msgid "West"
+msgstr "Oest"
+
+msgid "North"
+msgstr "Nord"
+
+msgid "Dragons"
+msgstr "Dracs"
+
+msgid "White"
+msgstr "Blanc"
+
+msgid "Green"
+msgstr "Verd"
+
+msgid "Red"
+msgstr "Vermell"
+
+msgid "Round Wind"
+msgstr "Vent Prevalent de la Ronda"
+
+msgid "1st = East"
+msgstr "1a Ronda = Est"
+
+msgid "2nd = South"
+msgstr "2a Ronda = Sud"
+
+msgid "Player's Seat Wind"
+msgstr "Vent Propi"
+
+msgid "1 player<br>= 1 Wind"
+msgstr "1 jugador/a<br>= 1 vent"
+
+# ——— BASIC ELEMENTS ———
+
+msgid "Basic elements"
+msgstr "Elements bàsics"
+
+msgid "Sequence"
+msgstr "Escala"
+
+msgid "Run of 3 tiles from the same suit"
+msgstr "3 fitxes seguides del mateix coll"
+
+msgid "On the previous player"
+msgstr "Del jugador/a anterior"
+
+msgid "Triplet"
+msgstr "Trio"
+
+msgid "Set of 3 identical tiles"
+msgstr "3 fitxes idèntiques"
+
+msgid "On anybody"
+msgstr "De qualsevol"
+
+msgid "Quad"
+msgstr "Quartet"
+
+msgid "Set of 4 identical tiles"
+msgstr "4 fitxes idèntiques"
+
+msgid "Pair"
+msgstr "Parella"
+
+msgid "Set of 2 identical tiles"
+msgstr "2 fitxes idèntiques"
+
+# ——— HOW TO WIN? ———
+
+msgid "How to win?"
+msgstr "Com es guanya?"
+
+msgid "Winning hand"
+msgstr "Mà guanyadora"
+
+msgid "Have a hand made up of<br><b>4 basics elements</b> and <b>1 pair</b>"
+msgstr "Tenir una mà formada per<br><b>4 elements bàsics</b> i <b>1 parella</b>"
+
+msgid "With at least one valid combination"
+msgstr "I complir almenys una condició de victòria"
+
+msgid "See the yakus below"
+msgstr "Veure els yakus a continuació"
+
+msgid "4 elements"
+msgstr "4 elements"
+
+msgid "1 pair"
+msgstr "1 parella"
+
+msgctxt "how-to-win"
+msgid "Value Triplet"
+msgstr "Trio de Valor"
+
+msgid "Tsumo"
+msgstr "Tsumo"
+
+msgid "By drawing the<br>last tile yourself"
+msgstr "Robant un mateix<br>l'última fitxa"
+
+msgid "Or"
+msgstr "O"
+
+msgid "Ron"
+msgstr "Ron"
+
+msgid "By taking the tile<br>discarded by a player"
+msgstr "Prenent la fitxa descartada<br>per un altre jugador/a"
+
+# ——— A FEW COMBINATIONS / « OPEN » YAKUS ———
+
+msgid "A few combinations / « open » yakus"
+msgstr "Algunes condicions de victòria: yakus 'oberts'"
+
+msgid "simplified rules"
+msgstr "normes simplificades"
+
+msgid "All Simples"
+msgstr "Tot simples"
+
+msgid "Hand without Terminals (1 or 9) or Honors."
+msgstr "Mà sense Terminals (1 o 9) ni Honors."
+
+msgid "Terminals and Honors Everywhere"
+msgstr "Terminals i Honors a Tot Arreu"
+
+msgid "A terminal (1 or 9) or an honor in every element."
+msgstr "Tots els elements tenen almenys un Terminal (1 o 9) o un Honor."
+
+msgid "Three Colored Sequences"
+msgstr "Escala en Tres Colors"
+
+msgid "The same Sequence in all three suits."
+msgstr "La mateixa Escala en els tres colls."
+
+msgid "Pure Straight"
+msgstr "Escala Sencera"
+
+msgid "123, 456 and 789 in the same suit."
+msgstr "123, 456 i 789 del mateix coll."
+
+msgctxt "open-yakus"
+msgid "Value Triplet"
+msgstr "Trio de Valor"
+
+msgid "Dragon, Player's Seat Wind or Round Wind Triplet."
+msgstr "Trio de Drac, del Vent Propi o del Vent Prevalent de la Ronda."
+
+msgid "All Triplets"
+msgstr "Tot Trios"
+
+msgid "Only Triplets (Pon) and Quads (Kan), plus the Pair."
+msgstr "Només Trios (Pon), Quartets (Kan), i la Parella."
+
+msgid "Half Flush"
+msgstr "Mig Color"
+
+msgid "Only tiles from a single suit and Honors."
+msgstr "Només Números d'un sol coll, i Honors."
+
+msgid "Flush"
+msgstr "Color"
+
+msgid "Only tiles from a single suit."
+msgstr "Només fitxes d'un dels colls."
+
+# ——— DORAS ———
+
+msgid "Doras"
+msgstr "Doras"
+
+msgid "The dead wall"
+msgstr "El mur mort"
+
+msgid "These 14 tiles are not drawn during the game, except to provide replacement tiles during Kans."
+msgstr "Aquestes 14 fitxes no es roben durant la partida, excepte com a fitxes de reemplaçament durant els Kans."
+
+msgid "Know the dora"
+msgstr "Com saber la dora"
+
+msgid "The dora is the tile immediately following the indicator, Honors have a defined order."
+msgstr "La dora és la fitxa que ve seqüencialment després de l'indicador. Els Honors tenen un ordre preestablert."
+
+msgid "dora indicator"
+msgstr "indicador de dora"
+
+msgid "uradora indicator"
+msgstr "indicador d'uradora"
+
+msgid "dora"
+msgstr "dora"
+
+msgid "1 bonus han"
+msgstr "1 han extra"
+
+msgid "per dora tile"
+msgstr "per cada dora"
+
+msgid "Other indicators can be revealed under certain conditions (Kan, Riichi)"
+msgstr "Algunes situacions (Kan, Riichi) poden revelar indicadors addicionals."
+
+# ——— RIICHI ———
+
+msgctxt "title"
+msgid "Riichi"
+msgstr "Riichi"
+
+msgctxt "subtitle"
+msgid "Riichi"
+msgstr "Riichi"
+
+msgid "Have a concealed hand<br>waiting one last tile to win"
+msgstr "Tenir una mà tancada a l'espera<br>d'una última fitxa per guanyar"
+
+msgid "Clearly announce « Riichi »"
+msgstr "Anunciar clarament 'Riichi'"
+
+msgid "Tilt your discard tile to indicate<br>when the Riichi took place"
+msgstr "Descartar la fitxa horitzontalment<br>per indicar quan s'ha declarat Riichi"
+
+msgid "Bet 1000 points"
+msgstr "Bet 1000 points"
+
+msgid "Riichi is a <b>1 han yaku</b> which can be used alone, or combined with other yakus"
+msgstr "El Riichi és <b>un yaku que val 1 han</b>. Es pot fer sol o combinat amb altres yakus"
+
+msgid "In case of victory in the first uninterrupted turn following the Riichi, <b>+1 han (Ippatsu)</b>"
+msgstr "En cas de victòria durant la primera volta ininterrompuda després del Riichi, <b>+1 han (Ippatsu)</b>"
+
+msgid "In the event of a victory, <b>uradora indicators are revealed</b>, which can bring bonus han"
+msgstr "En cas de victòria, <b>es revelen els indicadors d'uradora</b>, que poden aportar hans extra"
+
+msgid "Once you have announced a Riichi, <b>you can no longer change your hand</b>"
+msgstr "Un cop declarat Riichi, <b>ja no pots modificar la teva mà</b>"
+
+# ——— FURITEN ———
+
+msgid "Furiten"
+msgstr "Furiten"
+
+msgid "Impossible ron"
+msgstr "Ron impossible"
+
+msgid "Furiten is a rule that prohibits you from winning on the discard of opponents (Ron) in 3 different situations:"
+msgstr "El furiten és una regla que et prohibeix guanyar prenent el descart d'un oponent (Ron) en 3 situacions diferents:"
+
+msgid "Own discard"
+msgstr "Descart propi"
+
+msgid "If you have <b>already discarded any tile that could complete your hand</b>, you remain furiten until you change your waiting tile(s)."
+msgstr "Si <b>has descartat en algun moment una fitxa que hauria pogut completar la teva mà</b>, et trobes en furiten fins que canviïn les teves fitxes d'espera."
+
+msgid "Other discards"
+msgstr "Descarts d'altres"
+
+msgid "If you <b>let pass a tile that can complete your hand</b>, you remain furiten until your next draw, or until your next call."
+msgstr "Si <b>deixes passar una fitxa que hauria pogut completar la teva mà</b>, et trobes en furiten fins al teu següent robatori."
+
+msgid "After a Riichi"
+msgstr "Després d'un Riichi"
+
+msgid "If you <b>let pass a tile that can complete your hand once you have announced a Riichi</b>, you remain furiten until the end of the game."
+msgstr "Si <b>deixes passar una fitxa que hauria pogut completar la teva mà després d'haver anunciat Riichi</b>, et trobes en furiten fins al final de la mà."
+
+# ——— A FEW COMBINATIONS / « CLOSED » YAKUS ———
+
+msgid "A few combinations / « closed » yakus"
+msgstr "Algunes condicions de victòria: yakus 'tancats'"
+
+msgid "All Concealed Self Draw"
+msgstr "Mà Tancada i Robant l'espera del mur"
+
+msgid "Tsumo with a concealed hand (no call during the game)."
+msgstr "Tsumo amb la mà tancada (sense prendre cap fitxa durant la partida)."
+
+msgid "Pinfu"
+msgstr "Pinfu"
+
+msgid "Concealed hand, 4 Sequences and 1 valueless Pair, double waiting."
+msgstr "Zero minipunts: Mà tancada, 4 escales i 1 Parella sense valor, espera doble."
+
+msgid "Pure Double Sequence"
+msgstr "Escala Doble"
+
+msgid "Concealed hand with 2 identical Sequences in the same suit."
+msgstr "Mà tancada amb 2 escales idèntiques (mateixos números i coll)."
+
+msgid "Seven Pairs"
+msgstr "Set Parelles"
+
+msgid "Doubles pairs are not allowed."
+msgstr "Només parelles, totes diferents."
+
+msgid "Some Yakus seen previously are worth <b>1 extra han</b> if done with a <b>concealed hand</b>:"
+msgstr "Alguns Yakus vistos anteriorment valen <b>1 han extra</b> si es fan amb la <b>mà tancada</b>:"
+
+# ——— CREDITS ———
+
+msgid "Credits"
+msgstr "Crèdits"
+
+msgid "Based on EMA RCR 2025 rules (simplified)"
+msgstr "Basat en les normes de l'EMA RCR 2025 (simplificades)"
+
+msgid "Creation:"
+msgstr "Creació:"
+
+msgid "Translation:"
+msgstr "Traducció:"

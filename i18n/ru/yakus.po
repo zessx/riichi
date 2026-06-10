@@ -1,0 +1,244 @@
+#
+# Riichi Yaku Sheet
+#
+
+# ——— HOW TO USE THIS FILE ———
+# To create a new translation:
+#   1. Copy this template to i18n/<lang>/yakus.po  (e.g. i18n/fr/yakus.po)
+#   2. Please note that the file extension must be changed from POT, to PO
+#   3. Fill in each "msgstr"
+#      - Texts are in the same order you’ll find them on the sheet, this will help you to get context
+#      - Do not change "msgid" values under any circumstance
+#      - Pay close attention to respect HTML tags, punctuation, case and spaces (while adapting them for your language)
+#      - Try to get translations with a length close from the original text
+#      - Feel free to use inclusive/neutral language if you want, this is a small effort and will be warmly welcomed
+#      - If they exist, please rely as much as possible on "official translations" provided by recognized organization
+#
+
+# ——— DO NOT TOUCH THE FOLLOWING LINES ———
+msgid ""
+msgstr ""
+"Project-Id-Version: yakus 2.0\n"
+"Last-Translator: Real_Foxes\n"
+"Language: ru\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# ——— YOU CAN START EDITING HERE ———
+# ——— YAKUS BASED ON SEQUENCES ———
+
+msgid "Yakus based on sequences"
+msgstr "Яку на основе последовательностей"
+
+msgid "Common"
+msgstr "Частое"
+
+msgid "Pure Double Sequence"
+msgstr "Два одинаковых чи"
+
+msgid "Two Pure Double Sequences"
+msgstr "Две пары одинаковых чи"
+
+msgid "Pinfu"
+msgstr "Пинфу"
+
+msgid "Hand without any fu : 4 Sequences and 1 valueless Pair, with a double wait."
+msgstr "Рука без фу: 4 чи, 1 неценная пара, ожидание в 2."
+
+msgid "Three Colored Sequences"
+msgstr "Три схожих чи в каждой масти"
+
+msgid "Pure Straight"
+msgstr "Чистый ряд"
+
+# ——— OTHER YAKUS ———
+
+msgid "Other yakus"
+msgstr "Остальные яку"
+
+msgid "Riichi"
+msgstr "Риичи"
+
+msgid "Double Riichi"
+msgstr "Двойное риичи"
+
+msgid "Riichi announced during the very first uninterrupted round."
+msgstr "Присуждается за объявление риичи на первом круге раздачи,<br>без прерывающих объявлений."
+
+msgid "Ippatsu"
+msgstr "Иппацу"
+
+msgid "Win during the first uninterrupted round following the Riichi announcement."
+msgstr "Выигрыш в первом же непрерывном круге после объявления риичи."
+
+msgid "All Concealed Self Draw"
+msgstr "Полностью закрытая рука"
+
+msgid "Under the Sea"
+msgstr "На дне моря"
+
+msgid "Win by last draw."
+msgstr "Выигрыш на последнем тайле стены."
+
+msgid "Under the River"
+msgstr "На дне реки"
+
+msgid "Win by last discard."
+msgstr "Выигрыш на последнем сбросе."
+
+msgid "Dead Wall Draw"
+msgstr "Из мертвой стены"
+
+msgid "Win on a Quad replacement tile."
+msgstr "Выигрыш на тайле замены после кана."
+
+msgid "Robbing a Quad"
+msgstr "Ограбление кана"
+
+msgid "A concealed Quad can only be robbed to win Thirteen Orphans."
+msgstr "Закрытый кан можно ограбить только при выигрыше «Тринадцать сирот»."
+
+msgid "Heavenly Hand"
+msgstr "Благословение Небес"
+
+msgid "East player wins on his initial hand."
+msgstr "Выигрыш Востока на его первом ходу."
+
+msgid "Earthly Hand"
+msgstr "Благословение Земли"
+
+msgid "Win on draw during the very first uninterrupted turn."
+msgstr "Выигрыш со стены на первом круге раздачи, без прерывающих объявлений."
+
+msgid "Hand of Man"
+msgstr "Благословение Человека"
+
+msgid "Win on discard during the very first uninterrupted turn, and before the player has had his first turn. No other yaku/dora can be added."
+msgstr "Выигрыш со сброса игрока на первом круге раздачи до своего хода, без прерывающих объявлений. Не складывается с другими яку и дорами."
+
+# ——— DORA ———
+
+msgid "Dora"
+msgstr "Доры"
+
+msgid "Uradora"
+msgstr "Ура-доры"
+
+msgid "Doras are not yakus."
+msgstr "Доры не являются яку."
+
+# ——— YAKUS BASED ON TERMINALS / HONORS ———
+
+msgid "Yakus based on terminals / honors"
+msgstr "Яку на основе терминалов / благородных"
+
+msgid "All Simples"
+msgstr "Все простые"
+
+msgid "Hand without Terminals or Honors."
+msgstr "Рука без терминалов и благородных."
+
+msgid "Value Triplet"
+msgstr "Пон драконов / ветров"
+
+msgid "Dragon, Player's Seat Wind or Round Wind Triplet."
+msgstr "Рука с поном драконов, ветров места или ветров раунда."
+
+msgid "Small Three Dragons"
+msgstr "Малые три дракона"
+
+msgid "Big Three Dragons"
+msgstr "Большие три дракона"
+
+msgid "Little Four Winds"
+msgstr "Малые четыре ветра"
+
+msgid "Big Four Winds"
+msgstr "Большие четыре ветра"
+
+msgid "Terminals and Honors Everywhere"
+msgstr "Терминалы и благородные во всех сетах"
+
+msgid "Terminals Everywhere"
+msgstr "Терминалы во всех сетах"
+
+msgid "All Terminals and Honors"
+msgstr "Все терминалы и благородные"
+
+msgid "All Terminals"
+msgstr "Все терминалы"
+
+msgid "All Honors"
+msgstr "Все благородные"
+
+msgid "Thirteen Orphans"
+msgstr "Тринадцать сирот"
+
+msgid "A copy of each Terminal and Honor tile,<br>plus one last of your choice among these 13 tiles."
+msgstr "По одному экземпляру каждого терминального<br>и благородного тайла, плюс пара к любому из них."
+
+# ——— YAKUS BASED ON PAIRS / TRIPLETS / QUADS ———
+
+msgid "Yakus based on pairs / triplets / quads"
+msgstr "Яку на основе пар / понах / канах"
+
+msgid "Seven Pairs"
+msgstr "Семь пар"
+
+msgid "Doubles pairs are not allowed."
+msgstr "Две одинаковые пары не допускаются."
+
+msgid "All Triplets"
+msgstr "Все поны"
+
+msgid "Three Concealed Triplets"
+msgstr "Три закрытых пона"
+
+msgid "Four Concealed Triplets"
+msgstr "Четыре закрытых пона"
+
+msgid "Three Colored Triplets"
+msgstr "Три схожих пона в каждой масти"
+
+msgid "Three Quads"
+msgstr "Три кана"
+
+msgid "Four Quads"
+msgstr "Четыре кана"
+
+# ——— YAKUS BASED ON SUITS ———
+
+msgid "Yakus based on suits"
+msgstr "Яку на основе мастей"
+
+msgid "Half Flush"
+msgstr "Полумасть"
+
+msgid "A single suit and Honors."
+msgstr "Рука из одной масти и благородных тайлов."
+
+msgid "Flush"
+msgstr "Чистая масть"
+
+msgid "All Green"
+msgstr "Все зелёные"
+
+msgid "Nine Gates"
+msgstr "Девять врат"
+
+msgid "Tiles 1112345678999, plus one last of your choice, in a single suit."
+msgstr "Тайлы 1112345678999 и пара к любому из этих тайлов."
+
+# ——— CREDITS ———
+
+msgid "Credits"
+msgstr "Сведения об авторстве"
+
+msgid "Based on EMA RCR 2025 rules"
+msgstr "По правилам EMA RCR 2025"
+
+msgid "Creation:"
+msgstr "Авторы:"
+
+msgid "Translation:"
+msgstr "Перевод:"

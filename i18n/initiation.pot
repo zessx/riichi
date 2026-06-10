@@ -1,0 +1,372 @@
+#
+# Riichi Initiation Sheet
+#
+
+# ——— HOW TO USE THIS FILE ———
+# To create a new translation:
+#   1. Copy this template to i18n/<lang>/initiation.po  (e.g. i18n/fr/initiation.po)
+#   2. Please note that the file extension must be changed from POT, to PO
+#   3. Fill in each "msgstr"
+#      - Texts are in the same order you’ll find them on the sheet, this will help you to get context
+#      - Do not change "msgid" values under any circumstance
+#      - Pay close attention to respect HTML tags, punctuation, case and spaces (while adapting them for your language)
+#      - Try to get translations with a length close from the original text
+#      - Feel free to use inclusive/neutral language if you want, this is a small effort and will be warmly welcomed
+#      - If they exist, please rely as much as possible on "official translations" provided by recognized organization
+#
+
+# ——— DO NOT TOUCH THE FOLLOWING LINES ———
+msgid ""
+msgstr ""
+"Project-Id-Version: initiation 0.1-beta\n"
+"Last-Translator: zessx\n"
+"Language: en\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# ——— YOU CAN START EDITING HERE ———
+# ——— TILES ———
+
+msgid "Tiles"
+msgstr ""
+
+msgid "Suits"
+msgstr ""
+
+msgid "Characters"
+msgstr ""
+
+msgid "Circles"
+msgstr ""
+
+msgid "Bamboos"
+msgstr ""
+
+msgid "terminal"
+msgstr ""
+
+msgid "simples"
+msgstr ""
+
+msgid "Honors"
+msgstr ""
+
+msgid "Winds"
+msgstr ""
+
+msgid "East"
+msgstr ""
+
+msgid "South"
+msgstr ""
+
+msgid "West"
+msgstr ""
+
+msgid "North"
+msgstr ""
+
+msgid "Dragons"
+msgstr ""
+
+msgid "White"
+msgstr ""
+
+msgid "Green"
+msgstr ""
+
+msgid "Red"
+msgstr ""
+
+msgid "Round Wind"
+msgstr ""
+
+msgid "1st = East"
+msgstr ""
+
+msgid "2nd = South"
+msgstr ""
+
+msgid "Player's Seat Wind"
+msgstr ""
+
+msgid "1 player<br>= 1 Wind"
+msgstr ""
+
+# ——— BASIC ELEMENTS ———
+
+msgid "Basic elements"
+msgstr ""
+
+msgid "Sequence"
+msgstr ""
+
+msgid "Run of 3 tiles from the same suit"
+msgstr ""
+
+msgid "On the previous player"
+msgstr ""
+
+msgid "Triplet"
+msgstr ""
+
+msgid "Set of 3 identical tiles"
+msgstr ""
+
+msgid "On anybody"
+msgstr ""
+
+msgid "Quad"
+msgstr ""
+
+msgid "Set of 4 identical tiles"
+msgstr ""
+
+msgid "Pair"
+msgstr ""
+
+msgid "Set of 2 identical tiles"
+msgstr ""
+
+# ——— HOW TO WIN? ———
+
+msgid "How to win?"
+msgstr ""
+
+msgid "Winning hand"
+msgstr ""
+
+msgid "Have a hand made up of<br><b>4 basics elements</b> and <b>1 pair</b>"
+msgstr ""
+
+msgid "With at least one valid combination"
+msgstr ""
+
+msgid "See the yakus below"
+msgstr ""
+
+msgid "4 elements"
+msgstr ""
+
+msgid "1 pair"
+msgstr ""
+
+msgctxt "how-to-win"
+msgid "Value Triplet"
+msgstr ""
+
+msgid "Tsumo"
+msgstr ""
+
+msgid "By drawing the<br>last tile yourself"
+msgstr ""
+
+msgid "Or"
+msgstr ""
+
+msgid "Ron"
+msgstr ""
+
+msgid "By taking the tile<br>discarded by a player"
+msgstr ""
+
+# ——— A FEW COMBINATIONS / « OPEN » YAKUS ———
+
+msgid "A few combinations / « open » yakus"
+msgstr ""
+
+msgid "simplified rules"
+msgstr ""
+
+msgid "All Simples"
+msgstr ""
+
+msgid "Hand without Terminals (1 or 9) or Honors."
+msgstr ""
+
+msgid "Terminals and Honors Everywhere"
+msgstr ""
+
+msgid "A terminal (1 or 9) or an honor in every element."
+msgstr ""
+
+msgid "Three Colored Sequences"
+msgstr ""
+
+msgid "The same Sequence in all three suits."
+msgstr ""
+
+msgid "Pure Straight"
+msgstr ""
+
+msgid "123, 456 and 789 in the same suit."
+msgstr ""
+
+msgctxt "open-yakus"
+msgid "Value Triplet"
+msgstr ""
+
+msgid "Dragon, Player's Seat Wind or Round Wind Triplet."
+msgstr ""
+
+msgid "All Triplets"
+msgstr ""
+
+msgid "Only Triplets (Pon) and Quads (Kan), plus the Pair."
+msgstr ""
+
+msgid "Half Flush"
+msgstr ""
+
+msgid "Only tiles from a single suit and Honors."
+msgstr ""
+
+msgid "Flush"
+msgstr ""
+
+msgid "Only tiles from a single suit."
+msgstr ""
+
+# ——— DORAS ———
+
+msgid "Doras"
+msgstr ""
+
+msgid "The dead wall"
+msgstr ""
+
+msgid "These 14 tiles are not drawn during the game, except to provide replacement tiles during Kans."
+msgstr ""
+
+msgid "Know the dora"
+msgstr ""
+
+msgid "The dora is the tile immediately following the indicator, Honors have a defined order."
+msgstr ""
+
+msgid "dora indicator"
+msgstr ""
+
+msgid "uradora indicator"
+msgstr ""
+
+msgid "dora"
+msgstr ""
+
+msgid "1 bonus han"
+msgstr ""
+
+msgid "per dora tile"
+msgstr ""
+
+msgid "Other indicators can be revealed under certain conditions (Kan, Riichi)"
+msgstr ""
+
+# ——— RIICHI ———
+
+msgctxt "title"
+msgid "Riichi"
+msgstr ""
+
+msgctxt "subtitle"
+msgid "Riichi"
+msgstr ""
+
+msgid "Have a concealed hand<br>waiting one last tile to win"
+msgstr ""
+
+msgid "Clearly announce « Riichi »"
+msgstr ""
+
+msgid "Tilt your discard tile to indicate<br>when the Riichi took place"
+msgstr ""
+
+msgid "Bet 1000 points"
+msgstr ""
+
+msgid "Riichi is a <b>1 han yaku</b> which can be used alone, or combined with other yakus"
+msgstr ""
+
+msgid "In case of victory in the first uninterrupted turn following the Riichi, <b>+1 han (Ippatsu)</b>"
+msgstr ""
+
+msgid "In the event of a victory, <b>uradora indicators are revealed</b>, which can bring bonus han"
+msgstr ""
+
+msgid "Once you have announced a Riichi, <b>you can no longer change your hand</b>"
+msgstr ""
+
+# ——— FURITEN ———
+
+msgid "Furiten"
+msgstr ""
+
+msgid "Impossible ron"
+msgstr ""
+
+msgid "Furiten is a rule that prohibits you from winning on the discard of opponents (Ron) in 3 different situations:"
+msgstr ""
+
+msgid "Own discard"
+msgstr ""
+
+msgid "If you have <b>already discarded any tile that could complete your hand</b>, you remain furiten until you change your waiting tile(s)."
+msgstr ""
+
+msgid "Other discards"
+msgstr ""
+
+msgid "If you <b>let pass a tile that can complete your hand</b>, you remain furiten until your next draw, or until your next call."
+msgstr ""
+
+msgid "After a Riichi"
+msgstr ""
+
+msgid "If you <b>let pass a tile that can complete your hand once you have announced a Riichi</b>, you remain furiten until the end of the game."
+msgstr ""
+
+# ——— A FEW COMBINATIONS / « CLOSED » YAKUS ———
+
+msgid "A few combinations / « closed » yakus"
+msgstr ""
+
+msgid "All Concealed Self Draw"
+msgstr ""
+
+msgid "Tsumo with a concealed hand (no call during the game)."
+msgstr ""
+
+msgid "Pinfu"
+msgstr ""
+
+msgid "Concealed hand, 4 Sequences and 1 valueless Pair, double waiting."
+msgstr ""
+
+msgid "Pure Double Sequence"
+msgstr ""
+
+msgid "Concealed hand with 2 identical Sequences in the same suit."
+msgstr ""
+
+msgid "Seven Pairs"
+msgstr ""
+
+msgid "Doubles pairs are not allowed."
+msgstr ""
+
+msgid "Some Yakus seen previously are worth <b>1 extra han</b> if done with a <b>concealed hand</b>:"
+msgstr ""
+
+# ——— CREDITS ———
+
+msgid "Credits"
+msgstr ""
+
+msgid "Based on EMA RCR 2025 rules (simplified)"
+msgstr ""
+
+msgid "Creation:"
+msgstr ""
+
+msgid "Translation:"
+msgstr ""

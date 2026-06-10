@@ -1,0 +1,339 @@
+#
+# Riichi Score Sheet
+#
+
+# ——— HOW TO USE THIS FILE ———
+# To create a new translation:
+#   1. Copy this template to i18n/<lang>/score.po  (e.g. i18n/fr/score.po)
+#   2. Please note that the file extension must be changed from POT, to PO
+#   3. Fill in each "msgstr"
+#      - Texts are in the same order you’ll find them on the sheet, this will help you to get context
+#      - Do not change "msgid" values under any circumstance
+#      - Pay close attention to respect HTML tags, punctuation, case and spaces (while adapting them for your language)
+#      - Try to get translations with a length close from the original text
+#      - Feel free to use inclusive/neutral language if you want, this is a small effort and will be warmly welcomed
+#      - If they exist, please rely as much as possible on "official translations" provided by recognized organization
+#
+
+# ——— DO NOT TOUCH THE FOLLOWING LINES ———
+msgid ""
+msgstr ""
+"Project-Id-Version: score 0.1-beta\n"
+"Last-Translator: zessx\n"
+"Language: en\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# ——— YOU CAN START EDITING HERE ———
+# ——— HAN ———
+
+msgid "Han"
+msgstr ""
+
+# ——— TERMINALS / HONORS ———
+
+msgid "Terminals / Honors"
+msgstr ""
+
+msgid "All Simples"
+msgstr ""
+
+msgid "Value Triplet"
+msgstr ""
+
+msgid "Small Three Dragons"
+msgstr ""
+
+msgid "Big Three Dragons"
+msgstr ""
+
+msgid "Little Four Winds"
+msgstr ""
+
+msgid "Big Four Winds"
+msgstr ""
+
+msgid "Terminals and Honors Everywhere"
+msgstr ""
+
+msgid "Terminals Everywhere"
+msgstr ""
+
+msgid "All Terminals and Honors"
+msgstr ""
+
+msgid "All Terminals"
+msgstr ""
+
+msgid "All Honors"
+msgstr ""
+
+msgid "Thirteen Orphans"
+msgstr ""
+
+# ——— PAIRS / TRIPLETS / QUADS ———
+
+msgid "Pairs / Triplets / Quads"
+msgstr ""
+
+msgid "Seven Pairs"
+msgstr ""
+
+msgid "All Triplets"
+msgstr ""
+
+msgid "Three Concealed Triplets"
+msgstr ""
+
+msgid "Four Concealed Triplets"
+msgstr ""
+
+msgid "Three Colored Triplets"
+msgstr ""
+
+msgid "Three Quads"
+msgstr ""
+
+msgid "Four Quads"
+msgstr ""
+
+# ——— DORA ———
+
+msgid "Dora"
+msgstr ""
+
+# ——— SEQUENCES ———
+
+msgid "Sequences"
+msgstr ""
+
+msgid "Pure Double Sequence"
+msgstr ""
+
+msgid "Two Pure Double Sequences"
+msgstr ""
+
+msgid "Pinfu"
+msgstr ""
+
+msgid "Three Colored Sequences"
+msgstr ""
+
+msgid "Pure Straight"
+msgstr ""
+
+# ——— SUITS ———
+
+msgid "Suits"
+msgstr ""
+
+msgid "Half Flush"
+msgstr ""
+
+msgid "Flush"
+msgstr ""
+
+msgid "All Green"
+msgstr ""
+
+msgid "Nine Gates"
+msgstr ""
+
+# ——— OTHER ———
+
+msgctxt "yakus"
+msgid "Other"
+msgstr ""
+
+msgid "Riichi"
+msgstr ""
+
+msgid "Double Riichi"
+msgstr ""
+
+msgid "Ippatsu"
+msgstr ""
+
+msgid "All Concealed Self Draw"
+msgstr ""
+
+msgid "Under the Sea"
+msgstr ""
+
+msgid "Under the River"
+msgstr ""
+
+msgid "Dead Wall Draw"
+msgstr ""
+
+msgid "Robbing a Quad"
+msgstr ""
+
+msgid "Heavenly Hand"
+msgstr ""
+
+msgid "Earthly Hand"
+msgstr ""
+
+msgid "Hand of Man"
+msgstr ""
+
+# ——— FU ———
+
+msgid "Fu"
+msgstr ""
+
+msgid "Or"
+msgstr ""
+
+msgid "Base"
+msgstr ""
+
+msgid "Pon"
+msgstr ""
+
+msgid "Simples"
+msgstr ""
+
+msgid "Term. / Hon."
+msgstr ""
+
+msgid "Kan"
+msgstr ""
+
+msgid "Closed Ron"
+msgstr ""
+
+msgid "Open Pinfu"
+msgstr ""
+
+msgctxt "fu"
+msgid "Tsumo"
+msgstr ""
+
+msgid "(/wo pinfu)"
+msgstr ""
+
+msgid "Single wait"
+msgstr ""
+
+msgid "Value pair"
+msgstr ""
+
+msgid "Not cumulative."
+msgstr ""
+
+msgid "Total"
+msgstr ""
+
+msgid "Rounded up to the nearest ten."
+msgstr ""
+
+# ——— HONBA ———
+
+msgid "Honba"
+msgstr ""
+
+msgid "For each counter:"
+msgstr ""
+
+msgctxt "honba"
+msgid "Ron"
+msgstr ""
+
+msgctxt "honba"
+msgid "Tsumo"
+msgstr ""
+
+msgid "pts"
+msgstr ""
+
+msgid "If East wins the hand,"
+msgstr ""
+
+msgid "he remains the East player and another counter is added."
+msgstr ""
+
+msgid "If another player wins the hand,"
+msgstr ""
+
+msgid "the East player rotates and all counters are removed."
+msgstr ""
+
+# ——— TENPAI / NOTEN ———
+
+msgid "Tenpai / Noten"
+msgstr ""
+
+msgid "0 or 4 players tenpai"
+msgstr ""
+
+msgid "No points exchanged."
+msgstr ""
+
+msgid "1 player tenpai"
+msgstr ""
+
+msgid "2 players tenpai"
+msgstr ""
+
+msgid "3 players tenpai"
+msgstr ""
+
+msgid "A counter is added."
+msgstr ""
+
+msgid "If East is tenpai,"
+msgstr ""
+
+msgid "he remains the East player."
+msgstr ""
+
+# ——— POINTS ———
+
+msgid "Points"
+msgstr ""
+
+msgctxt "points"
+msgid "Other"
+msgstr ""
+
+msgid "East"
+msgstr ""
+
+msgctxt "points"
+msgid "Ron"
+msgstr ""
+
+msgctxt "points"
+msgid "Tsumo"
+msgstr ""
+
+msgid "Mangan"
+msgstr ""
+
+msgid "Haneman"
+msgstr ""
+
+msgid "Baiman"
+msgstr ""
+
+msgid "Sanbaiman"
+msgstr ""
+
+msgid "Yakuman"
+msgstr ""
+
+# ——— CREDITS ———
+
+msgid "Credits"
+msgstr ""
+
+msgid "Based on EMA RCR 2025 rules"
+msgstr ""
+
+msgid "Creation:"
+msgstr ""
+
+msgid "Translation:"
+msgstr ""

@@ -1,0 +1,98 @@
+#
+# Riichi Ruler Sheet
+#
+
+# ——— HOW TO USE THIS FILE ———
+# To create a new translation:
+#   1. Copy this template to i18n/<lang>/ruler.po  (e.g. i18n/fr/ruler.po)
+#   2. Please note that the file extension must be changed from POT, to PO
+#   3. Fill in each "msgstr"
+#      - Texts are in the same order you’ll find them on the sheet, this will help you to get context
+#      - Do not change "msgid" values under any circumstance
+#      - Pay close attention to respect HTML tags, punctuation, case and spaces (while adapting them for your language)
+#      - Try to get translations with a length close from the original text
+#      - Feel free to use inclusive/neutral language if you want, this is a small effort and will be warmly welcomed
+#      - If they exist, please rely as much as possible on "official translations" provided by recognized organization
+#
+
+# ——— DO NOT TOUCH THE FOLLOWING LINES ———
+msgid ""
+msgstr ""
+"Project-Id-Version: ruler 0.1-beta\n"
+"Last-Translator: zessx\n"
+"Language: en\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# ——— YOU CAN START EDITING HERE ———
+# ——— Top part ———
+msgid "Bamboos"
+msgstr ""
+
+msgid "Circles"
+msgstr ""
+
+msgid "Characters"
+msgstr ""
+
+msgid "Winds"
+msgstr ""
+
+msgid "East"
+msgstr ""
+
+msgid "South"
+msgstr ""
+
+msgid "West"
+msgstr ""
+
+msgid "North"
+msgstr ""
+
+msgid "Dragons"
+msgstr ""
+
+msgid "White"
+msgstr ""
+
+msgid "Green"
+msgstr ""
+
+msgid "Red"
+msgstr ""
+
+# ——— Bottom part ———
+msgid "Chi"
+msgstr ""
+
+msgid "On the player to my left"
+msgstr ""
+
+msgid "Pon"
+msgstr ""
+
+msgid "Kan"
+msgstr ""
+
+msgid "Ron"
+msgstr ""
+
+msgid "On any player"
+msgstr ""
+
+msgid "Tsumo"
+msgstr ""
+
+msgid "By myself"
+msgstr ""
+
+msgid "Order for players"
+msgstr ""
+
+msgid "Direction of the draw"
+msgstr ""
+
+# ——— Credits ———
+msgid "Creation / Translation:"
+msgstr ""

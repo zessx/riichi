@@ -1,0 +1,339 @@
+#
+# Riichi Score Sheet
+#
+
+# ——— HOW TO USE THIS FILE ———
+# To create a new translation:
+#   1. Copy this template to i18n/<lang>/score.po  (e.g. i18n/fr/score.po)
+#   2. Please note that the file extension must be changed from POT, to PO
+#   3. Fill in each "msgstr"
+#      - Texts are in the same order you’ll find them on the sheet, this will help you to get context
+#      - Do not change "msgid" values under any circumstance
+#      - Pay close attention to respect HTML tags, punctuation, case and spaces (while adapting them for your language)
+#      - Try to get translations with a length close from the original text
+#      - Feel free to use inclusive/neutral language if you want, this is a small effort and will be warmly welcomed
+#      - If they exist, please rely as much as possible on "official translations" provided by recognized organization
+#
+
+# ——— DO NOT TOUCH THE FOLLOWING LINES ———
+msgid ""
+msgstr ""
+"Project-Id-Version: score 2.0\n"
+"Last-Translator: deceze\n"
+"Language: de\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# ——— YOU CAN START EDITING HERE ———
+# ——— HAN ———
+
+msgid "Han"
+msgstr "Han"
+
+# ——— TERMINALS / HONORS ———
+
+msgid "Terminals / Honors"
+msgstr "Endsteine / Ehren"
+
+msgid "All Simples"
+msgstr "Nur einfache Steine"
+
+msgid "Value Triplet"
+msgstr "Wertdrilling"
+
+msgid "Small Three Dragons"
+msgstr "Kleine Drei Drachen"
+
+msgid "Big Three Dragons"
+msgstr "Große Drei Drachen"
+
+msgid "Little Four Winds"
+msgstr "Kleine Vier Winde"
+
+msgid "Big Four Winds"
+msgstr "Große Vier Winde"
+
+msgid "Terminals and Honors Everywhere"
+msgstr "Überall Endsteine und Ehren"
+
+msgid "Terminals Everywhere"
+msgstr "Überall Endsteine"
+
+msgid "All Terminals and Honors"
+msgstr "Nur Endsteine und Ehren"
+
+msgid "All Terminals"
+msgstr "Nur Endsteine"
+
+msgid "All Honors"
+msgstr "Nur Ehren"
+
+msgid "Thirteen Orphans"
+msgstr "Dreizehn Waisen"
+
+# ——— PAIRS / TRIPLETS / QUADS ———
+
+msgid "Pairs / Triplets / Quads"
+msgstr "Paare / Drillinge / Vierlinge"
+
+msgid "Seven Pairs"
+msgstr "Sieben Paare"
+
+msgid "All Triplets"
+msgstr "Nur Drillinge"
+
+msgid "Three Concealed Triplets"
+msgstr "Drei Verdeckte Drillinge"
+
+msgid "Four Concealed Triplets"
+msgstr "Vier Verdeckte Drillinge"
+
+msgid "Three Colored Triplets"
+msgstr "Drei Gemischte Drillinge"
+
+msgid "Three Quads"
+msgstr "Drei Vierlinge"
+
+msgid "Four Quads"
+msgstr "Vier Vierlinge"
+
+# ——— DORA ———
+
+msgid "Dora"
+msgstr "Dora"
+
+# ——— SEQUENCES ———
+
+msgid "Sequences"
+msgstr "Folgen"
+
+msgid "Pure Double Sequence"
+msgstr "Reine Doppelfolge"
+
+msgid "Two Pure Double Sequences"
+msgstr "Zwei Reine Doppelfolgen"
+
+msgid "Pinfu"
+msgstr "Wertlose Hand"
+
+msgid "Three Colored Sequences"
+msgstr "Gemischte Dreifachfolge"
+
+msgid "Pure Straight"
+msgstr "Straße"
+
+# ——— SUITS ———
+
+msgid "Suits"
+msgstr "Farben"
+
+msgid "Half Flush"
+msgstr "Gemischtes Farbspiel"
+
+msgid "Flush"
+msgstr "Reines Farbspiel"
+
+msgid "All Green"
+msgstr "Grüne Hand"
+
+msgid "Nine Gates"
+msgstr "Neun Laternen"
+
+# ——— OTHER ———
+
+msgctxt "yakus"
+msgid "Other"
+msgstr "Andere"
+
+msgid "Riichi"
+msgstr "Riichi"
+
+msgid "Double Riichi"
+msgstr "Doppel-Riichi"
+
+msgid "Ippatsu"
+msgstr "Ippatsu"
+
+msgid "All Concealed Self Draw"
+msgstr "Komplett Verdeckte Hand"
+
+msgid "Under the Sea"
+msgstr "Letzter Stein"
+
+msgid "Under the River"
+msgstr "Letzter Abgeworfener Stein"
+
+msgid "Dead Wall Draw"
+msgstr "Ersatzsteinsieg"
+
+msgid "Robbing a Quad"
+msgstr "Raub eines Kan"
+
+msgid "Heavenly Hand"
+msgstr "Segen des Himmels"
+
+msgid "Earthly Hand"
+msgstr "Segen der Erde"
+
+msgid "Hand of Man"
+msgstr "Segen der Menschheit"
+
+# ——— FU ———
+
+msgid "Fu"
+msgstr "Fu"
+
+msgid "Or"
+msgstr "Oder"
+
+msgid "Base"
+msgstr "Basis"
+
+msgid "Pon"
+msgstr "Pon"
+
+msgid "Simples"
+msgstr "einf. St."
+
+msgid "Term. / Hon."
+msgstr "Endst./Ehren"
+
+msgid "Kan"
+msgstr "Kan"
+
+msgid "Closed Ron"
+msgstr "Verd. Ron"
+
+msgid "Open Pinfu"
+msgstr "Offener Pinfu"
+
+msgctxt "fu"
+msgid "Tsumo"
+msgstr "Tsumo"
+
+msgid "(/wo pinfu)"
+msgstr "(ohne Pinfu)"
+
+msgid "Single wait"
+msgstr "Einfache Warte"
+
+msgid "Value pair"
+msgstr "Wertpaar"
+
+msgid "Not cumulative."
+msgstr "Nicht kumulativ."
+
+msgid "Total"
+msgstr "Gesamt"
+
+msgid "Rounded up to the nearest ten."
+msgstr "Zum nächsten Zehner aufgerundet."
+
+# ——— HONBA ———
+
+msgid "Honba"
+msgstr "Honba"
+
+msgid "For each counter:"
+msgstr "Für jeden Marker:"
+
+msgctxt "honba"
+msgid "Ron"
+msgstr "Ron"
+
+msgctxt "honba"
+msgid "Tsumo"
+msgstr "Tsumo"
+
+msgid "pts"
+msgstr "Pkt."
+
+msgid "If East wins the hand,"
+msgstr "Gewinnt Ost die Hand,"
+
+msgid "he remains the East player and another counter is added."
+msgstr "bleibt er Ost und ein Marker wird hinzugefügt."
+
+msgid "If another player wins the hand,"
+msgstr "Gewinnt ein anderer Spieler,"
+
+msgid "the East player rotates and all counters are removed."
+msgstr "wandert Ost weiter und alle Marker werden entfernt."
+
+# ——— TENPAI / NOTEN ———
+
+msgid "Tenpai / Noten"
+msgstr "Tenpai / Noten"
+
+msgid "0 or 4 players tenpai"
+msgstr "0 oder 4 Spieler tenpai"
+
+msgid "No points exchanged."
+msgstr "Kein Punktetausch."
+
+msgid "1 player tenpai"
+msgstr "1 Spieler tenpai"
+
+msgid "2 players tenpai"
+msgstr "2 Spieler tenpai"
+
+msgid "3 players tenpai"
+msgstr "3 Spieler tenpai"
+
+msgid "A counter is added."
+msgstr "Ein Marker wird hinzugefügt."
+
+msgid "If East is tenpai,"
+msgstr "Ist Ost tenpai,"
+
+msgid "he remains the East player."
+msgstr "bleibt er Osten."
+
+# ——— POINTS ———
+
+msgid "Points"
+msgstr "Punkte"
+
+msgctxt "points"
+msgid "Other"
+msgstr "Andere"
+
+msgid "East"
+msgstr "Ost"
+
+msgctxt "points"
+msgid "Ron"
+msgstr "Ron"
+
+msgctxt "points"
+msgid "Tsumo"
+msgstr "Tsumo"
+
+msgid "Mangan"
+msgstr "Mangan"
+
+msgid "Haneman"
+msgstr "Haneman"
+
+msgid "Baiman"
+msgstr "Baiman"
+
+msgid "Sanbaiman"
+msgstr "Sanbaiman"
+
+msgid "Yakuman"
+msgstr "Yakuman"
+
+# ——— CREDITS ———
+
+msgid "Credits"
+msgstr "Mitwirkende"
+
+msgid "Based on EMA RCR 2025 rules"
+msgstr "Basierend auf EMA RCR 2025 Regeln"
+
+msgid "Creation:"
+msgstr "Erstellung:"
+
+msgid "Translation:"
+msgstr "Übersetzung:"

@@ -1,0 +1,372 @@
+#
+# Riichi Initiation Sheet
+#
+
+# ——— HOW TO USE THIS FILE ———
+# To create a new translation:
+#   1. Copy this template to i18n/<lang>/initiation.po  (e.g. i18n/fr/initiation.po)
+#   2. Please note that the file extension must be changed from POT, to PO
+#   3. Fill in each "msgstr"
+#      - Texts are in the same order you’ll find them on the sheet, this will help you to get context
+#      - Do not change "msgid" values under any circumstance
+#      - Pay close attention to respect HTML tags, punctuation, case and spaces (while adapting them for your language)
+#      - Try to get translations with a length close from the original text
+#      - Feel free to use inclusive/neutral language if you want, this is a small effort and will be warmly welcomed
+#      - If they exist, please rely as much as possible on "official translations" provided by recognized organization
+#
+
+# ——— DO NOT TOUCH THE FOLLOWING LINES ———
+msgid ""
+msgstr ""
+"Project-Id-Version: initiation 2.0\n"
+"Last-Translator: ___andrew.___\n"
+"Language: vi\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# ——— YOU CAN START EDITING HERE ———
+# ——— TILES ———
+
+msgid "Tiles"
+msgstr "Các quân bài"
+
+msgid "Suits"
+msgstr "Các chất quân"
+
+msgid "Characters"
+msgstr "Vạn"
+
+msgid "Circles"
+msgstr "Chấm"
+
+msgid "Bamboos"
+msgstr "Tre"
+
+msgid "terminal"
+msgstr "quân cổng"
+
+msgid "simples"
+msgstr "quân thường"
+
+msgid "Honors"
+msgstr "Quân tài phao"
+
+msgid "Winds"
+msgstr "Quân Gió"
+
+msgid "East"
+msgstr "Đông"
+
+msgid "South"
+msgstr "Nam"
+
+msgid "West"
+msgstr "Tây"
+
+msgid "North"
+msgstr "Bắc"
+
+msgid "Dragons"
+msgstr "Quân Rồng"
+
+msgid "White"
+msgstr "Trắng"
+
+msgid "Green"
+msgstr "Xanh"
+
+msgid "Red"
+msgstr "Đỏ"
+
+msgid "Round Wind"
+msgstr "Vòng Gió"
+
+msgid "1st = East"
+msgstr "Vòng 1 = Đông"
+
+msgid "2nd = South"
+msgstr "Vòng 2 = Nam"
+
+msgid "Player's Seat Wind"
+msgstr "Gió Của Người Chơi"
+
+msgid "1 player<br>= 1 Wind"
+msgstr "Mỗi người<br>= một gió"
+
+# ——— BASIC ELEMENTS ———
+
+msgid "Basic elements"
+msgstr "Các bộ cơ bản"
+
+msgid "Sequence"
+msgstr "Phu"
+
+msgid "Run of 3 tiles from the same suit"
+msgstr "3 quân đồng chất liên tiếp"
+
+msgid "On the previous player"
+msgstr "Ăn từ người chơi trước mình"
+
+msgid "Triplet"
+msgstr "Phỗng"
+
+msgid "Set of 3 identical tiles"
+msgstr "Bộ 3 quân giống nhau"
+
+msgid "On anybody"
+msgstr "Ăn từ bất cứ ai"
+
+msgid "Quad"
+msgstr "Tứ Quý"
+
+msgid "Set of 4 identical tiles"
+msgstr "Bộ 4 quân giống nhau"
+
+msgid "Pair"
+msgstr "Đôi"
+
+msgid "Set of 2 identical tiles"
+msgstr "Bộ 2 quân giống nhau"
+
+# ——— HOW TO WIN? ———
+
+msgid "How to win?"
+msgstr "Ù như thế nào?"
+
+msgid "Winning hand"
+msgstr "Bài ù"
+
+msgid "Have a hand made up of<br><b>4 basics elements</b> and <b>1 pair</b>"
+msgstr "Bài có đầy đủ<br><b>4 bộ hoàn chỉnh</b> và <b>1 đôi</b>"
+
+msgid "With at least one valid combination"
+msgstr "Có ít nhất một mẫu bài (yaku) hợp lệ"
+
+msgid "See the yakus below"
+msgstr "Xem các yaku ở dưới"
+
+msgid "4 elements"
+msgstr "4 bộ"
+
+msgid "1 pair"
+msgstr "1 đôi"
+
+msgctxt "how-to-win"
+msgid "Value Triplet"
+msgstr "Phỗng Giá Trị"
+
+msgid "Tsumo"
+msgstr "Tsumo"
+
+msgid "By drawing the<br>last tile yourself"
+msgstr "Bằng cách tự bốc <br>quân cuối cùng"
+
+msgid "Or"
+msgstr "Hoặc"
+
+msgid "Ron"
+msgstr "Ron"
+
+msgid "By taking the tile<br>discarded by a player"
+msgstr "Bằng cách ăn quân<br>đánh của một người chơi"
+
+# ——— A FEW COMBINATIONS / « OPEN » YAKUS ———
+
+msgid "A few combinations / « open » yakus"
+msgstr "Một số mẫu bài / yaku mở"
+
+msgid "simplified rules"
+msgstr "đã đơn giản hóa"
+
+msgid "All Simples"
+msgstr "Toàn Quân Thường"
+
+msgid "Hand without Terminals (1 or 9) or Honors."
+msgstr "Bài không có quân cổng (1 hoặc 9) hay quân Tài Phao."
+
+msgid "Terminals and Honors Everywhere"
+msgstr "Quân Cổng và Tài Phao Rải Rác"
+
+msgid "A terminal (1 or 9) or an honor in every element."
+msgstr "Mỗi bộ đều có ít nhất 1 quân cổng (1 hoặc 9) hoặc quân tài phao."
+
+msgid "Three Colored Sequences"
+msgstr "Tam Sắc Phu"
+
+msgid "The same Sequence in all three suits."
+msgstr "Có 3 Phu giống hệt nhau của cả ba chất."
+
+msgid "Pure Straight"
+msgstr "Nhất Thông"
+
+msgid "123, 456 and 789 in the same suit."
+msgstr "Có 123, 456 và 789 trong cùng một chất."
+
+msgctxt "open-yakus"
+msgid "Value Triplet"
+msgstr "Phỗng Giá Trị"
+
+msgid "Dragon, Player's Seat Wind or Round Wind Triplet."
+msgstr "Có phỗng rồng/cùng gió vòng/cùng gió chỗ ngồi."
+
+msgid "All Triplets"
+msgstr "Tòi Toi"
+
+msgid "Only Triplets (Pon) and Quads (Kan), plus the Pair."
+msgstr "Bài chỉ có các Phỗng (Pon) và Tứ Quý (Kan), cùng với một Đôi."
+
+msgid "Half Flush"
+msgstr "Bán Nhất Sắc"
+
+msgid "Only tiles from a single suit and Honors."
+msgstr "Bài chỉ có quân từ một chất duy nhất và quân Tài Phao."
+
+msgid "Flush"
+msgstr "Đồng Nhất Sắc"
+
+msgid "Only tiles from a single suit."
+msgstr "Bài chỉ có quân từ một chất duy nhất."
+
+# ——— DORAS ———
+
+msgid "Doras"
+msgstr "Quân dora"
+
+msgid "The dead wall"
+msgstr "Tử thành"
+
+msgid "These 14 tiles are not drawn during the game, except to provide replacement tiles during Kans."
+msgstr "14 quân này không được dùng để bốc, trừ những trường hợp có người chơi hạ Kan."
+
+msgid "Know the dora"
+msgstr "Nhận dạng quân dora"
+
+msgid "The dora is the tile immediately following the indicator, Honors have a defined order."
+msgstr "Quân dora là quân ngay sau quân chỉ điểm, riêng quân Tài Phao thì có trình tự riêng."
+
+msgid "dora indicator"
+msgstr "quân chỉ điểm dora"
+
+msgid "uradora indicator"
+msgstr "quân chỉ điểm dora dưới"
+
+msgid "dora"
+msgstr "dora"
+
+msgid "1 bonus han"
+msgstr "1 han thưởng cho"
+
+msgid "per dora tile"
+msgstr "mỗi quân dora"
+
+msgid "Other indicators can be revealed under certain conditions (Kan, Riichi)"
+msgstr "Những quân chỉ điểm khác có thể được lật trong những trường hợp cụ thể (Kan, Riichi)"
+
+# ——— RIICHI ———
+
+msgctxt "title"
+msgid "Riichi"
+msgstr "Riichi"
+
+msgctxt "subtitle"
+msgid "Riichi"
+msgstr "Riichi"
+
+msgid "Have a concealed hand<br>waiting one last tile to win"
+msgstr "Có bài kín đang chờ<br>quân cuối cùng để ù"
+
+msgid "Clearly announce « Riichi »"
+msgstr "Thông báo « Riichi »"
+
+msgid "Tilt your discard tile to indicate<br>when the Riichi took place"
+msgstr "Xoay ngang quân bài bỏ<br>để đánh dấu lúc Riichi"
+
+msgid "Bet 1000 points"
+msgstr "Cược 1000 điểm"
+
+msgid "Riichi is a <b>1 han yaku</b> which can be used alone, or combined with other yakus"
+msgstr "Riichi là <b>yaku có trị giá 1 han</b>, và có thể kết hợp được cùng với các yaku khác"
+
+msgid "In case of victory in the first uninterrupted turn following the Riichi, <b>+1 han (Ippatsu)</b>"
+msgstr "Trong trường hợp ù ngay trong lượt đầu tiên không bị gián đoạn, <b>+1 han (Ippatsu)</b>"
+
+msgid "In the event of a victory, <b>uradora indicators are revealed</b>, which can bring bonus han"
+msgstr "Trong trường hợp ù, <b>các quân chỉ điểm dora dưới sẽ được lật</b>, tăng khả năng thêm han thưởng"
+
+msgid "Once you have announced a Riichi, <b>you can no longer change your hand</b>"
+msgstr "Một khi đã báo Riichi,<br><b>bạn không thể thay đổi bài của mình</b>"
+
+# ——— FURITEN ———
+
+msgid "Furiten"
+msgstr "Furiten"
+
+msgid "Impossible ron"
+msgstr "Cấm ron"
+
+msgid "Furiten is a rule that prohibits you from winning on the discard of opponents (Ron) in 3 different situations:"
+msgstr "Furiten là một luật nhằm chống người chơi ù băng cách ăn quân đánh của người khác (Ron) trong 3 trường hợp sau:"
+
+msgid "Own discard"
+msgstr "Quân tự đánh"
+
+msgid "If you have <b>already discarded any tile that could complete your hand</b>, you remain furiten until you change your waiting tile(s)."
+msgstr "Nếu bạn đã đánh <b>bất cứ quân nào hiện đang chờ ù</b>, bạn sẽ bị furiten cho đến khi thay đổi quân chờ ù"
+
+msgid "Other discards"
+msgstr "Quân người khác đánh"
+
+msgid "If you <b>let pass a tile that can complete your hand</b>, you remain furiten until your next draw, or until your next call."
+msgstr "Nếu bạn <b>bỏ qua một quân chờ ù mà người khác đánh ra</b>, bạn sẽ bị furiten cho đến khi bạn bốc quân tiếp theo, hoặc đến khi bạn ăn."
+
+msgid "After a Riichi"
+msgstr "Sau khi riichi"
+
+msgid "If you <b>let pass a tile that can complete your hand once you have announced a Riichi</b>, you remain furiten until the end of the game."
+msgstr "Nếu bạn <b>bỏ qua một quân chờ ù mà người khác đánh ra sau khi bạn báo Riichi</b>, bạn sẽ bị furiten cho đến hết ván chơi."
+
+# ——— A FEW COMBINATIONS / « CLOSED » YAKUS ———
+
+msgid "A few combinations / « closed » yakus"
+msgstr "Một số mẫu bài / yaku kín"
+
+msgid "All Concealed Self Draw"
+msgstr "Bất Cầu Nhần"
+
+msgid "Tsumo with a concealed hand (no call during the game)."
+msgstr "Tsumo với một bài hoàn toàn kín (không ăn của ai)."
+
+msgid "Pinfu"
+msgstr "Linh Phu"
+
+msgid "Concealed hand, 4 Sequences and 1 valueless Pair, double waiting."
+msgstr "Bài kín, có sẵn 1 Đôi không có giá trị và 4 Phu hiện chờ 2 quân ù."
+
+msgid "Pure Double Sequence"
+msgstr "Ba Đôi Thông"
+
+msgid "Concealed hand with 2 identical Sequences in the same suit."
+msgstr "Bài kín có 2 Phu đồng chất giống hệt nhau."
+
+msgid "Seven Pairs"
+msgstr "Bảy Đôi"
+
+msgid "Doubles pairs are not allowed."
+msgstr "Không được phép có 2 đôi giống nhau."
+
+msgid "Some Yakus seen previously are worth <b>1 extra han</b> if done with a <b>concealed hand</b>:"
+msgstr "Một số yaku đã thấy trước đó được<br>thêm <b>1 han nữa</b> nếu <b>bài kín</b>:"
+
+# ——— CREDITS ———
+
+msgid "Credits"
+msgstr "Phụ chú"
+
+msgid "Based on EMA RCR 2025 rules (simplified)"
+msgstr "Dựa theo luật EMA RCR năm 2025 (đã giản hóa)"
+
+msgid "Creation:"
+msgstr "Nội dung:"
+
+msgid "Translation:"
+msgstr "Phiên Dịch:"

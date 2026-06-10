@@ -1,0 +1,372 @@
+#
+# Riichi Initiation Sheet
+#
+
+# ——— HOW TO USE THIS FILE ———
+# To create a new translation:
+#   1. Copy this template to i18n/<lang>/initiation.po  (e.g. i18n/fr/initiation.po)
+#   2. Please note that the file extension must be changed from POT, to PO
+#   3. Fill in each "msgstr"
+#      - Texts are in the same order you’ll find them on the sheet, this will help you to get context
+#      - Do not change "msgid" values under any circumstance
+#      - Pay close attention to respect HTML tags, punctuation, case and spaces (while adapting them for your language)
+#      - Try to get translations with a length close from the original text
+#      - Feel free to use inclusive/neutral language if you want, this is a small effort and will be warmly welcomed
+#      - If they exist, please rely as much as possible on "official translations" provided by recognized organization
+#
+
+# ——— DO NOT TOUCH THE FOLLOWING LINES ———
+msgid ""
+msgstr ""
+"Project-Id-Version: initiation 2.0\n"
+"Last-Translator: Chipset\n"
+"Language: pl\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# ——— YOU CAN START EDITING HERE ———
+# ——— TILES ———
+
+msgid "Tiles"
+msgstr "Kamienie"
+
+msgid "Suits"
+msgstr "Rodziny"
+
+msgid "Characters"
+msgstr "Znaki"
+
+msgid "Circles"
+msgstr "Kółka"
+
+msgid "Bamboos"
+msgstr "Bambusy"
+
+msgid "terminal"
+msgstr "skrajny"
+
+msgid "simples"
+msgstr "zwykłe"
+
+msgid "Honors"
+msgstr "Specjalne"
+
+msgid "Winds"
+msgstr "Wiatry"
+
+msgid "East"
+msgstr "Wschód"
+
+msgid "South"
+msgstr "Południe"
+
+msgid "West"
+msgstr "Zachód"
+
+msgid "North"
+msgstr "Północ"
+
+msgid "Dragons"
+msgstr "Smoki"
+
+msgid "White"
+msgstr "Biały"
+
+msgid "Green"
+msgstr "Zielony"
+
+msgid "Red"
+msgstr "Czerwony"
+
+msgid "Round Wind"
+msgstr "Wiatr Rundy"
+
+msgid "1st = East"
+msgstr "1⁻ˢᶻʸ : Wschód"
+
+msgid "2nd = South"
+msgstr "2⁻ᵍⁱ : Południe"
+
+msgid "Player's Seat Wind"
+msgstr "Wiatr Gracza"
+
+msgid "1 player<br>= 1 Wind"
+msgstr "1 gracz<br>= 1 wiatr"
+
+# ——— BASIC ELEMENTS ———
+
+msgid "Basic elements"
+msgstr "Podstawowe grupy"
+
+msgid "Sequence"
+msgstr "Sekwencja"
+
+msgid "Run of 3 tiles from the same suit"
+msgstr "Sekwencja 3 płytek w tej samej rodzinie"
+
+msgid "On the previous player"
+msgstr "Od poprzedniego gracza"
+
+msgid "Triplet"
+msgstr "Trójka"
+
+msgid "Set of 3 identical tiles"
+msgstr "3 identyczne kamienie"
+
+msgid "On anybody"
+msgstr "Od każdego"
+
+msgid "Quad"
+msgstr "Czwórka"
+
+msgid "Set of 4 identical tiles"
+msgstr "4 identyczne kamienie"
+
+msgid "Pair"
+msgstr "Para"
+
+msgid "Set of 2 identical tiles"
+msgstr "2 identyczne kamienie"
+
+# ——— HOW TO WIN? ———
+
+msgid "How to win?"
+msgstr "Jak wygrać?"
+
+msgid "Winning hand"
+msgstr "Kompletny układ"
+
+msgid "Have a hand made up of<br><b>4 basics elements</b> and <b>1 pair</b>"
+msgstr "Zbierz rękę składającą się z<br><b>4 podstawowych grup</b> i <b>1 pary</b>"
+
+msgid "With at least one valid combination"
+msgstr "Wraz z przynajmniej jednym układem"
+
+msgid "See the yakus below"
+msgstr "Patrz na yaku poniżej"
+
+msgid "4 elements"
+msgstr "4 podstawowe grupy"
+
+msgid "1 pair"
+msgstr "1 para"
+
+msgctxt "how-to-win"
+msgid "Value Triplet"
+msgstr "Wartościowa Trójka"
+
+msgid "Tsumo"
+msgstr "Tsumo"
+
+msgid "By drawing the<br>last tile yourself"
+msgstr "Dobierając samodzielnie<br>ostatni kamień"
+
+msgid "Or"
+msgstr "Lub"
+
+msgid "Ron"
+msgstr "Ron"
+
+msgid "By taking the tile<br>discarded by a player"
+msgstr "Zabierając kamień<br>odrzucony przez gracza"
+
+# ——— A FEW COMBINATIONS / « OPEN » YAKUS ———
+
+msgid "A few combinations / « open » yakus"
+msgstr "Kilka układów / « otwarte » yaku"
+
+msgid "simplified rules"
+msgstr "uproszczone zasady"
+
+msgid "All Simples"
+msgstr "Same Zwykłe"
+
+msgid "Hand without Terminals (1 or 9) or Honors."
+msgstr "Ręka bez kamieni skrajnych (1 lub 9) i specjalnych."
+
+msgid "Terminals and Honors Everywhere"
+msgstr "Zewnętrzna Ręka"
+
+msgid "A terminal (1 or 9) or an honor in every element."
+msgstr "Wszystkie grupy zawierają kamień skrajny (1 lub 9) lub specjalny."
+
+msgid "Three Colored Sequences"
+msgstr "Sekwencje w Trzech Kolorach"
+
+msgid "The same Sequence in all three suits."
+msgstr "Trzy takie same sekwensy w każdej z rodzin."
+
+msgid "Pure Straight"
+msgstr "Czysty Strit"
+
+msgid "123, 456 and 789 in the same suit."
+msgstr "123, 456 i 789 w tej samej rozinie"
+
+msgctxt "open-yakus"
+msgid "Value Triplet"
+msgstr "Wartościowa Trójka"
+
+msgid "Dragon, Player's Seat Wind or Round Wind Triplet."
+msgstr "Trójka Smoków, Wiatrów Gracza lub Wiatrów Rundy."
+
+msgid "All Triplets"
+msgstr "Same Trójki"
+
+msgid "Only Triplets (Pon) and Quads (Kan), plus the Pair."
+msgstr "Tylko Trójki (Pon) i Czwórki (Kan), plus para."
+
+msgid "Half Flush"
+msgstr "Pół Kolor"
+
+msgid "Only tiles from a single suit and Honors."
+msgstr "Tylko kamienie z tej samej rodziny i specjalne."
+
+msgid "Flush"
+msgstr "Kolor"
+
+msgid "Only tiles from a single suit."
+msgstr "Tylko kamienie z tej samej rodziny."
+
+# ——— DORAS ———
+
+msgid "Doras"
+msgstr "Dory"
+
+msgid "The dead wall"
+msgstr "Martwy mur"
+
+msgid "These 14 tiles are not drawn during the game, except to provide replacement tiles during Kans."
+msgstr "Te 14 kamieni nie jest dobieranych w trakcie gry, z wyjątkiem zapewnienia kamieni zastępczych podczas Kan."
+
+msgid "Know the dora"
+msgstr "Poznaj dorę"
+
+msgid "The dora is the tile immediately following the indicator, Honors have a defined order."
+msgstr "Dora to kamień następujący bezpośrednio po wskaźniku; kamienie specjalne mają określoną kolejność."
+
+msgid "dora indicator"
+msgstr "wskaźnik dora"
+
+msgid "uradora indicator"
+msgstr "wskaźnik uradora"
+
+msgid "dora"
+msgstr "dora"
+
+msgid "1 bonus han"
+msgstr "1 dodatkowy han"
+
+msgid "per dora tile"
+msgstr "za kamień dory"
+
+msgid "Other indicators can be revealed under certain conditions (Kan, Riichi)"
+msgstr "Inne wskaźniki mogą zostać ujawnione<br>pod pewnymi warunkami (Kan, Riichi)"
+
+# ——— RIICHI ———
+
+msgctxt "title"
+msgid "Riichi"
+msgstr "Riichi"
+
+msgctxt "subtitle"
+msgid "Riichi"
+msgstr "Riichi"
+
+msgid "Have a concealed hand<br>waiting one last tile to win"
+msgstr "Miej ukrytą rękę czekającą<br>na ostatni kamień."
+
+msgid "Clearly announce « Riichi »"
+msgstr "Wyraźnie ogłoś « Riichi »"
+
+msgid "Tilt your discard tile to indicate<br>when the Riichi took place"
+msgstr "Obróć swój odrzucony kamień,<br>aby wskazać, kiedy nastąpiło Riichi"
+
+msgid "Bet 1000 points"
+msgstr "Zastaw 1000 punktów"
+
+msgid "Riichi is a <b>1 han yaku</b> which can be used alone, or combined with other yakus"
+msgstr "Riichi to <b>1 han yaku</b>, może być wykonane samodzielnie lub w połączeniu z innymi yaku."
+
+msgid "In case of victory in the first uninterrupted turn following the Riichi, <b>+1 han (Ippatsu)</b>"
+msgstr "W przypadku zwycięstwa w pierwszej nieprzerwanej turze po Riichi, <b>+1 han (Ippatsu)</b>."
+
+msgid "In the event of a victory, <b>uradora indicators are revealed</b>, which can bring bonus han"
+msgstr "Im Siegesfall werden <b>weitere Uradora-Anzeiger enthüllt</b>, was weitere Boni einbringen kann."
+
+msgid "Once you have announced a Riichi, <b>you can no longer change your hand</b>"
+msgstr "Po ogłoszeniu Riichi,<br><b>nie możesz już zmienić ręki</b>."
+
+# ——— FURITEN ———
+
+msgid "Furiten"
+msgstr "Furiten"
+
+msgid "Impossible ron"
+msgstr "Niemożliwy ron"
+
+msgid "Furiten is a rule that prohibits you from winning on the discard of opponents (Ron) in 3 different situations:"
+msgstr "Furiten to zasada, która zabrania wygrywania na odrzuconym kamieniu przeciwników (Ron) w 3 różnych sytuacjach:"
+
+msgid "Own discard"
+msgstr "Własne odrzucenie"
+
+msgid "If you have <b>already discarded any tile that could complete your hand</b>, you remain furiten until you change your waiting tile(s)."
+msgstr "Jeśli <b>odrzuciłeś już kamień, który mógłby uzupełnić twoją rękę</b>, pozostajesz furiten, dopóki nie zmienisz oczekującego kamienia/i."
+
+msgid "Other discards"
+msgstr "Inne odrzucenia"
+
+msgid "If you <b>let pass a tile that can complete your hand</b>, you remain furiten until your next draw, or until your next call."
+msgstr "Jeśli <b>przepuścisz kamień, który może uzupełnić twoją rękę</b>, pozostaniesz furiten do następnego dobrania lub do następnego zameldowania."
+
+msgid "After a Riichi"
+msgstr "Po riichi"
+
+msgid "If you <b>let pass a tile that can complete your hand once you have announced a Riichi</b>, you remain furiten until the end of the game."
+msgstr "Jeśli <b>po ogłoszeniu Riichi przepuścisz kamień, który może uzupełnić twoją rękę</b>, pozostaniesz furiten do końca gry."
+
+# ——— A FEW COMBINATIONS / « CLOSED » YAKUS ———
+
+msgid "A few combinations / « closed » yakus"
+msgstr "Kilka układów / « zamknięte » yaku"
+
+msgid "All Concealed Self Draw"
+msgstr "W Pełni Ukryta Ręka"
+
+msgid "Tsumo with a concealed hand (no call during the game)."
+msgstr "Tsumo z ukrytą ręką (brak meldowwań podczas gry)."
+
+msgid "Pinfu"
+msgstr "Pinfu"
+
+msgid "Concealed hand, 4 Sequences and 1 valueless Pair, double waiting."
+msgstr "Ukryta ręka, 4 sekwencje i 1 bezwartościowa para, podwójne oczekiwanie."
+
+msgid "Pure Double Sequence"
+msgstr "Dwie Sekwencje w Jednym Kolorze"
+
+msgid "Concealed hand with 2 identical Sequences in the same suit."
+msgstr "Ukryta ręka z 2 identycznymi sekwencjami z tej samej rodziny."
+
+msgid "Seven Pairs"
+msgstr "Siedem Par"
+
+msgid "Doubles pairs are not allowed."
+msgstr "Pary nie mogą się powtarzać."
+
+msgid "Some Yakus seen previously are worth <b>1 extra han</b> if done with a <b>concealed hand</b>:"
+msgstr "Niektóre widziane wcześniej Yaku są warte <b>1 dodatkowego hana</b>, jeśli zostaną wykonane z <b>ukrytą ręką</b>:"
+
+# ——— CREDITS ———
+
+msgid "Credits"
+msgstr "Uznania"
+
+msgid "Based on EMA RCR 2025 rules (simplified)"
+msgstr "W oparciu o zasady EMA RCR 2025"
+
+msgid "Creation:"
+msgstr "Tworzenie:"
+
+msgid "Translation:"
+msgstr "Tłumaczenie:"

@@ -1,0 +1,339 @@
+#
+# Riichi Score Sheet
+#
+
+# ——— HOW TO USE THIS FILE ———
+# To create a new translation:
+#   1. Copy this template to i18n/<lang>/score.po  (e.g. i18n/fr/score.po)
+#   2. Please note that the file extension must be changed from POT, to PO
+#   3. Fill in each "msgstr"
+#      - Texts are in the same order you’ll find them on the sheet, this will help you to get context
+#      - Do not change "msgid" values under any circumstance
+#      - Pay close attention to respect HTML tags, punctuation, case and spaces (while adapting them for your language)
+#      - Try to get translations with a length close from the original text
+#      - Feel free to use inclusive/neutral language if you want, this is a small effort and will be warmly welcomed
+#      - If they exist, please rely as much as possible on "official translations" provided by recognized organization
+#
+
+# ——— DO NOT TOUCH THE FOLLOWING LINES ———
+msgid ""
+msgstr ""
+"Project-Id-Version: score 2.0\n"
+"Last-Translator: zessx\n"
+"Language: es\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# ——— YOU CAN START EDITING HERE ———
+# ——— HAN ———
+
+msgid "Han"
+msgstr "Han"
+
+# ——— TERMINALS / HONORS ———
+
+msgid "Terminals / Honors"
+msgstr "Terminales / Honores"
+
+msgid "All Simples"
+msgstr "Todo Ordinario"
+
+msgid "Value Triplet"
+msgstr "Trío de Valor"
+
+msgid "Small Three Dragons"
+msgstr "Tres Pequeños Dragones"
+
+msgid "Big Three Dragons"
+msgstr "Tres Grandes Dragones"
+
+msgid "Little Four Winds"
+msgstr "Cuatro Pequeños Vientos"
+
+msgid "Big Four Winds"
+msgstr "Cuatro Grandes Vientos"
+
+msgid "Terminals and Honors Everywhere"
+msgstr "Terminales u Honores en Todos"
+
+msgid "Terminals Everywhere"
+msgstr "Terminales en Todos"
+
+msgid "All Terminals and Honors"
+msgstr "Todo Terminales y Honores"
+
+msgid "All Terminals"
+msgstr "Todo Terminales"
+
+msgid "All Honors"
+msgstr "Todo Honores"
+
+msgid "Thirteen Orphans"
+msgstr "Trece Huérfanos"
+
+# ——— PAIRS / TRIPLETS / QUADS ———
+
+msgid "Pairs / Triplets / Quads"
+msgstr "Parejas / Tríos / Pokeres"
+
+msgid "Seven Pairs"
+msgstr "Siete Parejas"
+
+msgid "All Triplets"
+msgstr "Solo Tríos"
+
+msgid "Three Concealed Triplets"
+msgstr "Tres Tríos Ocultos"
+
+msgid "Four Concealed Triplets"
+msgstr "Cuatro Tríos Ocultos"
+
+msgid "Three Colored Triplets"
+msgstr "Tríos Tricolores"
+
+msgid "Three Quads"
+msgstr "Tres Pokeres"
+
+msgid "Four Quads"
+msgstr "Cuatro Pokeres"
+
+# ——— DORA ———
+
+msgid "Dora"
+msgstr "Dora"
+
+# ——— SEQUENCES ———
+
+msgid "Sequences"
+msgstr "Sequencias"
+
+msgid "Pure Double Sequence"
+msgstr "Doble Secuencia Pura"
+
+msgid "Two Pure Double Sequences"
+msgstr "Dos Veces Doble Secuencia Pura"
+
+msgid "Pinfu"
+msgstr "Pinfu"
+
+msgid "Three Colored Sequences"
+msgstr "Secuencia Triple"
+
+msgid "Pure Straight"
+msgstr "Gran Secuencia Pura"
+
+# ——— SUITS ———
+
+msgid "Suits"
+msgstr "Clases"
+
+msgid "Half Flush"
+msgstr "Semi Color"
+
+msgid "Flush"
+msgstr "Color"
+
+msgid "All Green"
+msgstr "Todo Verdes"
+
+msgid "Nine Gates"
+msgstr "Nueve Puertas"
+
+# ——— OTHER ———
+
+msgctxt "yakus"
+msgid "Other"
+msgstr "Otros"
+
+msgid "Riichi"
+msgstr "Riichi"
+
+msgid "Double Riichi"
+msgstr "Doble Riichi"
+
+msgid "Ippatsu"
+msgstr "Ippatsu"
+
+msgid "All Concealed Self Draw"
+msgstr "Robar con Mano Oculta"
+
+msgid "Under the Sea"
+msgstr "Bajo el Mar"
+
+msgid "Under the River"
+msgstr "Bajo el Río"
+
+msgid "Dead Wall Draw"
+msgstr "Tras Poker"
+
+msgid "Robbing a Quad"
+msgstr "Robar el Poker"
+
+msgid "Heavenly Hand"
+msgstr "Bendición del Cielo"
+
+msgid "Earthly Hand"
+msgstr "Bendición de la Tierra"
+
+msgid "Hand of Man"
+msgstr "Bendición del Hombre"
+
+# ——— FU ———
+
+msgid "Fu"
+msgstr "Fu"
+
+msgid "Or"
+msgstr "O"
+
+msgid "Base"
+msgstr "Base"
+
+msgid "Pon"
+msgstr "Pon"
+
+msgid "Simples"
+msgstr "Ordinarias"
+
+msgid "Term. / Hon."
+msgstr "Term. / Hon."
+
+msgid "Kan"
+msgstr "Kan"
+
+msgid "Closed Ron"
+msgstr "Ron Cerrado"
+
+msgid "Open Pinfu"
+msgstr "Pinfu Abierto"
+
+msgctxt "fu"
+msgid "Tsumo"
+msgstr "Tsumo"
+
+msgid "(/wo pinfu)"
+msgstr "(sin pinfu)"
+
+msgid "Single wait"
+msgstr "Espera única"
+
+msgid "Value pair"
+msgstr "Pareja de valor"
+
+msgid "Not cumulative."
+msgstr "No acumulativo."
+
+msgid "Total"
+msgstr "Total"
+
+msgid "Rounded up to the nearest ten."
+msgstr "Redondeado hacia arriba hacia el siguiente decena."
+
+# ——— HONBA ———
+
+msgid "Honba"
+msgstr "Honba"
+
+msgid "For each counter:"
+msgstr "Para cada contador :"
+
+msgctxt "honba"
+msgid "Ron"
+msgstr "Ron"
+
+msgctxt "honba"
+msgid "Tsumo"
+msgstr "Tsumo"
+
+msgid "pts"
+msgstr "pts"
+
+msgid "If East wins the hand,"
+msgstr "Si Este gana la mano,"
+
+msgid "he remains the East player and another counter is added."
+msgstr "sigue siendo el jugadore Este y se agrega uno contador."
+
+msgid "If another player wins the hand,"
+msgstr "Si otre jugadore gana la mano,"
+
+msgid "the East player rotates and all counters are removed."
+msgstr "el jugadore del Este rota y se eliminan todos los contadores."
+
+# ——— TENPAI / NOTEN ———
+
+msgid "Tenpai / Noten"
+msgstr "Tenpai / Noten"
+
+msgid "0 or 4 players tenpai"
+msgstr "0 o 4 jugadore tenpai"
+
+msgid "No points exchanged."
+msgstr "No intercambio."
+
+msgid "1 player tenpai"
+msgstr "1 jugadore tenpai"
+
+msgid "2 players tenpai"
+msgstr "2 jugadores tenpai"
+
+msgid "3 players tenpai"
+msgstr "3 jugadores tenpai"
+
+msgid "A counter is added."
+msgstr "Se agrega uno contador."
+
+msgid "If East is tenpai,"
+msgstr "Si Este es tenpai,"
+
+msgid "he remains the East player."
+msgstr "sigue siendo el jugadore Este."
+
+# ——— POINTS ———
+
+msgid "Points"
+msgstr "Puntos"
+
+msgctxt "points"
+msgid "Other"
+msgstr "Otro"
+
+msgid "East"
+msgstr "Este"
+
+msgctxt "points"
+msgid "Ron"
+msgstr "Ron"
+
+msgctxt "points"
+msgid "Tsumo"
+msgstr "Tsumo"
+
+msgid "Mangan"
+msgstr "Mangan"
+
+msgid "Haneman"
+msgstr "Haneman"
+
+msgid "Baiman"
+msgstr "Baiman"
+
+msgid "Sanbaiman"
+msgstr "Sanbaiman"
+
+msgid "Yakuman"
+msgstr "Yakuman"
+
+# ——— CREDITS ———
+
+msgid "Credits"
+msgstr "Créditos"
+
+msgid "Based on EMA RCR 2025 rules"
+msgstr "Basado en las reglas EMA RCR 2025"
+
+msgid "Creation:"
+msgstr "Creación :"
+
+msgid "Translation:"
+msgstr "Traducción :"

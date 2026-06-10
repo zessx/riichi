@@ -1,0 +1,372 @@
+#
+# Riichi Initiation Sheet
+#
+
+# ——— HOW TO USE THIS FILE ———
+# To create a new translation:
+#   1. Copy this template to i18n/<lang>/initiation.po  (e.g. i18n/fr/initiation.po)
+#   2. Please note that the file extension must be changed from POT, to PO
+#   3. Fill in each "msgstr"
+#      - Texts are in the same order you’ll find them on the sheet, this will help you to get context
+#      - Do not change "msgid" values under any circumstance
+#      - Pay close attention to respect HTML tags, punctuation, case and spaces (while adapting them for your language)
+#      - Try to get translations with a length close from the original text
+#      - Feel free to use inclusive/neutral language if you want, this is a small effort and will be warmly welcomed
+#      - If they exist, please rely as much as possible on "official translations" provided by recognized organization
+#
+
+# ——— DO NOT TOUCH THE FOLLOWING LINES ———
+msgid ""
+msgstr ""
+"Project-Id-Version: initiation 2.0\n"
+"Last-Translator: zessx\n"
+"Language: fr\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# ——— YOU CAN START EDITING HERE ———
+# ——— TILES ———
+
+msgid "Tiles"
+msgstr "Tuiles"
+
+msgid "Suits"
+msgstr "Les familles"
+
+msgid "Characters"
+msgstr "Caractères"
+
+msgid "Circles"
+msgstr "Ronds"
+
+msgid "Bamboos"
+msgstr "Bambous"
+
+msgid "terminal"
+msgstr "terminale"
+
+msgid "simples"
+msgstr "ordinaire"
+
+msgid "Honors"
+msgstr "Les honneurs"
+
+msgid "Winds"
+msgstr "Vents"
+
+msgid "East"
+msgstr "Est"
+
+msgid "South"
+msgstr "Sud"
+
+msgid "West"
+msgstr "Ouest"
+
+msgid "North"
+msgstr "Nord"
+
+msgid "Dragons"
+msgstr "Dragons"
+
+msgid "White"
+msgstr "Blanc"
+
+msgid "Green"
+msgstr "Vert"
+
+msgid "Red"
+msgstr "Rouge"
+
+msgid "Round Wind"
+msgstr "Vent de la Partie"
+
+msgid "1st = East"
+msgstr "1ᵉ tour = Est"
+
+msgid "2nd = South"
+msgstr "2ᵉ tour = Sud"
+
+msgid "Player's Seat Wind"
+msgstr "Vent de Joueur·se"
+
+msgid "1 player<br>= 1 Wind"
+msgstr "1 joueur·se<br>= 1 vent"
+
+# ——— BASIC ELEMENTS ———
+
+msgid "Basic elements"
+msgstr "Les éléments de base"
+
+msgid "Sequence"
+msgstr "Suite"
+
+msgid "Run of 3 tiles from the same suit"
+msgstr "Suite de 3 tuiles de la même famille"
+
+msgid "On the previous player"
+msgstr "Sur joueur·se précédent·e"
+
+msgid "Triplet"
+msgstr "Brelan"
+
+msgid "Set of 3 identical tiles"
+msgstr "3 tuiles identiques"
+
+msgid "On anybody"
+msgstr "Sur tout le monde"
+
+msgid "Quad"
+msgstr "Carré"
+
+msgid "Set of 4 identical tiles"
+msgstr "4 tuiles identiques"
+
+msgid "Pair"
+msgstr "Paire"
+
+msgid "Set of 2 identical tiles"
+msgstr "2 tuiles identiques"
+
+# ——— HOW TO WIN? ———
+
+msgid "How to win?"
+msgstr "Comment gagner ?"
+
+msgid "Winning hand"
+msgstr "Main gagnante"
+
+msgid "Have a hand made up of<br><b>4 basics elements</b> and <b>1 pair</b>"
+msgstr "Avoir une main composée de<br><b>4 éléments de base</b> et <b>1 paire</b>"
+
+msgid "With at least one valid combination"
+msgstr "Avec au moins une combinaison valide"
+
+msgid "See the yakus below"
+msgstr "Voir les yakus ci-dessous"
+
+msgid "4 elements"
+msgstr "4 éléments"
+
+msgid "1 pair"
+msgstr "1 paire"
+
+msgctxt "how-to-win"
+msgid "Value Triplet"
+msgstr "Brelan de Valeur"
+
+msgid "Tsumo"
+msgstr "Tsumo"
+
+msgid "By drawing the<br>last tile yourself"
+msgstr "En piochant soi-même<br>la dernière tuile"
+
+msgid "Or"
+msgstr "Ou"
+
+msgid "Ron"
+msgstr "Ron"
+
+msgid "By taking the tile<br>discarded by a player"
+msgstr "En prenant la tuile<br>défaussée par un·e joueur·se"
+
+# ——— A FEW COMBINATIONS / « OPEN » YAKUS ———
+
+msgid "A few combinations / « open » yakus"
+msgstr "Quelques combinaisons / yakus « ouverts »"
+
+msgid "simplified rules"
+msgstr "règles simplifiées"
+
+msgid "All Simples"
+msgstr "Tout Ordinaire"
+
+msgid "Hand without Terminals (1 or 9) or Honors."
+msgstr "Main sans Terminales (1 ou 9) ni Honneurs."
+
+msgid "Terminals and Honors Everywhere"
+msgstr "Terminales et Honneurs Partout"
+
+msgid "A terminal (1 or 9) or an honor in every element."
+msgstr "Une Terminale (1 ou 9) ou un Honneur dans chaque élément."
+
+msgid "Three Colored Sequences"
+msgstr "Triple Suite"
+
+msgid "The same Sequence in all three suits."
+msgstr "La même Suite dans les trois familles différentes."
+
+msgid "Pure Straight"
+msgstr "Grande Suite Pure"
+
+msgid "123, 456 and 789 in the same suit."
+msgstr "123, 456 et 789 dans la même famille."
+
+msgctxt "open-yakus"
+msgid "Value Triplet"
+msgstr "Brelan de Valeur"
+
+msgid "Dragon, Player's Seat Wind or Round Wind Triplet."
+msgstr "Brelan de Dragon, de Vent de Joueur·se ou de Vent de la Partie."
+
+msgid "All Triplets"
+msgstr "Tout Brelans"
+
+msgid "Only Triplets (Pon) and Quads (Kan), plus the Pair."
+msgstr "Uniquement des Brelans (Pon) ou des Carrés (Kan), et la Paire."
+
+msgid "Half Flush"
+msgstr "Semi-Pure"
+
+msgid "Only tiles from a single suit and Honors."
+msgstr "Uniquement des tuiles de la même famille et des Honneurs."
+
+msgid "Flush"
+msgstr "Main Pure"
+
+msgid "Only tiles from a single suit."
+msgstr "Uniquement des tuiles de la même famille."
+
+# ——— DORAS ———
+
+msgid "Doras"
+msgstr "Les Doras"
+
+msgid "The dead wall"
+msgstr "Le mur mort"
+
+msgid "These 14 tiles are not drawn during the game, except to provide replacement tiles during Kans."
+msgstr "Ces 14 tuiles ne sont pas piochées durant le jeu, excepté pour fournir des tuiles de remplacement lors des Kans."
+
+msgid "Know the dora"
+msgstr "Connaître la dora"
+
+msgid "The dora is the tile immediately following the indicator, Honors have a defined order."
+msgstr "La dora est la tuile qui suit immédiatement l’indicateur, les Honneurs ont un ordre défini."
+
+msgid "dora indicator"
+msgstr "indicateur de dora"
+
+msgid "uradora indicator"
+msgstr "indicateur d'uradora"
+
+msgid "dora"
+msgstr "dora"
+
+msgid "1 bonus han"
+msgstr "1 han bonus"
+
+msgid "per dora tile"
+msgstr "par tuile dora"
+
+msgid "Other indicators can be revealed under certain conditions (Kan, Riichi)"
+msgstr "D’autres indicateurs peuvent être révélés sous certaines conditions (Kan, Riichi)"
+
+# ——— RIICHI ———
+
+msgctxt "title"
+msgid "Riichi"
+msgstr "Le Riichi"
+
+msgctxt "subtitle"
+msgid "Riichi"
+msgstr "Riichi"
+
+msgid "Have a concealed hand<br>waiting one last tile to win"
+msgstr "Avoir une main cachée en attente <br>d’une dernière tuile pour gagner"
+
+msgid "Clearly announce « Riichi »"
+msgstr "Annoncer clairement « Riichi »"
+
+msgid "Tilt your discard tile to indicate<br>when the Riichi took place"
+msgstr "Pencher sa tuile de défausse pour<br>indiquer quand le Riichi a eu lieu"
+
+msgid "Bet 1000 points"
+msgstr "Miser 1000 points "
+
+msgid "Riichi is a <b>1 han yaku</b> which can be used alone, or combined with other yakus"
+msgstr "Le Riichi est un <b>yaku à 1 han</b>, il peut être réalisé seul, ou en combinaison avec d’autres yakus"
+
+msgid "In case of victory in the first uninterrupted turn following the Riichi, <b>+1 han (Ippatsu)</b>"
+msgstr "En cas de victoire dans le premier tour ininterrompu suivant le Riichi, <b>+1 han (Ippatsu)</b>"
+
+msgid "In the event of a victory, <b>uradora indicators are revealed</b>, which can bring bonus han"
+msgstr "En cas de victoire, <b>on révèle les indicateurs d’uradora</b>, qui peuvent rapporter des han bonus"
+
+msgid "Once you have announced a Riichi, <b>you can no longer change your hand</b>"
+msgstr "Une fois un Riichi annoncé, il n'est <b>plus possible de changer sa main</b>"
+
+# ——— FURITEN ———
+
+msgid "Furiten"
+msgstr "Le Furiten"
+
+msgid "Impossible ron"
+msgstr "Ron impossible"
+
+msgid "Furiten is a rule that prohibits you from winning on the discard of opponents (Ron) in 3 different situations:"
+msgstr "Le furiten est une règle qui nous interdit de gagner sur la défausse des adversaires (Ron) dans 3 situations différentes :"
+
+msgid "Own discard"
+msgstr "Sa défausse"
+
+msgid "If you have <b>already discarded any tile that could complete your hand</b>, you remain furiten until you change your waiting tile(s)."
+msgstr "Si on a <b>déjà défaussé n’importe quelle tuile pouvant compléter notre main</b>, on reste furiten jusqu’à ce qu’on change notre ou nos attentes."
+
+msgid "Other discards"
+msgstr "Autres défausses"
+
+msgid "If you <b>let pass a tile that can complete your hand</b>, you remain furiten until your next draw, or until your next call."
+msgstr "Si on <b>laisse passer une tuile pouvant compléter notre main</b>, on reste furiten jusqu’à notre prochaine pioche, ou jusqu’à notre prochain appel."
+
+msgid "After a Riichi"
+msgstr "Après un riichi"
+
+msgid "If you <b>let pass a tile that can complete your hand once you have announced a Riichi</b>, you remain furiten until the end of the game."
+msgstr "Si on <b>laisse passer une tuile pouvant compléter notre main après avoir annoncé Riichi</b>, on reste furiten jusqu’à la fin de la partie."
+
+# ——— A FEW COMBINATIONS / « CLOSED » YAKUS ———
+
+msgid "A few combinations / « closed » yakus"
+msgstr "Quelques combinaisons / yakus « fermés »"
+
+msgid "All Concealed Self Draw"
+msgstr "Tout Caché Tiré"
+
+msgid "Tsumo with a concealed hand (no call during the game)."
+msgstr "Tsumo avec une main cachée (aucun appel durant la partie)."
+
+msgid "Pinfu"
+msgstr "Pinfu"
+
+msgid "Concealed hand, 4 Sequences and 1 valueless Pair, double waiting."
+msgstr "Main cachée avec 4 Suites et 1 Paire sans valeur, en double attente."
+
+msgid "Pure Double Sequence"
+msgstr "Double Suite Pure"
+
+msgid "Concealed hand with 2 identical Sequences in the same suit."
+msgstr "Main cachée avec deux Suites identiques dans la même famille."
+
+msgid "Seven Pairs"
+msgstr "Sept Paires"
+
+msgid "Doubles pairs are not allowed."
+msgstr "Les doubles Paires ne sont pas autorisées."
+
+msgid "Some Yakus seen previously are worth <b>1 extra han</b> if done with a <b>concealed hand</b>:"
+msgstr "Certains Yakus vus précédemment valent <b>1 han supplémentaire</b> avec une <b>main cachée</b> :"
+
+# ——— CREDITS ———
+
+msgid "Credits"
+msgstr "Crédits"
+
+msgid "Based on EMA RCR 2025 rules (simplified)"
+msgstr "Basé sur les règles EMA RCR 2025 (simplifiées)"
+
+msgid "Creation:"
+msgstr "Création :"
+
+msgid "Translation:"
+msgstr "Traduction :"

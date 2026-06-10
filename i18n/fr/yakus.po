@@ -1,0 +1,244 @@
+#
+# Riichi Yaku Sheet
+#
+
+# ——— HOW TO USE THIS FILE ———
+# To create a new translation:
+#   1. Copy this template to i18n/<lang>/yakus.po  (e.g. i18n/fr/yakus.po)
+#   2. Please note that the file extension must be changed from POT, to PO
+#   3. Fill in each "msgstr"
+#      - Texts are in the same order you’ll find them on the sheet, this will help you to get context
+#      - Do not change "msgid" values under any circumstance
+#      - Pay close attention to respect HTML tags, punctuation, case and spaces (while adapting them for your language)
+#      - Try to get translations with a length close from the original text
+#      - Feel free to use inclusive/neutral language if you want, this is a small effort and will be warmly welcomed
+#      - If they exist, please rely as much as possible on "official translations" provided by recognized organization
+#
+
+# ——— DO NOT TOUCH THE FOLLOWING LINES ———
+msgid ""
+msgstr ""
+"Project-Id-Version: yakus 2.0\n"
+"Last-Translator: zessx\n"
+"Language: fr\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# ——— YOU CAN START EDITING HERE ———
+# ——— YAKUS BASED ON SEQUENCES ———
+
+msgid "Yakus based on sequences"
+msgstr "Yakus basés sur des suites"
+
+msgid "Common"
+msgstr "Commun"
+
+msgid "Pure Double Sequence"
+msgstr "Double Suite Pure"
+
+msgid "Two Pure Double Sequences"
+msgstr "Deux Doubles Suites Pures"
+
+msgid "Pinfu"
+msgstr "Pinfu"
+
+msgid "Hand without any fu : 4 Sequences and 1 valueless Pair, with a double wait."
+msgstr "Main sans aucun fu : 4 Suites et 1 Paire sans valeur, en double attente."
+
+msgid "Three Colored Sequences"
+msgstr "Triple Suite"
+
+msgid "Pure Straight"
+msgstr "Grande Suite"
+
+# ——— OTHER YAKUS ———
+
+msgid "Other yakus"
+msgstr "Autrs yakus"
+
+msgid "Riichi"
+msgstr "Riichi"
+
+msgid "Double Riichi"
+msgstr "Double Riichi"
+
+msgid "Riichi announced during the very first uninterrupted round."
+msgstr "Annonce du Riichi durant le tout premier tour ininterrompu."
+
+msgid "Ippatsu"
+msgstr "Ippatsu"
+
+msgid "Win during the first uninterrupted round following the Riichi announcement."
+msgstr "Gagner durant le premier tour ininterrompu suivant lannonce du Riichi."
+
+msgid "All Concealed Self Draw"
+msgstr "Tout Caché Tiré"
+
+msgid "Under the Sea"
+msgstr "Fond de la Mer"
+
+msgid "Win by last draw."
+msgstr "Gagner sur pioche sur la dernière tuile du mur"
+
+msgid "Under the River"
+msgstr "Fond de la Rivière"
+
+msgid "Win by last discard."
+msgstr "Gagner sur écart après la dernière tuile du mur."
+
+msgid "Dead Wall Draw"
+msgstr "Finir sur un Carré"
+
+msgid "Win on a Quad replacement tile."
+msgstr "Gagner sur la tuile de remplacement dun Carré."
+
+msgid "Robbing a Quad"
+msgstr "Voler un Carré"
+
+msgid "A concealed Quad can only be robbed to win Thirteen Orphans."
+msgstr "Un Carré caché ne peut être volé que pour les Treize Orphelins."
+
+msgid "Heavenly Hand"
+msgstr "Bénédiction du Ciel"
+
+msgid "East player wins on his initial hand."
+msgstr "Le joueur Est gagne sur sa main initiale."
+
+msgid "Earthly Hand"
+msgstr "Bénédiction de la Terre"
+
+msgid "Win on draw during the very first uninterrupted turn."
+msgstr "Gagner sur pioche durant le tout premier tour ininterrompu."
+
+msgid "Hand of Man"
+msgstr "Bénédiction de l'Homme"
+
+msgid "Win on discard during the very first uninterrupted turn, and before the player has had his first turn. No other yaku/dora can be added."
+msgstr "Gagner sur écart durant le tout premier tour ininterrompu, et avant que le joueur ait eu son premier tour. On ne compte aucun autre yaku/dora."
+
+# ——— DORA ———
+
+msgid "Dora"
+msgstr "Dora"
+
+msgid "Uradora"
+msgstr "Uradora"
+
+msgid "Doras are not yakus."
+msgstr "Les doras ne sont pas des yakus."
+
+# ——— YAKUS BASED ON TERMINALS / HONORS ———
+
+msgid "Yakus based on terminals / honors"
+msgstr "Yakus basés sur des terminales / honneurs"
+
+msgid "All Simples"
+msgstr "Tout Ordinaire"
+
+msgid "Hand without Terminals or Honors."
+msgstr "Main sans Terminales ni Honneurs."
+
+msgid "Value Triplet"
+msgstr "Brelan de Valeur"
+
+msgid "Dragon, Player's Seat Wind or Round Wind Triplet."
+msgstr "Brelan de Dragon, du Vent du Joueur ou du Vent de la Partie."
+
+msgid "Small Three Dragons"
+msgstr "Trois Petits Dragons"
+
+msgid "Big Three Dragons"
+msgstr "Trois Grands Dragons"
+
+msgid "Little Four Winds"
+msgstr "Quatre Petits Vents"
+
+msgid "Big Four Winds"
+msgstr "Quatre Grands Vents"
+
+msgid "Terminals and Honors Everywhere"
+msgstr "Terminales et Honneurs Partout"
+
+msgid "Terminals Everywhere"
+msgstr "Terminales Partout"
+
+msgid "All Terminals and Honors"
+msgstr "Tout Terminale et Honneur"
+
+msgid "All Terminals"
+msgstr "Tout Terminale"
+
+msgid "All Honors"
+msgstr "Tout Honneur"
+
+msgid "Thirteen Orphans"
+msgstr "Treize Orphelins"
+
+msgid "A copy of each Terminal and Honor tile,<br>plus one last of your choice among these 13 tiles."
+msgstr "Un exemplaire de chaque tuile Terminale et de chaque tuile d Honneur,<br>plus une dernière au choix parmi ces 13 tuiles."
+
+# ——— YAKUS BASED ON PAIRS / TRIPLETS / QUADS ———
+
+msgid "Yakus based on pairs / triplets / quads"
+msgstr "Yakus basés sur des paires / brelans / carrés"
+
+msgid "Seven Pairs"
+msgstr "Sept Paires"
+
+msgid "Doubles pairs are not allowed."
+msgstr "Les doubles paires ne sont pas autorisées."
+
+msgid "All Triplets"
+msgstr "Tout Brelans"
+
+msgid "Three Concealed Triplets"
+msgstr "Trois Brelans Cachés"
+
+msgid "Four Concealed Triplets"
+msgstr "Quatre Brelans Cachés"
+
+msgid "Three Colored Triplets"
+msgstr "Triple Brelan"
+
+msgid "Three Quads"
+msgstr "Trois Carrés"
+
+msgid "Four Quads"
+msgstr "Quatre Carrés"
+
+# ——— YAKUS BASED ON SUITS ———
+
+msgid "Yakus based on suits"
+msgstr "Yakus basés sur des familles"
+
+msgid "Half Flush"
+msgstr "Semi-Pure"
+
+msgid "A single suit and Honors."
+msgstr "Une seule famille et des Honneurs."
+
+msgid "Flush"
+msgstr "Main Pure"
+
+msgid "All Green"
+msgstr "Main Verte"
+
+msgid "Nine Gates"
+msgstr "Neuf Portes"
+
+msgid "Tiles 1112345678999, plus one last of your choice, in a single suit."
+msgstr "Tuiles 1112345678999, plus une dernière au choix, dans une seule famille."
+
+# ——— CREDITS ———
+
+msgid "Credits"
+msgstr "Crédits"
+
+msgid "Based on EMA RCR 2025 rules"
+msgstr "Basé sur les règles EMA RCR 2025"
+
+msgid "Creation:"
+msgstr "Création :"
+
+msgid "Translation:"
+msgstr "Traduction :"

@@ -1,0 +1,244 @@
+#
+# Riichi Yaku Sheet
+#
+
+# ——— HOW TO USE THIS FILE ———
+# To create a new translation:
+#   1. Copy this template to i18n/<lang>/yakus.po  (e.g. i18n/fr/yakus.po)
+#   2. Please note that the file extension must be changed from POT, to PO
+#   3. Fill in each "msgstr"
+#      - Texts are in the same order you’ll find them on the sheet, this will help you to get context
+#      - Do not change "msgid" values under any circumstance
+#      - Pay close attention to respect HTML tags, punctuation, case and spaces (while adapting them for your language)
+#      - Try to get translations with a length close from the original text
+#      - Feel free to use inclusive/neutral language if you want, this is a small effort and will be warmly welcomed
+#      - If they exist, please rely as much as possible on "official translations" provided by recognized organization
+#
+
+# ——— DO NOT TOUCH THE FOLLOWING LINES ———
+msgid ""
+msgstr ""
+"Project-Id-Version: yakus 0.1-beta\n"
+"Last-Translator: zessx\n"
+"Language: en\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# ——— YOU CAN START EDITING HERE ———
+# ——— YAKUS BASED ON SEQUENCES ———
+
+msgid "Yakus based on sequences"
+msgstr ""
+
+msgid "Common"
+msgstr ""
+
+msgid "Pure Double Sequence"
+msgstr ""
+
+msgid "Two Pure Double Sequences"
+msgstr ""
+
+msgid "Pinfu"
+msgstr ""
+
+msgid "Hand without any fu : 4 Sequences and 1 valueless Pair, with a double wait."
+msgstr ""
+
+msgid "Three Colored Sequences"
+msgstr ""
+
+msgid "Pure Straight"
+msgstr ""
+
+# ——— OTHER YAKUS ———
+
+msgid "Other yakus"
+msgstr ""
+
+msgid "Riichi"
+msgstr ""
+
+msgid "Double Riichi"
+msgstr ""
+
+msgid "Riichi announced during the very first uninterrupted round."
+msgstr ""
+
+msgid "Ippatsu"
+msgstr ""
+
+msgid "Win during the first uninterrupted round following the Riichi announcement."
+msgstr ""
+
+msgid "All Concealed Self Draw"
+msgstr ""
+
+msgid "Under the Sea"
+msgstr ""
+
+msgid "Win by last draw."
+msgstr ""
+
+msgid "Under the River"
+msgstr ""
+
+msgid "Win by last discard."
+msgstr ""
+
+msgid "Dead Wall Draw"
+msgstr ""
+
+msgid "Win on a Quad replacement tile."
+msgstr ""
+
+msgid "Robbing a Quad"
+msgstr ""
+
+msgid "A concealed Quad can only be robbed to win Thirteen Orphans."
+msgstr ""
+
+msgid "Heavenly Hand"
+msgstr ""
+
+msgid "East player wins on his initial hand."
+msgstr ""
+
+msgid "Earthly Hand"
+msgstr ""
+
+msgid "Win on draw during the very first uninterrupted turn."
+msgstr ""
+
+msgid "Hand of Man"
+msgstr ""
+
+msgid "Win on discard during the very first uninterrupted turn, and before the player has had his first turn. No other yaku/dora can be added."
+msgstr ""
+
+# ——— DORA ———
+
+msgid "Dora"
+msgstr ""
+
+msgid "Uradora"
+msgstr ""
+
+msgid "Doras are not yakus."
+msgstr ""
+
+# ——— YAKUS BASED ON TERMINALS / HONORS ———
+
+msgid "Yakus based on terminals / honors"
+msgstr ""
+
+msgid "All Simples"
+msgstr ""
+
+msgid "Hand without Terminals or Honors."
+msgstr ""
+
+msgid "Value Triplet"
+msgstr ""
+
+msgid "Dragon, Player's Seat Wind or Round Wind Triplet."
+msgstr ""
+
+msgid "Small Three Dragons"
+msgstr ""
+
+msgid "Big Three Dragons"
+msgstr ""
+
+msgid "Little Four Winds"
+msgstr ""
+
+msgid "Big Four Winds"
+msgstr ""
+
+msgid "Terminals and Honors Everywhere"
+msgstr ""
+
+msgid "Terminals Everywhere"
+msgstr ""
+
+msgid "All Terminals and Honors"
+msgstr ""
+
+msgid "All Terminals"
+msgstr ""
+
+msgid "All Honors"
+msgstr ""
+
+msgid "Thirteen Orphans"
+msgstr ""
+
+msgid "A copy of each Terminal and Honor tile,<br>plus one last of your choice among these 13 tiles."
+msgstr ""
+
+# ——— YAKUS BASED ON PAIRS / TRIPLETS / QUADS ———
+
+msgid "Yakus based on pairs / triplets / quads"
+msgstr ""
+
+msgid "Seven Pairs"
+msgstr ""
+
+msgid "Doubles pairs are not allowed."
+msgstr ""
+
+msgid "All Triplets"
+msgstr ""
+
+msgid "Three Concealed Triplets"
+msgstr ""
+
+msgid "Four Concealed Triplets"
+msgstr ""
+
+msgid "Three Colored Triplets"
+msgstr ""
+
+msgid "Three Quads"
+msgstr ""
+
+msgid "Four Quads"
+msgstr ""
+
+# ——— YAKUS BASED ON SUITS ———
+
+msgid "Yakus based on suits"
+msgstr ""
+
+msgid "Half Flush"
+msgstr ""
+
+msgid "A single suit and Honors."
+msgstr ""
+
+msgid "Flush"
+msgstr ""
+
+msgid "All Green"
+msgstr ""
+
+msgid "Nine Gates"
+msgstr ""
+
+msgid "Tiles 1112345678999, plus one last of your choice, in a single suit."
+msgstr ""
+
+# ——— CREDITS ———
+
+msgid "Credits"
+msgstr ""
+
+msgid "Based on EMA RCR 2025 rules"
+msgstr ""
+
+msgid "Creation:"
+msgstr ""
+
+msgid "Translation:"
+msgstr ""
