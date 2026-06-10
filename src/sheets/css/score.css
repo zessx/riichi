@@ -155,7 +155,7 @@ section header .yaku-score-box {
   display: flex;
   flex-direction: column;
   padding: 4px;
-  gap: 4px;
+  gap: 3px;
 }
 
 .yaku {
@@ -345,12 +345,14 @@ section.credits header {
 }
 
 section.credits .credits-left {
+  font-size: 6.5px;
   margin-right: auto;
   padding: 4px;
   color: var(--fg-strong);
 }
 
 section.credits .credits-right {
+  font-size: 6.5px;
   text-align: right;
   padding: 4px;
   color: var(--fg-strong);
