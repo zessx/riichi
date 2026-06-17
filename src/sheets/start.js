@@ -14,11 +14,11 @@ console.log('Press Ctrl+C to stop.\n');
 
 const debounceTimers = {};
 
-function rebuild(sheet) {
+function rebuild(sheet, lang = '') {
   const t0 = Date.now();
   try {
     const out = execSync(
-      `node "${buildScript}" --sheet ${sheet} --format html`,
+      `node "${buildScript}" --sheet ${sheet} ${lang ? `--lang ${lang}` : ''} --format html`,
       { cwd: ROOT, encoding: 'utf8' }
     );
     process.stdout.write(out);
@@ -38,7 +38,12 @@ fs.watch(ROOT, { recursive: true }, (_eventType, filename) => {
 
   if ((ext !== '.html' && ext !== '.css' && ext !== '.po') || !KNOWN_SHEETS.includes(sheet)) return;
 
+  let lang = '';
+  if (filename.includes('i18n')) {
+    lang = path.basename(path.dirname(filename));
+  }
+
   // Debounce: editors often fire multiple events on a single save
   clearTimeout(debounceTimers[sheet]);
-  debounceTimers[sheet] = setTimeout(() => rebuild(sheet), 150);
+  debounceTimers[sheet] = setTimeout(() => rebuild(sheet, lang), 150);
 });
