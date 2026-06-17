@@ -16,7 +16,7 @@ Currently published:
 > - If you remix, transform, or build upon the material, **you must distribute your contributions under the same license as the original**.
 > - You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 >
-> Please read all license terms in the [LICENSE][./LICENSE] file.
+> Please read all license terms in the [LICENSE](./LICENSE) file.
 
 ## Translations
 
