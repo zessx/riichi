@@ -18,7 +18,7 @@
 # ——— DO NOT TOUCH THE FOLLOWING LINES ———
 msgid ""
 msgstr ""
-"Project-Id-Version: ruler 0.1-beta\n"
+"Project-Id-Version: ruler 2.0\n"
 "Last-Translator: zessx\n"
 "Language: en\n"
 "Content-Type: text/plain; charset=UTF-8\n"
