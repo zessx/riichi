@@ -96,7 +96,7 @@ msgid "Robbing a Quad"
 msgstr "Robar el Poker"
 
 msgid "A concealed Quad can only be robbed to win Thirteen Orphans."
-msgstr "Un Poker oculto solo puede estar robado para ganae Trece Huérfanos."
+msgstr "Un Poker oculto solo puede estar robado para ganar Trece Huérfanos."
 
 msgid "Heavenly Hand"
 msgstr "Bendición del Cielo"
@@ -136,13 +136,13 @@ msgid "All Simples"
 msgstr "Todo Ordinario"
 
 msgid "Hand without Terminals or Honors."
-msgstr "Mano sin Terminales u Honores."
+msgstr "Mano sin Terminales ni Honores."
 
 msgid "Value Triplet"
 msgstr "Trío de Valor"
 
 msgid "Dragon, Player's Seat Wind or Round Wind Triplet."
-msgstr "Trío de un Dragón, del Viento de Jugadore o del Viento de Turno."
+msgstr "Trío de un Dragón, del Viento de Jugador o del Viento de Turno."
 
 msgid "Small Three Dragons"
 msgstr "Tres Pequeños Dragones"
