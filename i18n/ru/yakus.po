@@ -18,7 +18,7 @@
 # ——— DO NOT TOUCH THE FOLLOWING LINES ———
 msgid ""
 msgstr ""
-"Project-Id-Version: yakus 2.0\n"
+"Project-Id-Version: yakus 2.1\n"
 "Last-Translator: Real_Foxes\n"
 "Language: ru\n"
 "Content-Type: text/plain; charset=UTF-8\n"
