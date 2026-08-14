@@ -6,7 +6,7 @@ const CopyPlugin = require('copy-webpack-plugin');
 const ROOT = path.resolve(__dirname, '../..');
 
 function getDocuments() {
-  const files = fs.readdirSync(path.join(ROOT, 'dist/sheets'))
+  const files = fs.readdirSync(path.join(ROOT, 'src/website/doc'))
   const data = {}
   files.forEach((file) => {
     if (file.match(/\.(pdf|jpg)$/)) {
