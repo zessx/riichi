@@ -211,7 +211,7 @@ msgctxt "fu"
 msgid "Tsumo"
 msgstr "Tsumo"
 
-msgid "(/wo pinfu)"
+msgid "(w/o pinfu)"
 msgstr "(sin pinfu)"
 
 msgid "Single wait"
