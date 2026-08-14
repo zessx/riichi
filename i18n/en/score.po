@@ -18,7 +18,7 @@
 # ——— DO NOT TOUCH THE FOLLOWING LINES ———
 msgid ""
 msgstr ""
-"Project-Id-Version: score 2.0\n"
+"Project-Id-Version: score 2.1\n"
 "Last-Translator: zessx\n"
 "Language: en\n"
 "Content-Type: text/plain; charset=UTF-8\n"
