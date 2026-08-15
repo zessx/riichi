@@ -1,0 +1,244 @@
+#
+# Riichi Yaku Sheet
+#
+
+# ——— HOW TO USE THIS FILE ———
+# To create a new translation:
+#   1. Copy this template to i18n/<lang>/yakus.po  (e.g. i18n/fr/yakus.po)
+#   2. Please note that the file extension must be changed from POT, to PO
+#   3. Fill in each "msgstr"
+#      - Texts are in the same order you’ll find them on the sheet, this will help you to get context
+#      - Do not change "msgid" values under any circumstance
+#      - Pay close attention to respect HTML tags, punctuation, case and spaces (while adapting them for your language)
+#      - Try to get translations with a length close from the original text
+#      - Feel free to use inclusive/neutral language if you want, this is a small effort and will be warmly welcomed
+#      - If they exist, please rely as much as possible on "official translations" provided by recognized organization
+#
+
+# ——— DO NOT TOUCH THE FOLLOWING LINES ———
+msgid ""
+msgstr ""
+"Project-Id-Version: yakus 2.1\n"
+"Last-Translator: ___andrew.___\n"
+"Language: vi\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# ——— YOU CAN START EDITING HERE ———
+# ——— YAKUS BASED ON SEQUENCES ———
+
+msgid "Yakus based on sequences"
+msgstr "Các yaku dựa trên bộ phình"
+
+msgid "Common"
+msgstr "Phổ biến"
+
+msgid "Pure Double Sequence"
+msgstr "Cặp Phình Giống Nhau"
+
+msgid "Two Pure Double Sequences"
+msgstr "Hai Cặp Phình Giống Nhau"
+
+msgid "Pinfu"
+msgstr "Pinfu"
+
+msgid "Hand without any fu : 4 Sequences and 1 valueless Pair, with a double wait."
+msgstr "Bài không điểm fu: Có 4 Phình và 1 Đôi không giá trị, hiện chờ 2 quân để ù."
+
+msgid "Three Colored Sequences"
+msgstr "Tam Sắc Phình"
+
+msgid "Pure Straight"
+msgstr "Nhất Thông"
+
+# ——— OTHER YAKUS ———
+
+msgid "Other yakus"
+msgstr "Các yaku khác"
+
+msgid "Riichi"
+msgstr "Riichi"
+
+msgid "Double Riichi"
+msgstr "Double Riichi"
+
+msgid "Riichi announced during the very first uninterrupted round."
+msgstr "Báo Riichi ngay trong lượt đầu tiên khi chưa có ai ăn quân."
+
+msgid "Ippatsu"
+msgstr "Ippatsu"
+
+msgid "Win during the first uninterrupted round following the Riichi announcement."
+msgstr "Ù ngay trong lượt đầu tiên sau khi báo Riichi khi chưa có ai ăn quân."
+
+msgid "All Concealed Self Draw"
+msgstr "Tự Bốc Khi Bài Kín"
+
+msgid "Under the Sea"
+msgstr "Hải Đế Lao Nguyệt"
+
+msgid "Win by last draw."
+msgstr "Ù bằng quân cuối cùng."
+
+msgid "Under the River"
+msgstr "Hà Đáy Lao Ngư"
+
+msgid "Win by last discard."
+msgstr "Ù bằng quân đánh ra cuối cùng."
+
+msgid "Dead Wall Draw"
+msgstr "Ù Từ Tử Thành"
+
+msgid "Win on a Quad replacement tile."
+msgstr "Ù bẳng quân bài thay thế khi hạ Tứ Quý."
+
+msgid "Robbing a Quad"
+msgstr "Cướp Tứ Quý"
+
+msgid "A concealed Quad can only be robbed to win Thirteen Orphans."
+msgstr "Chỉ có thể cướp Tứ Quý kín khi đang chờ ù Thập Tam Thái Bảo."
+
+msgid "Heavenly Hand"
+msgstr "Thiên Ù"
+
+msgid "East player wins on his initial hand."
+msgstr "Người chơi cửa Đông ù ngay khi bốc quân đầu tiên."
+
+msgid "Earthly Hand"
+msgstr "Địa Ù"
+
+msgid "Win on draw during the very first uninterrupted turn."
+msgstr "Ù bằng quân bốc trong lượt đầu tiên khi chưa có ai ăn quân."
+
+msgid "Hand of Man"
+msgstr "Nhân Ù"
+
+msgid "Win on discard during the very first uninterrupted turn, and before the player has had his first turn. No other yaku/dora can be added."
+msgstr "Ù bằng quân đánh ra trong lượt đầu tiên khi chưa có ai ăn quân, và trước khi người chơi bắt đầu lượt đầu tiên. Không được cộng thêm yaku/dora khác."
+
+# ——— DORA ———
+
+msgid "Dora"
+msgstr "Dora"
+
+msgid "Uradora"
+msgstr "Uradora"
+
+msgid "Doras are not yakus."
+msgstr "Dora không phải là yaku"
+
+# ——— YAKUS BASED ON TERMINALS / HONORS ———
+
+msgid "Yakus based on terminals / honors"
+msgstr "Các yaku dựa trên quân biên / tài phao"
+
+msgid "All Simples"
+msgstr "Toàn Quân Thường"
+
+msgid "Hand without Terminals or Honors."
+msgstr "Bài không có quân biên hay quân tài phao."
+
+msgid "Value Triplet"
+msgstr "Phỗng Giá Trị"
+
+msgid "Dragon, Player's Seat Wind or Round Wind Triplet."
+msgstr "Có phỗng rồng/cùng gió vòng/cùng gió chỗ ngồi."
+
+msgid "Small Three Dragons"
+msgstr "Tiểu Tam Nguyên"
+
+msgid "Big Three Dragons"
+msgstr "Đại Tam Nguyên"
+
+msgid "Little Four Winds"
+msgstr "Tiểu Tứ Hỷ"
+
+msgid "Big Four Winds"
+msgstr "Đại Tứ Hỷ"
+
+msgid "Terminals and Honors Everywhere"
+msgstr "Quân Biên và Tài Phao Khắp Bài"
+
+msgid "Terminals Everywhere"
+msgstr "Quân Biên Khắp Bài"
+
+msgid "All Terminals and Honors"
+msgstr "Toàn Quân Biên và Tài Phao"
+
+msgid "All Terminals"
+msgstr "Toàn Quân Biên"
+
+msgid "All Honors"
+msgstr "Toàn Quân Tài Phao"
+
+msgid "Thirteen Orphans"
+msgstr "Thập Tam Thái Bảo"
+
+msgid "A copy of each Terminal and Honor tile,<br>plus one last of your choice among these 13 tiles."
+msgstr "Có mỗi loại quân Biên và Tài Phao khác nhau,<br>cộng thêm một quân bất kỳ trong 13 quân đó."
+
+# ——— YAKUS BASED ON PAIRS / TRIPLETS / QUADS ———
+
+msgid "Yakus based on pairs / triplets / quads"
+msgstr "Các yaku dựa trên bộ đôi / phỗng / tứ quý"
+
+msgid "Seven Pairs"
+msgstr "Bảy Đôi"
+
+msgid "Doubles pairs are not allowed."
+msgstr "Không được phép có 2 đôi giống nhau."
+
+msgid "All Triplets"
+msgstr "Toàn Bộ Phỗng"
+
+msgid "Three Concealed Triplets"
+msgstr "Ba Bộ Phỗng Kín"
+
+msgid "Four Concealed Triplets"
+msgstr "Bốn Bộ Phỗng Kín"
+
+msgid "Three Colored Triplets"
+msgstr "Tam Sắc Phỗng"
+
+msgid "Three Quads"
+msgstr "Ba Bộ Tứ Quý"
+
+msgid "Four Quads"
+msgstr "Bốn Bộ Tứ Quý"
+
+# ——— YAKUS BASED ON SUITS ———
+
+msgid "Yakus based on suits"
+msgstr "Các yaku dựa trên chất bài"
+
+msgid "Half Flush"
+msgstr "Bán Nhất Sắc"
+
+msgid "A single suit and Honors."
+msgstr "Bài có quân từ một chất và quân Tài Phao."
+
+msgid "Flush"
+msgstr "Đồng Nhất Sắc"
+
+msgid "All Green"
+msgstr "Lục Nhất Sắc"
+
+msgid "Nine Gates"
+msgstr "Cửu Liên Bảo Đăng"
+
+msgid "Tiles 1112345678999, plus one last of your choice, in a single suit."
+msgstr "Gồm các quân 1112345678999 cộng thêm một quân bất kỳ cùng chất đó."
+
+# ——— CREDITS ———
+
+msgid "Credits"
+msgstr "Thông tin & Ghi danh"
+
+msgid "Based on EMA RCR 2025 rules"
+msgstr "Dựa theo luật EMA RCR năm 2025"
+
+msgid "Creation:"
+msgstr "Nguyên Tác:"
+
+msgid "Translation:"
+msgstr "Dịch Thuật:"

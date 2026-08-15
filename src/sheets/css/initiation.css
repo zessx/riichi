@@ -421,6 +421,7 @@ section.tiles .honors .seat-wind {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   flex-grow: 1;
   font-size: 6px;
   font-style: italic;
@@ -1036,6 +1037,7 @@ section.riichi .column-right .line-left {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  margin-left: 0;
   width: 26px;
 }
 

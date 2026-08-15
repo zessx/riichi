@@ -1,0 +1,98 @@
+#
+# Riichi Ruler Sheet
+#
+
+# ——— HOW TO USE THIS FILE ———
+# To create a new translation:
+#   1. Copy this template to i18n/<lang>/ruler.po  (e.g. i18n/fr/ruler.po)
+#   2. Please note that the file extension must be changed from POT, to PO
+#   3. Fill in each "msgstr"
+#      - Texts are in the same order you’ll find them on the sheet, this will help you to get context
+#      - Do not change "msgid" values under any circumstance
+#      - Pay close attention to respect HTML tags, punctuation, case and spaces (while adapting them for your language)
+#      - Try to get translations with a length close from the original text
+#      - Feel free to use inclusive/neutral language if you want, this is a small effort and will be warmly welcomed
+#      - If they exist, please rely as much as possible on "official translations" provided by recognized organization
+#
+
+# ——— DO NOT TOUCH THE FOLLOWING LINES ———
+msgid ""
+msgstr ""
+"Project-Id-Version: ruler 2.0\n"
+"Last-Translator: ___andrew.___\n"
+"Language: vi\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# ——— YOU CAN START EDITING HERE ———
+# ——— Top part ———
+msgid "Bamboos"
+msgstr "Sách"
+
+msgid "Circles"
+msgstr "Văn"
+
+msgid "Characters"
+msgstr "Vạn"
+
+msgid "Winds"
+msgstr "Quân Gió"
+
+msgid "East"
+msgstr "Đông"
+
+msgid "South"
+msgstr "Nam"
+
+msgid "West"
+msgstr "Tây"
+
+msgid "North"
+msgstr "Bắc"
+
+msgid "Dragons"
+msgstr "Quân Rồng"
+
+msgid "White"
+msgstr "Bạch"
+
+msgid "Green"
+msgstr "Phát"
+
+msgid "Red"
+msgstr "Trung"
+
+# ——— Bottom part ———
+msgid "Chi"
+msgstr "Chi"
+
+msgid "On the player to my left"
+msgstr "Trên trình phát bên trái"
+
+msgid "Pon"
+msgstr "Pon"
+
+msgid "Kan"
+msgstr "Kan"
+
+msgid "Ron"
+msgstr "Ron"
+
+msgid "On any player"
+msgstr "Trên bất kỳ người chơi nào"
+
+msgid "Tsumo"
+msgstr "Tsumo"
+
+msgid "By myself"
+msgstr "Do chính tôi"
+
+msgid "Order for players"
+msgstr "Thứ tự người chơi"
+
+msgid "Direction of the draw"
+msgstr "Hướng bốc thăm"
+
+# ——— Credits ———
+msgid "Creation / Translation:"
+msgstr "Tác giả / Dịch giả:"

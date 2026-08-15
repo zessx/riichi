@@ -1,0 +1,339 @@
+#
+# Riichi Score Sheet
+#
+
+# ——— HOW TO USE THIS FILE ———
+# To create a new translation:
+#   1. Copy this template to i18n/<lang>/score.po  (e.g. i18n/fr/score.po)
+#   2. Please note that the file extension must be changed from POT, to PO
+#   3. Fill in each "msgstr"
+#      - Texts are in the same order you’ll find them on the sheet, this will help you to get context
+#      - Do not change "msgid" values under any circumstance
+#      - Pay close attention to respect HTML tags, punctuation, case and spaces (while adapting them for your language)
+#      - Try to get translations with a length close from the original text
+#      - Feel free to use inclusive/neutral language if you want, this is a small effort and will be warmly welcomed
+#      - If they exist, please rely as much as possible on "official translations" provided by recognized organization
+#
+
+# ——— DO NOT TOUCH THE FOLLOWING LINES ———
+msgid ""
+msgstr ""
+"Project-Id-Version: score 2.1\n"
+"Last-Translator: ___andrew.___ / Tamhuynh10\n"
+"Language: vi\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# ——— YOU CAN START EDITING HERE ———
+# ——— HAN ———
+
+msgid "Han"
+msgstr "Han"
+
+# ——— TERMINALS / HONORS ———
+
+msgid "Terminals / Honors"
+msgstr "Quân biên / Tài phao"
+
+msgid "All Simples"
+msgstr "Toàn Quân Thường"
+
+msgid "Value Triplet"
+msgstr "Phỗng Giá Trị"
+
+msgid "Small Three Dragons"
+msgstr "Tiểu Tam Nguyên"
+
+msgid "Big Three Dragons"
+msgstr "Đại Tam Nguyên"
+
+msgid "Little Four Winds"
+msgstr "Tiểu Tứ Hỷ"
+
+msgid "Big Four Winds"
+msgstr "Đại Tứ Hỷ"
+
+msgid "Terminals and Honors Everywhere"
+msgstr "Quân Biên và Tài Phao Khắp Bài"
+
+msgid "Terminals Everywhere"
+msgstr "Quân Biên Khắp Bài"
+
+msgid "All Terminals and Honors"
+msgstr "Toàn Quân Biên & Tài Phao"
+
+msgid "All Terminals"
+msgstr "Toàn Quân Biên"
+
+msgid "All Honors"
+msgstr "Toàn Quân Tài Phao"
+
+msgid "Thirteen Orphans"
+msgstr "Thập Tam Thái Bảo"
+
+# ——— PAIRS / TRIPLETS / QUADS ———
+
+msgid "Pairs / Triplets / Quads"
+msgstr "Đôi / Phỗng / Tứ quý"
+
+msgid "Seven Pairs"
+msgstr "Bảy Đôi"
+
+msgid "All Triplets"
+msgstr "Toàn Bộ Phỗng"
+
+msgid "Three Concealed Triplets"
+msgstr "Ba Bộ Phỗng Kín"
+
+msgid "Four Concealed Triplets"
+msgstr "Bốn Bộ Phỗng Kín"
+
+msgid "Three Colored Triplets"
+msgstr "Tam Sắc Phỗng"
+
+msgid "Three Quads"
+msgstr "Ba Bộ Tứ Quý"
+
+msgid "Four Quads"
+msgstr "Bốn Bộ Tứ Quý"
+
+# ——— DORA ———
+
+msgid "Dora"
+msgstr "Dora"
+
+# ——— SEQUENCES ———
+
+msgid "Sequences"
+msgstr "Các bộ phình"
+
+msgid "Pure Double Sequence"
+msgstr "Cặp Phình Giống Nhau"
+
+msgid "Two Pure Double Sequences"
+msgstr "Hai Cặp Phình Giống Nhau"
+
+msgid "Pinfu"
+msgstr "Pinfu"
+
+msgid "Three Colored Sequences"
+msgstr "Tam Sắc Phình"
+
+msgid "Pure Straight"
+msgstr "Nhất Thông"
+
+# ——— SUITS ———
+
+msgid "Suits"
+msgstr "Chất"
+
+msgid "Half Flush"
+msgstr "Bán Nhất Sắc"
+
+msgid "Flush"
+msgstr "Đồng Nhất Sắc"
+
+msgid "All Green"
+msgstr "Lục Nhất Sắc"
+
+msgid "Nine Gates"
+msgstr "Cửu Liên Bảo Đăng"
+
+# ——— OTHER ———
+
+msgctxt "yakus"
+msgid "Other"
+msgstr "Khác"
+
+msgid "Riichi"
+msgstr "Riichi"
+
+msgid "Double Riichi"
+msgstr "Double Riichi"
+
+msgid "Ippatsu"
+msgstr "Ippatsu"
+
+msgid "All Concealed Self Draw"
+msgstr "Tự Bốc Khi Bài Kín"
+
+msgid "Under the Sea"
+msgstr "Hải Đế Lao Nguyệt"
+
+msgid "Under the River"
+msgstr "Hà Đáy Lao Ngư"
+
+msgid "Dead Wall Draw"
+msgstr "Ù Từ Tử Thành"
+
+msgid "Robbing a Quad"
+msgstr "Cướp Tứ Quý"
+
+msgid "Heavenly Hand"
+msgstr "Thiên Ù"
+
+msgid "Earthly Hand"
+msgstr "Địa Ù"
+
+msgid "Hand of Man"
+msgstr "Nhân Ù"
+
+# ——— FU ———
+
+msgid "Fu"
+msgstr "Fu"
+
+msgid "Or"
+msgstr "Hoặc"
+
+msgid "Base"
+msgstr "Điểm gốc"
+
+msgid "Pon"
+msgstr "Phỗng"
+
+msgid "Simples"
+msgstr "Quân thường"
+
+msgid "Term. / Hon."
+msgstr "Biên. / Tài."
+
+msgid "Kan"
+msgstr "Tứ quý"
+
+msgid "Closed Ron"
+msgstr "Ron kín"
+
+msgid "Open Pinfu"
+msgstr "Pinfu mở"
+
+msgctxt "fu"
+msgid "Tsumo"
+msgstr "Tsumo"
+
+msgid "(w/o pinfu)"
+msgstr "(/ko pinfu)"
+
+msgid "Single wait"
+msgstr "Đôi có giá trị"
+
+msgid "Value pair"
+msgstr "Chờ 1 quân"
+
+msgid "Not cumulative."
+msgstr "Không cộng dồn."
+
+msgid "Total"
+msgstr "Tổng"
+
+msgid "Rounded up to the nearest ten."
+msgstr "Làm tròn lên hàng chục gần nhất."
+
+# ——— HONBA ———
+
+msgid "Honba"
+msgstr "Honba"
+
+msgid "For each counter:"
+msgstr "Với mỗi điểm cộng dồn"
+
+msgctxt "honba"
+msgid "Ron"
+msgstr "Ron"
+
+msgctxt "honba"
+msgid "Tsumo"
+msgstr "Tsumo"
+
+msgid "pts"
+msgstr "đ"
+
+msgid "If East wins the hand,"
+msgstr "Nếu nhà cái (Đông) thắng,"
+
+msgid "he remains the East player and another counter is added."
+msgstr "họ tiếp tục làm nhà cái và thêm một điểm cộng dồn."
+
+msgid "If another player wins the hand,"
+msgstr "Nếu người khác thắng,"
+
+msgid "the East player rotates and all counters are removed."
+msgstr "vị trí nhà cái sẽ chuyển đi và các điểm cộng dồn bị xóa bỏ."
+
+# ——— TENPAI / NOTEN ———
+
+msgid "Tenpai / Noten"
+msgstr "Tenpai / Noten"
+
+msgid "0 or 4 players tenpai"
+msgstr "0 hoặc 4 người tenpai"
+
+msgid "No points exchanged."
+msgstr "Không hoán đổi điểm."
+
+msgid "1 player tenpai"
+msgstr "1 người tenpai"
+
+msgid "2 players tenpai"
+msgstr "2 người tenpai"
+
+msgid "3 players tenpai"
+msgstr "3 người tenpai"
+
+msgid "A counter is added."
+msgstr "Thêm 1 điểm cộng dồn"
+
+msgid "If East is tenpai,"
+msgstr "Nếu nhà cái tenpai,"
+
+msgid "he remains the East player."
+msgstr "họ sẽ tiếp tục giữ vị trí."
+
+# ——— POINTS ———
+
+msgid "Points"
+msgstr "Mức điểm"
+
+msgctxt "points"
+msgid "Other"
+msgstr "Khách"
+
+msgid "East"
+msgstr "Đông"
+
+msgctxt "points"
+msgid "Ron"
+msgstr "Ron"
+
+msgctxt "points"
+msgid "Tsumo"
+msgstr "Tsumo"
+
+msgid "Mangan"
+msgstr "Mangan"
+
+msgid "Haneman"
+msgstr "Haneman"
+
+msgid "Baiman"
+msgstr "Baiman"
+
+msgid "Sanbaiman"
+msgstr "Sanbaiman"
+
+msgid "Yakuman"
+msgstr "Yakuman"
+
+# ——— CREDITS ———
+
+msgid "Credits"
+msgstr "Thông tin & Ghi danh"
+
+msgid "Based on EMA RCR 2025 rules"
+msgstr "Dựa theo luật EMA RCR năm 2025"
+
+msgid "Creation:"
+msgstr "Nguyên Tác:"
+
+msgid "Translation:"
+msgstr "Dịch Thuật:"

@@ -32,7 +32,7 @@ You can contact me by email or use a GitHub Pull Request to send me the translat
 - *lipis* for providing [SVG flags](https://github.com/lipis/flag-icons/tree/main) (under MIT license)
 - *S. Bautista* for Spanish translations
 - *mati* for Portuguese translations
-- *\_\_\_andrew.\_\_\_* for Vietnamese translations
+- *\_\_\_andrew.\_\_\_* and *Tamhuynh10* for Vietnamese translations
 - *Real_Foxes* for Russian translations
 - *Chipset* for Polish translations
 - *Aina* and *Rusca* for Catalan translations

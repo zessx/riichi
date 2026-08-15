@@ -253,11 +253,8 @@ msgstr "indicador de uradora"
 msgid "dora"
 msgstr "dora"
 
-msgid "1 bonus han"
-msgstr "1 han de bônus"
-
-msgid "per dora tile"
-msgstr "a cada peça de dora"
+msgid "<b>1 bonus han</b><br>per dora tile"
+msgstr "<b>1 han de bônus</b><br>a cada peça de dora"
 
 msgid "Other indicators can be revealed under certain conditions (Kan, Riichi)"
 msgstr "Outros indicadores podem ser revelados<br>em certas condições (Kan, Riichi)"

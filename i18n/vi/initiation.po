@@ -31,25 +31,25 @@ msgid "Tiles"
 msgstr "Các quân bài"
 
 msgid "Suits"
-msgstr "Các chất quân"
+msgstr "Bộ nạc"
 
 msgid "Characters"
 msgstr "Vạn"
 
 msgid "Circles"
-msgstr "Chấm"
+msgstr "Văn"
 
 msgid "Bamboos"
-msgstr "Tre"
+msgstr "Sách"
 
 msgid "terminal"
-msgstr "quân cổng"
+msgstr "quân biên"
 
 msgid "simples"
 msgstr "quân thường"
 
 msgid "Honors"
-msgstr "Quân tài phao"
+msgstr "Tài phao"
 
 msgid "Winds"
 msgstr "Quân Gió"
@@ -70,16 +70,16 @@ msgid "Dragons"
 msgstr "Quân Rồng"
 
 msgid "White"
-msgstr "Trắng"
+msgstr "Bạch"
 
 msgid "Green"
-msgstr "Xanh"
+msgstr "Phát"
 
 msgid "Red"
-msgstr "Đỏ"
+msgstr "Trung"
 
 msgid "Round Wind"
-msgstr "Vòng Gió"
+msgstr "Gió Vòng"
 
 msgid "1st = East"
 msgstr "Vòng 1 = Đông"
@@ -88,7 +88,7 @@ msgid "2nd = South"
 msgstr "Vòng 2 = Nam"
 
 msgid "Player's Seat Wind"
-msgstr "Gió Của Người Chơi"
+msgstr "Gió chỗ ngồi"
 
 msgid "1 player<br>= 1 Wind"
 msgstr "Mỗi người<br>= một gió"
@@ -99,7 +99,7 @@ msgid "Basic elements"
 msgstr "Các bộ cơ bản"
 
 msgid "Sequence"
-msgstr "Phu"
+msgstr "Phình"
 
 msgid "Run of 3 tiles from the same suit"
 msgstr "3 quân đồng chất liên tiếp"
@@ -117,7 +117,7 @@ msgid "On anybody"
 msgstr "Ăn từ bất cứ ai"
 
 msgid "Quad"
-msgstr "Tứ Quý"
+msgstr "Tứ quý"
 
 msgid "Set of 4 identical tiles"
 msgstr "Bộ 4 quân giống nhau"
@@ -131,7 +131,7 @@ msgstr "Bộ 2 quân giống nhau"
 # ——— HOW TO WIN? ———
 
 msgid "How to win?"
-msgstr "Ù như thế nào?"
+msgstr "Làm sao để ù?"
 
 msgid "Winning hand"
 msgstr "Bài ù"
@@ -182,19 +182,19 @@ msgid "All Simples"
 msgstr "Toàn Quân Thường"
 
 msgid "Hand without Terminals (1 or 9) or Honors."
-msgstr "Bài không có quân cổng (1 hoặc 9) hay quân Tài Phao."
+msgstr "Bài không có quân biên (1 hoặc 9) hay quân Tài Phao."
 
 msgid "Terminals and Honors Everywhere"
-msgstr "Quân Cổng và Tài Phao Rải Rác"
+msgstr "Quân Biên và Tài Phao Khắp Bài"
 
 msgid "A terminal (1 or 9) or an honor in every element."
-msgstr "Mỗi bộ đều có ít nhất 1 quân cổng (1 hoặc 9) hoặc quân tài phao."
+msgstr "Mỗi bộ đều có ít nhất 1 quân biên (1 hoặc 9) hoặc quân tài phao."
 
 msgid "Three Colored Sequences"
-msgstr "Tam Sắc Phu"
+msgstr "Tam Sắc Phình"
 
 msgid "The same Sequence in all three suits."
-msgstr "Có 3 Phu giống hệt nhau của cả ba chất."
+msgstr "Có 3 Phình giống hệt nhau của cả ba chất."
 
 msgid "Pure Straight"
 msgstr "Nhất Thông"
@@ -210,7 +210,7 @@ msgid "Dragon, Player's Seat Wind or Round Wind Triplet."
 msgstr "Có phỗng rồng/cùng gió vòng/cùng gió chỗ ngồi."
 
 msgid "All Triplets"
-msgstr "Tòi Toi"
+msgstr "Toàn Bộ Phỗng"
 
 msgid "Only Triplets (Pon) and Quads (Kan), plus the Pair."
 msgstr "Bài chỉ có các Phỗng (Pon) và Tứ Quý (Kan), cùng với một Đôi."
@@ -245,19 +245,16 @@ msgid "The dora is the tile immediately following the indicator, Honors have a d
 msgstr "Quân dora là quân ngay sau quân chỉ điểm, riêng quân Tài Phao thì có trình tự riêng."
 
 msgid "dora indicator"
-msgstr "quân chỉ điểm dora"
+msgstr "chỉ điểm dora"
 
 msgid "uradora indicator"
-msgstr "quân chỉ điểm dora dưới"
+msgstr "chỉ điểm uradora"
 
 msgid "dora"
 msgstr "dora"
 
-msgid "1 bonus han"
-msgstr "1 han thưởng cho"
-
-msgid "per dora tile"
-msgstr "mỗi quân dora"
+msgid "<b>1 bonus han</b><br>per dora tile"
+msgstr "<b>1 han thưởng cho</b><br>mỗi quân dora"
 
 msgid "Other indicators can be revealed under certain conditions (Kan, Riichi)"
 msgstr "Những quân chỉ điểm khác có thể được lật trong những trường hợp cụ thể (Kan, Riichi)"
@@ -288,10 +285,10 @@ msgid "Riichi is a <b>1 han yaku</b> which can be used alone, or combined with o
 msgstr "Riichi là <b>yaku có trị giá 1 han</b>, và có thể kết hợp được cùng với các yaku khác"
 
 msgid "In case of victory in the first uninterrupted turn following the Riichi, <b>+1 han (Ippatsu)</b>"
-msgstr "Trong trường hợp ù ngay trong lượt đầu tiên không bị gián đoạn, <b>+1 han (Ippatsu)</b>"
+msgstr "Trong trường hợp ù ngay trong lượt đầu tiên khi chưa có ai ăn quân, <b>+1 han (Ippatsu)</b>"
 
 msgid "In the event of a victory, <b>uradora indicators are revealed</b>, which can bring bonus han"
-msgstr "Trong trường hợp ù, <b>các quân chỉ điểm dora dưới sẽ được lật</b>, tăng khả năng thêm han thưởng"
+msgstr "Trong trường hợp ù, <b>các quân chỉ điểm uradora sẽ được lật</b>, tăng khả năng thêm han thưởng"
 
 msgid "Once you have announced a Riichi, <b>you can no longer change your hand</b>"
 msgstr "Một khi đã báo Riichi,<br><b>bạn không thể thay đổi bài của mình</b>"
@@ -331,22 +328,22 @@ msgid "A few combinations / « closed » yakus"
 msgstr "Một số mẫu bài / yaku kín"
 
 msgid "All Concealed Self Draw"
-msgstr "Bất Cầu Nhần"
+msgstr "Tự Bốc Khi Bài Kín"
 
 msgid "Tsumo with a concealed hand (no call during the game)."
-msgstr "Tsumo với một bài hoàn toàn kín (không ăn của ai)."
+msgstr "Tsumo với một bài kín hoàn toàn (không ăn của ai)."
 
 msgid "Pinfu"
-msgstr "Linh Phu"
+msgstr "Pinfu"
 
 msgid "Concealed hand, 4 Sequences and 1 valueless Pair, double waiting."
-msgstr "Bài kín, có sẵn 1 Đôi không có giá trị và 4 Phu hiện chờ 2 quân ù."
+msgstr "Bài kín, có 4 Phình và 1 Đôi không có giá trị, hiện chờ 2 quân ù."
 
 msgid "Pure Double Sequence"
-msgstr "Ba Đôi Thông"
+msgstr "Cặp Phình Giống Nhau"
 
 msgid "Concealed hand with 2 identical Sequences in the same suit."
-msgstr "Bài kín có 2 Phu đồng chất giống hệt nhau."
+msgstr "Bài kín có 2 Phình đồng chất giống hệt nhau"
 
 msgid "Seven Pairs"
 msgstr "Bảy Đôi"
@@ -360,13 +357,13 @@ msgstr "Một số yaku đã thấy trước đó được<br>thêm <b>1 han n�
 # ——— CREDITS ———
 
 msgid "Credits"
-msgstr "Phụ chú"
+msgstr "Thông tin & Ghi danh"
 
 msgid "Based on EMA RCR 2025 rules (simplified)"
 msgstr "Dựa theo luật EMA RCR năm 2025 (đã giản hóa)"
 
 msgid "Creation:"
-msgstr "Nội dung:"
+msgstr "Nguyên tác:"
 
 msgid "Translation:"
-msgstr "Phiên Dịch:"
+msgstr "Dịch Thuật:"

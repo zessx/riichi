@@ -253,10 +253,7 @@ msgstr ""
 msgid "dora"
 msgstr ""
 
-msgid "1 bonus han"
-msgstr ""
-
-msgid "per dora tile"
+msgid "<b>1 bonus han</b><br>per dora tile"
 msgstr ""
 
 msgid "Other indicators can be revealed under certain conditions (Kan, Riichi)"
