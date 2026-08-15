@@ -37,3 +37,4 @@ You can contact me by email or use a GitHub Pull Request to send me the translat
 - *Chipset* for Polish translations
 - *Aina* and *Rusca* for Catalan translations
 - *deceze* for German translations
+- *hobbes3* for Chinese translations

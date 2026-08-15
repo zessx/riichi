@@ -1,0 +1,18 @@
+body {
+  line-height: 1.2em;
+}
+
+.kanji,
+.roumaji {
+  display: none !important;
+}
+
+.condition-hand b,
+.condition-yaku b {
+  margin-left: 0.3em;
+  margin-right: 0.1em;
+}
+
+section header .simplified-rules {
+  padding: 0 2px;
+}

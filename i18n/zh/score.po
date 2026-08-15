@@ -1,0 +1,347 @@
+#
+# Riichi Score Sheet
+#
+
+# ——— HOW TO USE THIS FILE ———
+# To create a new translation:
+#   1. Copy this template to i18n/<lang>/score.po  (e.g. i18n/fr/score.po)
+#   2. Please note that the file extension must be changed from POT, to PO
+#   3. Fill in each "msgstr"
+#      - Texts are in the same order you’ll find them on the sheet, this will help you to get context
+#      - Do not change "msgid" values under any circumstance
+#      - Pay close attention to respect HTML tags, punctuation, case and spaces (while adapting them for your language)
+#      - Try to get translations with a length close from the original text
+#      - Feel free to use inclusive/neutral language if you want, this is a small effort and will be warmly welcomed
+#      - If they exist, please rely as much as possible on "official translations" provided by recognized organization
+#
+
+# ——— DO NOT TOUCH THE FOLLOWING LINES ———
+msgid ""
+msgstr ""
+"Project-Id-Version: score 2.1\n"
+"Last-Translator: hobbes3\n"
+"Language: zh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# ——— YOU CAN START EDITING HERE ———
+# ——— HAN ———
+
+msgid "Han"
+msgstr "翻"
+
+msgctxt "han"
+msgid "Mangan"
+msgstr "满贯"
+
+msgctxt "han"
+msgid "Yakuman"
+msgstr "役满"
+
+# ——— TERMINALS / HONORS ———
+
+msgid "Terminals / Honors"
+msgstr "幺九牌"
+
+msgid "All Simples"
+msgstr "断幺九"
+
+msgid "Value Triplet"
+msgstr "役牌"
+
+msgid "Small Three Dragons"
+msgstr "小三元"
+
+msgid "Big Three Dragons"
+msgstr "大三元"
+
+msgid "Little Four Winds"
+msgstr "小四喜"
+
+msgid "Big Four Winds"
+msgstr "大四喜"
+
+msgid "Terminals and Honors Everywhere"
+msgstr "混全带么"
+
+msgid "Terminals Everywhere"
+msgstr "纯全带么"
+
+msgid "All Terminals and Honors"
+msgstr "混老头"
+
+msgid "All Terminals"
+msgstr "清老头"
+
+msgid "All Honors"
+msgstr "字一色"
+
+msgid "Thirteen Orphans"
+msgstr "十三幺"
+
+# ——— PAIRS / TRIPLETS / QUADS ———
+
+msgid "Pairs / Triplets / Quads"
+msgstr "对子 / 刻子 / 杠子"
+
+msgid "Seven Pairs"
+msgstr "七对子"
+
+msgid "All Triplets"
+msgstr "对对和"
+
+msgid "Three Concealed Triplets"
+msgstr "三暗刻"
+
+msgid "Four Concealed Triplets"
+msgstr "四暗刻"
+
+msgid "Three Colored Triplets"
+msgstr "三色同刻"
+
+msgid "Three Quads"
+msgstr "三杠子"
+
+msgid "Four Quads"
+msgstr "四杠子"
+
+# ——— DORA ———
+
+msgid "Dora"
+msgstr "宝牌"
+
+# ——— SEQUENCES ———
+
+msgid "Sequences"
+msgstr "顺子"
+
+msgid "Pure Double Sequence"
+msgstr "一色二顺"
+
+msgid "Two Pure Double Sequences"
+msgstr "二色二顺"
+
+msgid "Pinfu"
+msgstr "平和"
+
+msgid "Three Colored Sequences"
+msgstr "三色同顺"
+
+msgid "Pure Straight"
+msgstr "一条龙"
+
+# ——— SUITS ———
+
+msgid "Suits"
+msgstr "数牌"
+
+msgid "Half Flush"
+msgstr "混一色"
+
+msgid "Flush"
+msgstr "清一色"
+
+msgid "All Green"
+msgstr "绿一色"
+
+msgid "Nine Gates"
+msgstr "九莲宝灯"
+
+# ——— OTHER ———
+
+msgctxt "yakus"
+msgid "Other"
+msgstr "其他"
+
+msgid "Riichi"
+msgstr "立直"
+
+msgid "Double Riichi"
+msgstr "双立直"
+
+msgid "Ippatsu"
+msgstr "一发"
+
+msgid "All Concealed Self Draw"
+msgstr "门清自摸"
+
+msgid "Under the Sea"
+msgstr "海底捞月"
+
+msgid "Under the River"
+msgstr "河底捞鱼"
+
+msgid "Dead Wall Draw"
+msgstr "杠上开花"
+
+msgid "Robbing a Quad"
+msgstr "枪杠"
+
+msgid "Heavenly Hand"
+msgstr "天和"
+
+msgid "Earthly Hand"
+msgstr "地和"
+
+msgid "Hand of Man"
+msgstr "人和"
+
+# ——— FU ———
+
+msgid "Fu"
+msgstr "符"
+
+msgid "Or"
+msgstr "或者"
+
+msgid "Base"
+msgstr "底符"
+
+msgid "Pon"
+msgstr "碰"
+
+msgid "Simples"
+msgstr "中张牌"
+
+msgid "Term. / Hon."
+msgstr "么九牌"
+
+msgid "Kan"
+msgstr "杠"
+
+msgid "Closed Ron"
+msgstr "门清荣和"
+
+msgid "Open Pinfu"
+msgstr "开门平和"
+
+msgctxt "fu"
+msgid "Tsumo"
+msgstr "自摸"
+
+msgid "(w/o pinfu)"
+msgstr "（非平和）"
+
+msgid "Single wait"
+msgstr "单吊听牌"
+
+msgid "Value pair"
+msgstr "役牌雀头"
+
+msgid "Not cumulative."
+msgstr "不可累积"
+
+msgid "Total"
+msgstr "总计"
+
+msgid "Rounded up to the nearest ten."
+msgstr "向上取整至十位"
+
+# ——— HONBA ———
+
+msgid "Honba"
+msgstr "连庄"
+
+msgid "For each counter:"
+msgstr "每连一庄："
+
+msgctxt "honba"
+msgid "Ron"
+msgstr "荣和"
+
+msgctxt "honba"
+msgid "Tsumo"
+msgstr "自摸"
+
+msgid "pts"
+msgstr "点"
+
+msgid "If East wins the hand,"
+msgstr "如果庄家和牌，"
+
+msgid "he remains the East player and another counter is added."
+msgstr "连庄并填加一根连庄棒。"
+
+msgid "If another player wins the hand,"
+msgstr "如果闲家和牌，"
+
+msgid "the East player rotates and all counters are removed."
+msgstr "下庄并连庄次数清零。"
+
+# ——— TENPAI / NOTEN ———
+
+msgid "Tenpai / Noten"
+msgstr "听牌 / 未听"
+
+msgid "0 or 4 players tenpai"
+msgstr "无人或四人听牌"
+
+msgid "No points exchanged."
+msgstr "没有点数交换"
+
+msgid "1 player tenpai"
+msgstr "一人听牌"
+
+msgid "2 players tenpai"
+msgstr "二人听牌"
+
+msgid "3 players tenpai"
+msgstr "三人听牌"
+
+msgid "A counter is added."
+msgstr "填加一根连庄棒"
+
+msgid "If East is tenpai,"
+msgstr "如果庄家听牌，"
+
+msgid "he remains the East player."
+msgstr "则连庄。"
+
+# ——— POINTS ———
+
+msgid "Points"
+msgstr "点数"
+
+msgctxt "points"
+msgid "Other"
+msgstr "闲家"
+
+msgid "East"
+msgstr "庄家"
+
+msgctxt "points"
+msgid "Ron"
+msgstr "荣和"
+
+msgctxt "points"
+msgid "Tsumo"
+msgstr "自摸"
+
+msgid "Mangan"
+msgstr "满贯"
+
+msgid "Haneman"
+msgstr "跳满"
+
+msgid "Baiman"
+msgstr "倍满"
+
+msgid "Sanbaiman"
+msgstr "三倍满"
+
+msgid "Yakuman"
+msgstr "役满"
+
+# ——— CREDITS ———
+
+msgid "Credits"
+msgstr "致谢"
+
+msgid "Based on EMA RCR 2025 rules"
+msgstr "基于 EMA RCR 2025 规则"
+
+msgid "Creation:"
+msgstr "制作："
+
+msgid "Translation:"
+msgstr "翻译："

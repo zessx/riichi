@@ -1,0 +1,18 @@
+.kanji,
+.roumaji {
+  display: none !important;
+}
+
+.yaku-name-translated {
+  line-height: 2.5em;
+  font-weight: bold;
+  font-style: normal;
+}
+
+section.points td.han.mangan,
+section.points td.han.haneman,
+section.points td.han.baiman,
+section.points td.han.sanbaiman,
+section.points td.han.yakuman {
+  line-height: 1.2em;
+}

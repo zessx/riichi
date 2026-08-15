@@ -1,0 +1,253 @@
+#
+# Riichi Yaku Sheet
+#
+
+# ——— HOW TO USE THIS FILE ———
+# To create a new translation:
+#   1. Copy this template to i18n/<lang>/yakus.po  (e.g. i18n/fr/yakus.po)
+#   2. Please note that the file extension must be changed from POT, to PO
+#   3. Fill in each "msgstr"
+#      - Texts are in the same order you’ll find them on the sheet, this will help you to get context
+#      - Do not change "msgid" values under any circumstance
+#      - Pay close attention to respect HTML tags, punctuation, case and spaces (while adapting them for your language)
+#      - Try to get translations with a length close from the original text
+#      - Feel free to use inclusive/neutral language if you want, this is a small effort and will be warmly welcomed
+#      - If they exist, please rely as much as possible on "official translations" provided by recognized organization
+#
+
+# ——— DO NOT TOUCH THE FOLLOWING LINES ———
+msgid ""
+msgstr ""
+"Project-Id-Version: yakus 2.1\n"
+"Last-Translator: hobbes3\n"
+"Language: zh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# ——— YOU CAN START EDITING HERE ———
+
+msgctxt "han"
+msgid "Mangan"
+msgstr "满贯"
+
+msgctxt "han"
+msgid "Yakuman"
+msgstr "役满"
+
+# ——— YAKUS BASED ON SEQUENCES ———
+
+msgid "Yakus based on sequences"
+msgstr "基于顺子的役种"
+
+msgid "Common"
+msgstr "常用"
+
+msgid "Pure Double Sequence"
+msgstr "一色二顺"
+
+msgid "Two Pure Double Sequences"
+msgstr "二色二顺"
+
+msgid "Pinfu"
+msgstr "平和"
+
+msgid "Hand without any fu : 4 Sequences and 1 valueless Pair, with a double wait."
+msgstr "无附加符的手牌：由四个顺子和一个非役牌雀头组成，且为两面听牌。"
+
+msgid "Three Colored Sequences"
+msgstr "三色同顺"
+
+msgid "Pure Straight"
+msgstr "一条龙"
+
+# ——— OTHER YAKUS ———
+
+msgid "Other yakus"
+msgstr "其他役种"
+
+msgid "Riichi"
+msgstr "立直"
+
+msgid "Double Riichi"
+msgstr "双立直"
+
+msgid "Riichi announced during the very first uninterrupted round."
+msgstr "开局第一圈内立直，但是期间有人吃碰杠牌则无效"
+
+msgid "Ippatsu"
+msgstr "一发"
+
+msgid "Win during the first uninterrupted round following the Riichi announcement."
+msgstr "立直后一圈内和牌，但是期间有人吃碰杠牌则无效"
+
+msgid "All Concealed Self Draw"
+msgstr "门清自摸"
+
+msgid "Under the Sea"
+msgstr "海底捞月"
+
+msgid "Win by last draw."
+msgstr "摸牌墙最后一张牌和牌"
+
+msgid "Under the River"
+msgstr "河底捞鱼"
+
+msgid "Win by last discard."
+msgstr "和最后一张打出的牌"
+
+msgid "Dead Wall Draw"
+msgstr "杠上开花"
+
+msgid "Win on a Quad replacement tile."
+msgstr "杠牌补牌时和牌"
+
+msgid "Robbing a Quad"
+msgstr "抢杠"
+
+msgid "A concealed Quad can only be robbed to win Thirteen Orphans."
+msgstr "仅在国士无双听牌时可以抢暗杠"
+
+msgid "Heavenly Hand"
+msgstr "天和"
+
+msgid "East player wins on his initial hand."
+msgstr "庄家起牌即和牌"
+
+msgid "Earthly Hand"
+msgstr "地和"
+
+msgid "Win on draw during the very first uninterrupted turn."
+msgstr "闲家在第一巡摸牌即和牌，但是期间有人吃碰杠牌则无效"
+
+msgid "Hand of Man"
+msgstr "人和"
+
+msgid "Win on discard during the very first uninterrupted turn, and before the player has had his first turn. No other yaku/dora can be added."
+msgstr "闲家在第一巡摸牌之前和打出的牌，但是期间有人吃碰杠牌则无效。注：不加计其他役以及宝牌。"
+
+# ——— DORA ———
+
+msgid "Dora"
+msgstr "宝牌"
+
+msgid "Uradora"
+msgstr "里宝牌"
+
+msgid "Doras are not yakus."
+msgstr "宝牌不计为役"
+
+# ——— YAKUS BASED ON TERMINALS / HONORS ———
+
+msgid "Yakus based on terminals / honors"
+msgstr "基于么九牌的役种"
+
+msgid "All Simples"
+msgstr "断幺九"
+
+msgid "Hand without Terminals or Honors."
+msgstr "手牌不含么九牌"
+
+msgid "Value Triplet"
+msgstr "役牌"
+
+msgid "Dragon, Player's Seat Wind or Round Wind Triplet."
+msgstr "三元牌、自风或场风的刻子"
+
+msgid "Small Three Dragons"
+msgstr "小三元"
+
+msgid "Big Three Dragons"
+msgstr "大三元"
+
+msgid "Little Four Winds"
+msgstr "小四喜"
+
+msgid "Big Four Winds"
+msgstr "大四喜"
+
+msgid "Terminals and Honors Everywhere"
+msgstr "混全带么"
+
+msgid "Terminals Everywhere"
+msgstr "纯全带么"
+
+msgid "All Terminals and Honors"
+msgstr "混老头"
+
+msgid "All Terminals"
+msgstr "清老头"
+
+msgid "All Honors"
+msgstr "字一色"
+
+msgid "Thirteen Orphans"
+msgstr "国士无双"
+
+msgid "A copy of each Terminal and Honor tile,<br>plus one last of your choice among these 13 tiles."
+msgstr "十三张么九牌各一张，再加上其中任意一张凑成雀头。"
+
+# ——— YAKUS BASED ON PAIRS / TRIPLETS / QUADS ———
+
+msgid "Yakus based on pairs / triplets / quads"
+msgstr "基于对子 / 刻子 / 杠子的役种"
+
+msgid "Seven Pairs"
+msgstr "七对子"
+
+msgid "Doubles pairs are not allowed."
+msgstr "七个各不相同的对子"
+
+msgid "All Triplets"
+msgstr "对对和"
+
+msgid "Three Concealed Triplets"
+msgstr "三暗刻"
+
+msgid "Four Concealed Triplets"
+msgstr "四暗刻"
+
+msgid "Three Colored Triplets"
+msgstr "三色同刻"
+
+msgid "Three Quads"
+msgstr "三杠子"
+
+msgid "Four Quads"
+msgstr "四杠子"
+
+# ——— YAKUS BASED ON SUITS ———
+
+msgid "Yakus based on suits"
+msgstr "基于花色的役种"
+
+msgid "Half Flush"
+msgstr "混一色"
+
+msgid "A single suit and Honors."
+msgstr "手牌仅由一种花色的数牌和字牌组成"
+
+msgid "Flush"
+msgstr "清一色"
+
+msgid "All Green"
+msgstr "绿一色"
+
+msgid "Nine Gates"
+msgstr "九莲宝灯"
+
+msgid "Tiles 1112345678999, plus one last of your choice, in a single suit."
+msgstr "同一花色中凑齐1112345678999，再加上其中任意一张。"
+
+# ——— CREDITS ———
+
+msgid "Credits"
+msgstr "致谢"
+
+msgid "Based on EMA RCR 2025 rules"
+msgstr "基于 EMA RCR 2025 规则"
+
+msgid "Creation:"
+msgstr "制作："
+
+msgid "Translation:"
+msgstr "翻译："

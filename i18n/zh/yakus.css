@@ -1,0 +1,22 @@
+.yaku h3:after,
+.kanji,
+.roumaji {
+  display: none !important;
+}
+
+section header {
+  line-height: 1em;
+}
+
+.yaku-name-translated {
+  font-weight: bold;
+  font-style: normal;
+}
+
+.yaku-common {
+  padding: 0px 2px;
+}
+
+section.credits {
+  line-height: 1.3em;
+}

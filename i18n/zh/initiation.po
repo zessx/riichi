@@ -1,0 +1,369 @@
+#
+# Riichi Initiation Sheet
+#
+
+# ——— HOW TO USE THIS FILE ———
+# To create a new translation:
+#   1. Copy this template to i18n/<lang>/initiation.po  (e.g. i18n/fr/initiation.po)
+#   2. Please note that the file extension must be changed from POT, to PO
+#   3. Fill in each "msgstr"
+#      - Texts are in the same order you’ll find them on the sheet, this will help you to get context
+#      - Do not change "msgid" values under any circumstance
+#      - Pay close attention to respect HTML tags, punctuation, case and spaces (while adapting them for your language)
+#      - Try to get translations with a length close from the original text
+#      - Feel free to use inclusive/neutral language if you want, this is a small effort and will be warmly welcomed
+#      - If they exist, please rely as much as possible on "official translations" provided by recognized organization
+#
+
+# ——— DO NOT TOUCH THE FOLLOWING LINES ———
+msgid ""
+msgstr ""
+"Project-Id-Version: initiation 2.1\n"
+"Last-Translator: hobbes3\n"
+"Language: zh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+# ——— YOU CAN START EDITING HERE ———
+# ——— TILES ———
+
+msgid "Tiles"
+msgstr "牌"
+
+msgid "Suits"
+msgstr "数牌"
+
+msgid "Characters"
+msgstr "万子"
+
+msgid "Circles"
+msgstr "筒子"
+
+msgid "Bamboos"
+msgstr "条子"
+
+msgid "terminal"
+msgstr "么九牌"
+
+msgid "simples"
+msgstr "中张牌"
+
+msgid "Honors"
+msgstr "字牌"
+
+msgid "Winds"
+msgstr "风牌"
+
+msgid "East"
+msgstr "东"
+
+msgid "South"
+msgstr "南"
+
+msgid "West"
+msgstr "西"
+
+msgid "North"
+msgstr "北"
+
+msgid "Dragons"
+msgstr "箭牌"
+
+msgid "White"
+msgstr "白"
+
+msgid "Green"
+msgstr "发"
+
+msgid "Red"
+msgstr "中"
+
+msgid "Round Wind"
+msgstr "场风"
+
+msgid "1st = East"
+msgstr "第一场 = 东场"
+
+msgid "2nd = South"
+msgstr "第二场 = 南场"
+
+msgid "Player's Seat Wind"
+msgstr "门风"
+
+msgid "1 player<br>= 1 Wind"
+msgstr "庄家=东风<br>以此类推"
+
+# ——— BASIC ELEMENTS ———
+
+msgid "Basic elements"
+msgstr "基本要素"
+
+msgid "Sequence"
+msgstr "顺子（吃）"
+
+msgid "Run of 3 tiles from the same suit"
+msgstr "同花色三张连续的数牌"
+
+msgid "On the previous player"
+msgstr "只能从上家吃牌"
+
+msgid "Triplet"
+msgstr "刻子（碰）"
+
+msgid "Set of 3 identical tiles"
+msgstr "三张相同的牌"
+
+msgid "On anybody"
+msgstr "可以从任何人"
+
+msgid "Quad"
+msgstr "杠子（杠）"
+
+msgid "Set of 4 identical tiles"
+msgstr "四张相同的牌"
+
+msgid "Pair"
+msgstr "雀头/将（对子）"
+
+msgid "Set of 2 identical tiles"
+msgstr "两张相同的牌"
+
+# ——— HOW TO WIN? ———
+
+msgid "How to win?"
+msgstr "如何和牌？"
+
+msgid "Winning hand"
+msgstr "和牌手牌"
+
+msgid "Have a hand made up of<br><b>4 basics elements</b> and <b>1 pair</b>"
+msgstr "手牌由<b>四副牌</b>和<b>一个雀头</b>组成"
+
+msgid "With at least one valid combination"
+msgstr "且至少有一翻"
+
+msgid "See the yakus below"
+msgstr "见下方关于役的说明"
+
+msgid "4 elements"
+msgstr "四副牌"
+
+msgid "1 pair"
+msgstr "一个雀头"
+
+msgctxt "how-to-win"
+msgid "Value Triplet"
+msgstr "役牌刻子"
+
+msgid "Tsumo"
+msgstr "自摸"
+
+msgid "By drawing the<br>last tile yourself"
+msgstr "自己摸牌而和牌"
+
+msgid "Or"
+msgstr "或者"
+
+msgid "Ron"
+msgstr "荣和"
+
+msgid "By taking the tile<br>discarded by a player"
+msgstr "和他人打出的牌"
+
+# ——— A FEW COMBINATIONS / « OPEN » YAKUS ———
+
+msgid "A few combinations / « open » yakus"
+msgstr "役 / \"开门\"役"
+
+msgid "simplified rules"
+msgstr "简化规则"
+
+msgid "All Simples"
+msgstr "断幺九"
+
+msgid "Hand without Terminals (1 or 9) or Honors."
+msgstr "手牌不含数牌中一和九以及字牌"
+
+msgid "Terminals and Honors Everywhere"
+msgstr "混全带幺"
+
+msgid "A terminal (1 or 9) or an honor in every element."
+msgstr "每副牌和雀头都包含么九牌"
+
+msgid "Three Colored Sequences"
+msgstr "三色同顺"
+
+msgid "The same Sequence in all three suits."
+msgstr "三副数字相同三种花色各一的顺子"
+
+msgid "Pure Straight"
+msgstr "一条龙"
+
+msgid "123, 456 and 789 in the same suit."
+msgstr "同一花色三副一二三、四五六、七八九的顺子"
+
+msgctxt "open-yakus"
+msgid "Value Triplet"
+msgstr "役牌"
+
+msgid "Dragon, Player's Seat Wind or Round Wind Triplet."
+msgstr "一副三元牌、场风牌、自风牌的刻子"
+
+msgid "All Triplets"
+msgstr "对对和"
+
+msgid "Only Triplets (Pon) and Quads (Kan), plus the Pair."
+msgstr "四副刻子或者杠子，以及一个雀头"
+
+msgid "Half Flush"
+msgstr "混一色"
+
+msgid "Only tiles from a single suit and Honors."
+msgstr "一种花色的数牌和字牌"
+
+msgid "Flush"
+msgstr "清一色"
+
+msgid "Only tiles from a single suit."
+msgstr "一种花色的数牌"
+
+# ——— DORAS ———
+
+msgid "Doras"
+msgstr "宝牌"
+
+msgid "The dead wall"
+msgstr "王牌"
+
+msgid "These 14 tiles are not drawn during the game, except to provide replacement tiles during Kans."
+msgstr "这十四张牌不参与摸牌<br>仅在杠牌时作为补牌使用"
+
+msgid "Know the dora"
+msgstr "确认宝牌"
+
+msgid "The dora is the tile immediately following the indicator, Honors have a defined order."
+msgstr "宝牌是宝牌指示牌的下一张牌<br>字牌有特定的顺序"
+
+msgid "dora indicator"
+msgstr "宝牌指示牌"
+
+msgid "uradora indicator"
+msgstr "里宝牌指示牌"
+
+msgid "dora"
+msgstr "宝牌"
+
+msgid "<b>1 bonus han</b><br>per dora tile"
+msgstr "每张宝牌<br><b>增加一翻</b>"
+
+msgid "Other indicators can be revealed under certain conditions (Kan, Riichi)"
+msgstr "在特定条件下可以翻开更多的指示牌（杠、立直）"
+
+# ——— RIICHI ———
+
+msgctxt "title"
+msgid "Riichi"
+msgstr "立直"
+
+msgctxt "subtitle"
+msgid "Riichi"
+msgstr "立直"
+
+msgid "Have a concealed hand<br>waiting one last tile to win"
+msgstr "门清听牌"
+
+msgid "Clearly announce « Riichi »"
+msgstr "宣告\"立直\""
+
+msgid "Tilt your discard tile to indicate<br>when the Riichi took place"
+msgstr "横放打出的牌"
+
+msgid "Bet 1000 points"
+msgstr "支付1000点"
+
+msgid "Riichi is a <b>1 han yaku</b> which can be used alone, or combined with other yakus"
+msgstr "立直后和牌有<b>一番</b>，可以与其他役合并计算"
+
+msgid "In case of victory in the first uninterrupted turn following the Riichi, <b>+1 han (Ippatsu)</b>"
+msgstr "立直后一圈内和牌增<b>加一翻（一发）</b><br>但是期间有人吃碰杠牌则无效"
+
+msgid "In the event of a victory, <b>uradora indicators are revealed</b>, which can bring bonus han"
+msgstr "立直后和牌<b>翻开里宝牌指示牌</b><br>可能会带来额外的宝牌翻"
+
+msgid "Once you have announced a Riichi, <b>you can no longer change your hand</b>"
+msgstr "宣告立直后<br><b>不能再改变手牌</b>"
+
+# ——— FURITEN ———
+
+msgid "Furiten"
+msgstr "振听"
+
+msgid "Impossible ron"
+msgstr "无法荣和"
+
+msgid "Furiten is a rule that prohibits you from winning on the discard of opponents (Ron) in 3 different situations:"
+msgstr "以下三种情况不可以和其他人打出的牌"
+
+msgid "Own discard"
+msgstr "打出的牌"
+
+msgid "If you have <b>already discarded any tile that could complete your hand</b>, you remain furiten until you change your waiting tile(s)."
+msgstr "<b>曾经打出过可以使手牌成牌的牌</b>，无论有翻与否。比如手牌23听牌14，之前打出过1。可以改变听牌来取消振听，比如手牌23摸5打2听4。"
+
+msgid "Other discards"
+msgstr "同巡振听"
+
+msgid "If you <b>let pass a tile that can complete your hand</b>, you remain furiten until your next draw, or until your next call."
+msgstr "<b>未立直，放过他人打出的可以使手牌成牌的牌</b>，无论有翻与否。下一次摸打或吃碰杠牌后振听状态取消。"
+
+msgid "After a Riichi"
+msgstr "立直后振听"
+
+msgid "If you <b>let pass a tile that can complete your hand once you have announced a Riichi</b>, you remain furiten until the end of the game."
+msgstr "<b>在宣告立直后，放过了任何和牌</b>，你将处于永久振听状态直到本局结束。"
+
+# ——— A FEW COMBINATIONS / « CLOSED » YAKUS ———
+
+msgid "A few combinations / « closed » yakus"
+msgstr "役 / \"门清\"役"
+
+msgid "All Concealed Self Draw"
+msgstr "门清自摸"
+
+msgid "Tsumo with a concealed hand (no call during the game)."
+msgstr "门前清（可以有暗杠）自摸和牌"
+
+msgid "Pinfu"
+msgstr "平和"
+
+msgid "Concealed hand, 4 Sequences and 1 valueless Pair, double waiting."
+msgstr "门清，由四个顺子和一个非役牌雀头组成，且为两面听牌。"
+
+msgid "Pure Double Sequence"
+msgstr "一色二顺"
+
+msgid "Concealed hand with 2 identical Sequences in the same suit."
+msgstr "门清，手牌中包含两组同数字同花色顺子"
+
+msgid "Seven Pairs"
+msgstr "七对子"
+
+msgid "Doubles pairs are not allowed."
+msgstr "七个各不相同的对子"
+
+msgid "Some Yakus seen previously are worth <b>1 extra han</b> if done with a <b>concealed hand</b>:"
+msgstr "一些役<b>门清</b>和牌番数加一"
+
+# ——— CREDITS ———
+
+msgid "Credits"
+msgstr "致谢"
+
+msgid "Based on EMA RCR 2025 rules (simplified)"
+msgstr "基于 EMA RCR 2025 规则（简化版）"
+
+msgid "Creation:"
+msgstr "制作："
+
+msgid "Translation:"
+msgstr "翻译："
