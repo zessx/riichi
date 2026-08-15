@@ -30,6 +30,14 @@ msgstr ""
 msgid "Han"
 msgstr ""
 
+msgctxt "han"
+msgid "Mangan"
+msgstr ""
+
+msgctxt "han"
+msgid "Yakuman"
+msgstr ""
+
 # ——— TERMINALS / HONORS ———
 
 msgid "Terminals / Honors"

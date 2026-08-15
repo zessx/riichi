@@ -645,6 +645,7 @@ section.points tr:nth-child(even) td.east {
 }
 
 section.points tr td.han {
+  width: 32px;
   font-size: 10px;
   background-color: var(--cyan-1);
 }
@@ -696,6 +697,10 @@ section.points td.han.yakuman img {
   top: 0;
   left: 0;
   height: 100%;
+}
+
+section.points tr td.fu {
+  width: 32px;
 }
 
 section.points tr td.ron,

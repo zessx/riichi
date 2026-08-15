@@ -25,6 +25,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 # ——— YOU CAN START EDITING HERE ———
+
+msgctxt "han"
+msgid "Mangan"
+msgstr ""
+
+msgctxt "han"
+msgid "Yakuman"
+msgstr ""
+
 # ——— YAKUS BASED ON SEQUENCES ———
 
 msgid "Yakus based on sequences"
