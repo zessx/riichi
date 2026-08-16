@@ -18,7 +18,7 @@
 # ——— DO NOT TOUCH THE FOLLOWING LINES ———
 msgid ""
 msgstr ""
-"Project-Id-Version: yakus 2.1\n"
+"Project-Id-Version: yakus 2.2\n"
 "Last-Translator: zessx\n"
 "Language: es\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -231,6 +231,9 @@ msgstr "Color"
 
 msgid "All Green"
 msgstr "Todo Verdes"
+
+msgid "Only use 2, 3, 4, 6, 8 of Bamboo, and/or Green Dragon."
+msgstr "Solo 2, 3, 4, 6 u 8 de Bambú y/o Dragón Verde."
 
 msgid "Nine Gates"
 msgstr "Nueve Puertas"

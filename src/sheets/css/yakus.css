@@ -201,6 +201,7 @@ section header .yaku-score-box {
   width: 100%;
   font-size: 6px;
   font-style: italic;
+  margin-top: -1px;
   order: 10;
 }
 

@@ -18,7 +18,7 @@
 # ——— DO NOT TOUCH THE FOLLOWING LINES ———
 msgid ""
 msgstr ""
-"Project-Id-Version: yakus 2.1\n"
+"Project-Id-Version: yakus 2.2\n"
 "Last-Translator: Chipset\n"
 "Language: pl\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -232,11 +232,14 @@ msgstr "Kolor"
 msgid "All Green"
 msgstr "Same Zielone"
 
+msgid "Only use 2, 3, 4, 6, 8 of Bamboo, and/or Green Dragon."
+msgstr "Używaj tylko Bambus 2, 3, 4, 6, 8 i/lub Zielonego Smoka."
+
 msgid "Nine Gates"
 msgstr "Dziewięć Bram"
 
 msgid "Tiles 1112345678999, plus one last of your choice, in a single suit."
-msgstr "Kamienie 1112345678999, plus jedna powtórka, z jednej rodziny"
+msgstr "Kamienie 1112345678999, plus jedna powtórka, z jednej rodziny."
 
 # ——— CREDITS ———
 

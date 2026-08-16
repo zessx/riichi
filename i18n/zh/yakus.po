@@ -18,7 +18,7 @@
 # ——— DO NOT TOUCH THE FOLLOWING LINES ———
 msgid ""
 msgstr ""
-"Project-Id-Version: yakus 2.1\n"
+"Project-Id-Version: yakus 2.2\n"
 "Last-Translator: hobbes3\n"
 "Language: zh\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -231,6 +231,9 @@ msgstr "清一色"
 
 msgid "All Green"
 msgstr "绿一色"
+
+msgid "Only use 2, 3, 4, 6, 8 of Bamboo, and/or Green Dragon."
+msgstr "由 23468 条和青发组成的和牌"
 
 msgid "Nine Gates"
 msgstr "九莲宝灯"

@@ -18,7 +18,7 @@
 # ——— DO NOT TOUCH THE FOLLOWING LINES ———
 msgid ""
 msgstr ""
-"Project-Id-Version: yakus 2.1\n"
+"Project-Id-Version: yakus 2.2\n"
 "Last-Translator: zessx\n"
 "Language: fr\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -231,6 +231,9 @@ msgstr "Main Pure"
 
 msgid "All Green"
 msgstr "Main Verte"
+
+msgid "Only use 2, 3, 4, 6, 8 of Bamboo, and/or Green Dragon."
+msgstr "Composé uniquement des tuiles 2, 3, 4, 6, 8 de Bambou, et/ou du Dragon Vert."
 
 msgid "Nine Gates"
 msgstr "Neuf Portes"

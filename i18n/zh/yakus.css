@@ -8,6 +8,12 @@ section header {
   line-height: 1em;
 }
 
+.yakus-sequences .yaku-description,
+.yakus-suits .yaku-description,
+.yakus-triplets .yaku-description {
+    line-height: 1.1em;
+}
+
 .yaku-name-translated {
   font-weight: bold;
   font-style: normal;
@@ -18,5 +24,5 @@ section header {
 }
 
 section.credits {
-  line-height: 1.3em;
+  line-height: 1em;
 }
