@@ -67,7 +67,7 @@ msgid "Chi"
 msgstr "Chi"
 
 msgid "On the player to my left"
-msgstr "Trên trình phát bên trái"
+msgstr "Từ người chơi bên trái"
 
 msgid "Pon"
 msgstr "Pon"
@@ -79,20 +79,20 @@ msgid "Ron"
 msgstr "Ron"
 
 msgid "On any player"
-msgstr "Trên bất kỳ người chơi nào"
+msgstr "Từ bất kỳ người chơi nào"
 
 msgid "Tsumo"
 msgstr "Tsumo"
 
 msgid "By myself"
-msgstr "Do chính tôi"
+msgstr "Tự bốc"
 
 msgid "Order for players"
-msgstr "Thứ tự người chơi"
+msgstr "Thứ tự chơi"
 
 msgid "Direction of the draw"
-msgstr "Hướng bốc thăm"
+msgstr "Hướng bốc bài"
 
 # ——— Credits ———
 msgid "Creation / Translation:"
-msgstr "Tác giả / Dịch giả:"
+msgstr "Tác giả / Dịch:"
