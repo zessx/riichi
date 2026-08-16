@@ -373,6 +373,10 @@ section.credits a {
   text-decoration: none;
 }
 
+section.credits em {
+  font-size: 4px;
+}
+
 /* Section Colors */
 section.yakus-sequences {
   --bg-strongest: var(--cyan-9);
