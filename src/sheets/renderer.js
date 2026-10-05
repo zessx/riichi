@@ -29,6 +29,8 @@ async function render(htmlPath, outputBase, sheet, formats) {
     await page.pdf({
       path: `${outputBase}.pdf`,
       scale: 1.3, // Use rendering scale instead of CSS zoom to prevent flex elements changes
+      format: "A4",
+      landscape: true,
       printBackground: true,
     });
   }
