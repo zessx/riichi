@@ -288,7 +288,7 @@ msgid "In case of victory in the first uninterrupted turn following the Riichi, 
 msgstr "W przypadku zwycięstwa w pierwszej nieprzerwanej turze po Riichi, <b>+1 han (Ippatsu)</b>."
 
 msgid "In the event of a victory, <b>uradora indicators are revealed</b>, which can bring bonus han"
-msgstr "Im Siegesfall werden <b>weitere Uradora-Anzeiger enthüllt</b>, was weitere Boni einbringen kann."
+msgstr "W przypadku zwycięstwa <b>ujawniane są wskaźniki uradora</b>, które mogą przynieść bonusowe han."
 
 msgid "Once you have announced a Riichi, <b>you can no longer change your hand</b>"
 msgstr "Po ogłoszeniu Riichi,<br><b>nie możesz już zmienić ręki</b>."
